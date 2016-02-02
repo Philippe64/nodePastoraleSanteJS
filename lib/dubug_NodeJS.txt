@@ -1,0 +1,8 @@
+﻿
+Dans une fenetre dos séparée, lancer Node-inspector comme ceci : node-inspector --web-port=9999 &
+
+lancer chrome comme cela : http://127.0.0.1:9999/debug?port=5858
+
+De la fenetre node Js lancer :  node --debug-brk moduleAtester.js  ....................  node --debug-brk index.js > console.log
+
+Utilsation de iron-node   iron-node index.js

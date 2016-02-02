@@ -1,0 +1,254 @@
+<table cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="background-color:#D3D3D3; width:1800px">
+			<h2 style="text-align: center;"><span style="font-size:48px"><span style="font-family:georgia,serif"><span style="color:#800080"><big><strong>Saint Dominique</strong></big></span></span></span></h2>
+
+			<p><span style="font-family:lucida sans unicode,lucida grande,sans-serif"><span style="color:#800080"><big><strong>Cur&eacute;&nbsp;:&nbsp;</strong></big>...</span></span></p>
+
+			<p><span style="color:#800080"><big><strong>Adresse&nbsp;:&nbsp;</strong></big>...</span></p>
+
+			<p><span style="color:#800080"><big><strong>Mail&nbsp;:&nbsp;</strong></big>...</span></p>
+
+			<p><big><strong><span style="color:#0000FF">&nbsp;</span></strong></big></p>
+
+			<p><span style="color:#008000"><big><strong>Porteurs de communion&nbsp;:&nbsp;</strong></big>...</span></p>
+
+			<p><br />
+			&nbsp;</p>
+
+			<p>&nbsp;</p>
+			&nbsp;
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr><!--
+			<td style="background-color:#D3D3D3; height:46.5pt; width:105.8pt">
+			<p><span style="color:#0000FF"><strong>Nom de l&#39;&eacute;tablissement et adresse </strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:82.85pt">
+			<p><span style="color:#0000FF"><strong>Nature de l&#39;&eacute;tablissement</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:53.0pt">
+			<p><span style="color:#0000FF"><strong>Nombre de lits</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:60.95pt">
+			<p><span style="color:#0000FF"><strong>Aum&ocirc;nerie assur&eacute;e par</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:74.8pt">
+			<p><span style="color:#0000FF"><strong>Fr&eacute;quence des c&eacute;l&egrave;brations</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:79.8pt">
+			<p><span style="color:#0000FF"><strong>Communions port&eacute;es dans les chambres</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:67.85pt">
+			<p><span style="color:#0000FF"><strong>Sacrements n&eacute;cessitant un pr&ecirc;tre</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:79.65pt">
+			<p><span style="color:#0000FF"><strong>Nombre de personnes visit&eacute;es</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3">
+			<p><span style="color:#0000FF"><strong>C&eacute;l&egrave;bration de fun&eacute;railles ?</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:67.95pt">
+			<p><span style="color:#0000FF"><strong>Autres</strong></span></p>
+			</td>
+			-->
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nom de l&#39;&eacute;tablissement et adresse </strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nature de l&#39;&eacute;tablissement</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nombre de lits</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Aum&ocirc;nerie assur&eacute;e par</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Fr&eacute;quence des c&eacute;l&egrave;brations</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Communions port&eacute;es dans les chambres</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Sacrements n&eacute;cessitant un pr&ecirc;tre</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nombre de personnes visit&eacute;es</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3">
+			<p><span style="color:#0000FF"><strong>C&eacute;l&egrave;bration de fun&eacute;railles ?</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Autres</strong></span></p>
+			</td>
+		</tr>
+		<tr><!--
+			<td style="width:105.8pt">
+			<p><strong>COS Alice GUY - 10, rue de Colmar75019</strong></p>
+			</td>
+			<td style="width:83.1pt">
+			<p>EHPAD priv&eacute;</p>
+			</td>
+			<td style="width:53.0pt">
+			<p>102</p>
+			</td>
+			<td style="width:60.95pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:74.95pt">
+			<p>une messe/mois par un pr&ecirc;tre de la paroisse?</p>
+			</td>
+			<td style="width:79.95pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:67.95pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:79.9pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:54.45pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:67.95pt">
+			<p>m&eacute;dicalis&eacute;</p>
+			</td>
+			-->
+			<td>
+			<p><strong>H&ocirc;pital La Rochefoucauld, 15 av. du General Leclerc - 75014</strong></p>
+			</td>
+			<td>
+			<p>&nbsp;APHP</p>
+			</td>
+			<td>
+			<p>80 lits</p>
+			</td>
+			<td>
+			<p>&ocirc; : une responsable, un pr&ecirc;tre et une &eacute;quipe</p>
+			</td>
+			<td>
+			<p>Messe le Samedi (15 participants, max par manque de place)</p>
+			</td>
+			<td>
+			<p>7 com&deg; port&eacute;es dans les chambres apr&egrave;s la messe</p>
+			</td>
+			<td>4 Onctions en 2013</td>
+			<td>16 personnes accompagn&eacute;es jusqu&rsquo;au d&eacute;c&egrave;s en 2013</td>
+			<td>Lev&eacute;es de corps &agrave; la chambre mortuaire de Cochin. 10/an</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="background-color: rgb(255, 255, 204);"><strong>Groupe Cochin - Port-Royal, 27 rue du Fbg Saint Jacques (B&acirc;timent Lavoisier) &nbsp;- 75014</strong></td>
+			<td style="background-color: rgb(255, 255, 204);">APHP</td>
+			<td style="background-color: rgb(255, 255, 204);">1074 lits et 122 places</td>
+			<td style="background-color: rgb(255, 255, 204);">&ocirc;: un pr&ecirc;tre, 2 adjointes et une &eacute;quipe</td>
+			<td style="background-color: rgb(255, 255, 204);">Messe &nbsp;Mardi vendredi Chapelle Cochin; occasionnelle Chapelle St Vincent Paul</td>
+			<td style="background-color: rgb(255, 255, 204);">15/20 par dimanche</td>
+			<td style="background-color: rgb(255, 255, 204);">86 Onctions en 2011, et 92 en 2012</td>
+			<td style="background-color: rgb(255, 255, 204);">15/20 par jour</td>
+			<td style="background-color: rgb(255, 255, 204);">b&eacute;n&eacute;dictions &agrave; la lev&eacute;e de corps &agrave; la chambre mortuaire: 125 en 2011, et 135 en 2012</td>
+			<td style="background-color: rgb(255, 255, 204);">21 bapt&ecirc;mes d&rsquo;enfants + 16 appels en urgence en maternit&eacute; en 2012</td>
+		</tr>
+		<tr>
+			<td style="background-color: rgb(255, 255, 204);"><strong>Port-Royal, 123 bd de Port Royal - 75014&nbsp;</strong></td>
+			<td style="background-color: rgb(255, 255, 204);">Maternit&eacute;, APHP</td>
+			<td style="background-color: rgb(255, 255, 204);">&nbsp;</td>
+			<td style="background-color: rgb(255, 255, 204);">&ocirc; de Cochin</td>
+			<td style="background-color: rgb(255, 255, 204);">Messe jeudi et samedi Chapelle Port-Royal</td>
+			<td style="background-color: rgb(255, 255, 204);">&nbsp;</td>
+			<td style="background-color: rgb(255, 255, 204);">&nbsp;</td>
+			<td style="background-color: rgb(255, 255, 204);">&nbsp;</td>
+			<td style="background-color: rgb(255, 255, 204);">&nbsp;</td>
+			<td style="background-color: rgb(255, 255, 204);">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Institut mutualiste Montsouris,&nbsp;<br />
+			42 bd Jourdan - 75014&nbsp;</strong><br />
+			&nbsp;</td>
+			<td>H&ocirc;pital priv&eacute;&nbsp;</td>
+			<td>387 lits et 41 places</td>
+			<td>&ocirc; : un pr&ecirc;tre</td>
+			<td>Messe F&ecirc;tes liturgiques et sur demande</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>B&eacute;n&eacute;dictions &agrave; la lev&eacute;e de corps &agrave; la chambre mortuaire 10/an.</td>
+			<td>&ocirc; devrait &ecirc;tre assur&eacute;e par paroisse St Pierre de Monrouge</td>
+		</tr>
+		<tr>
+			<td><strong>Maison Marie-Th&eacute;r&egrave;se, 277 Bd Raspail - 75014</strong></td>
+			<td>Fondation Chateaubriand</td>
+			<td>120</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Sainte Anne et Henri Rousselle, &nbsp;1 rue Cabanis - 75014&nbsp;</strong></td>
+			<td>H&ocirc;pital psychiatrique DDASS</td>
+			<td>507 lits et 156 places</td>
+			<td>&ocirc; : une responsable, 2 pr&ecirc;tres, un diacre, une &eacute;quipe</td>
+			<td>Dimanches et f&ecirc;tes. Chapelet le Mercredi&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>Non</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Arago, 99 bd Arago - 75014</strong></td>
+			<td>Clinique</td>
+			<td>53 &nbsp;lits</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>chirurgie orthop&eacute;dique</td>
+		</tr>
+		<tr>
+			<td><strong>Centre de R&eacute;&eacute;ducation Fonctionnelle Port Royal, &nbsp;9-13 rue M&eacute;chain - 75014</strong></td>
+			<td>Clinique groupe CLINEA</td>
+			<td>88 chbres</td>
+			<td>&ocirc; de Cochin</td>
+			<td>&nbsp;</td>
+			<td>12/par dimanche</td>
+			<td>&nbsp;</td>
+			<td>15/par semaine</td>
+			<td>&nbsp;</td>
+			<td>
+			<p>ouverture janvier 2012</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

@@ -1,0 +1,302 @@
+<table cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="background-color:#D3D3D3; width:1800px">
+			<h1 style="text-align: center;"><big><span style="color:#800080">Saint M&eacute;dard</span></big></h1>
+
+			<p><span style="color:#800080"><big><strong>Cur&eacute;&nbsp;:&nbsp;</strong></big>...</span></p>
+
+			<p><span style="color:#800080"><big><strong>Adresse&nbsp;:&nbsp;</strong></big>...</span></p>
+
+			<p><span style="color:#800080"><big><strong>Mail&nbsp;:&nbsp;</strong></big>...</span></p>
+
+			<p><span style="color:#800080"><big><strong>&nbsp;</strong></big></span></p>
+
+			<p><span style="color:#008000"><big><strong>Porteurs de communion&nbsp;:&nbsp;</strong></big>...</span></p>
+
+			<p><span style="color:#008000"><big><strong>&nbsp;</strong></big></span></p>
+
+			<p>&nbsp;</p>
+			;
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr><!--
+			<td style="background-color:#D3D3D3; height:46.5pt; width:105.8pt">
+			<p><span style="color:#0000FF"><strong>Nom de l&#39;&eacute;tablissement et adresse </strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:82.85pt">
+			<p><span style="color:#0000FF"><strong>Nature de l&#39;&eacute;tablissement</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:53.0pt">
+			<p><span style="color:#0000FF"><strong>Nombre de lits</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:60.95pt">
+			<p><span style="color:#0000FF"><strong>Aum&ocirc;nerie assur&eacute;e par</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:74.8pt">
+			<p><span style="color:#0000FF"><strong>Fr&eacute;quence des c&eacute;l&egrave;brations</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:79.8pt">
+			<p><span style="color:#0000FF"><strong>Communions port&eacute;es dans les chambres</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:67.85pt">
+			<p><span style="color:#0000FF"><strong>Sacrements n&eacute;cessitant un pr&ecirc;tre</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:79.65pt">
+			<p><span style="color:#0000FF"><strong>Nombre de personnes visit&eacute;es</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3">
+			<p><span style="color:#0000FF"><strong>C&eacute;l&egrave;bration de fun&eacute;railles ?</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt; width:67.95pt">
+			<p><span style="color:#0000FF"><strong>Autres</strong></span></p>
+			</td>
+			-->
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nom de l&#39;&eacute;tablissement et adresse </strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nature de l&#39;&eacute;tablissement</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nombre de lits</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Aum&ocirc;nerie assur&eacute;e par</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Fr&eacute;quence des c&eacute;l&egrave;brations</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Communions port&eacute;es </strong></span></p>
+
+			<p><span style="color:#0000FF"><strong>dans les chambres</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Sacrements </strong></span><span style="color:#0000FF"><strong>n&eacute;cessitant un pr&ecirc;tre</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Nombre de personnes visit&eacute;es</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3">
+			<p><span style="color:#0000FF"><strong>C&eacute;l&egrave;bration de f</strong></span><span style="color:#0000FF"><strong>un&eacute;railles ?</strong></span></p>
+			</td>
+			<td style="background-color:#D3D3D3; height:46.5pt">
+			<p><span style="color:#0000FF"><strong>Autres</strong></span></p>
+			</td>
+		</tr>
+		<tr><!--
+			<td style="width:105.8pt">
+			<p><strong>COS Alice GUY - 10, rue de Colmar75019</strong></p>
+			</td>
+			<td style="width:83.1pt">
+			<p>EHPAD priv&eacute;</p>
+			</td>
+			<td style="width:53.0pt">
+			<p>102</p>
+			</td>
+			<td style="width:60.95pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:74.95pt">
+			<p>une messe/mois par un pr&ecirc;tre de la paroisse?</p>
+			</td>
+			<td style="width:79.95pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:67.95pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:79.9pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:54.45pt">
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:67.95pt">
+			<p>m&eacute;dicalis&eacute;</p>
+			</td>
+			-->
+			<td>
+			<p><strong>&nbsp; &nbsp; &nbsp; H&ocirc;pital La Coll&eacute;giale, </strong></p>
+
+			<p><strong>33 rue du Fer-&agrave;-Moulin - 75005</strong></p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>APHP</p>
+			</td>
+			<td>
+			<p>135 lits</p>
+			</td>
+			<td>
+			<p>&ocirc;: une responsable</p>
+
+			<p>et une &eacute;quipe</p>
+			</td>
+			<td>
+			<p>Messe le Samedi</p>
+
+			<p>20/30 patients + familles</p>
+			</td>
+			<td>
+			<p>2/4 par samedi</p>
+			</td>
+			<td>
+			<p>pr&ecirc;tre de la paroisse</p>
+			</td>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>Lev&eacute;es de corps</p>
+
+			<p>&agrave; la chambre mortuaire</p>
+
+			<p>de Cochin</p>
+			</td>
+			<td>
+			<p>g&eacute;riatrie</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>&nbsp; &nbsp; Augustines du Saint Coeur de Marie, </strong></p>
+
+			<p><strong>29 r de la Sant&eacute; - 75013</strong></p>
+			</td>
+			<td>Maison de Retraite catho</td>
+			<td>45</td>
+			<td>
+			<p>Congr. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+			<p>P. M. Golfier</p>
+			</td>
+			<td>Messe quotidienne</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>m&eacute;dicalis&eacute;</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>&nbsp; &nbsp;P&eacute;an, </strong></p>
+
+			<p><strong>9-11 rue de la Sant&eacute; - 75013</strong></p>
+			</td>
+			<td>EHPAD &nbsp;priv&eacute;</td>
+			<td>89</td>
+			<td>Paroisse St M&eacute;dard</td>
+			<td>Messe 1 samedi/mois &agrave; 16h</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>non</td>
+			<td>m&eacute;dicalis&eacute;</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>&nbsp; &nbsp;Centre Paris V,</strong></p>
+
+			<p><strong>36 Boulevard Saint-Marcel - 75005</strong></p>
+			</td>
+			<td>Clinique</td>
+			<td>77 lits et places</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>m&eacute;decine, chirurgie; orthop&eacute;die</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>&nbsp; Geoffroy St Hilaire,</strong></p>
+
+			<p><strong>59 rue Geoffroy St Hilaire - 75005</strong></p>
+			</td>
+			<td>Clinique G&eacute;n&eacute;rale de Sant&eacute;</td>
+			<td>196 lits et place</td>
+			<td>Paroisse St M&eacute;dard</td>
+			<td>&nbsp;</td>
+			<td>porte communion sur demande</td>
+			<td>sur demande</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>
+			<p>m&eacute;decine, chirurgie,</p>
+
+			<p>12 lits de r&eacute;a</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&nbsp; &nbsp;J<strong>ARDIN DES PLANTES, &nbsp; &nbsp; &nbsp; &nbsp;</strong></p>
+
+			<p><strong>18 rue Poliveau<br />
+			&nbsp;75005</strong></p>
+			</td>
+			<td>
+			<p>EHPAD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+			<p>Ville de Paris</p>
+			</td>
+			<td>111</td>
+			<td>
+			<p>Messe mercredi</p>
+
+			<p>par un spiritain</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>non</td>
+			<td>m&eacute;dicalis&eacute;</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>R&eacute;sidence-Services Mouffetard, </strong></p>
+
+			<p><strong>20 Rue Ortolan - 75005</strong></p>
+			</td>
+			<td>
+			<p>Maison de retraite &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+			<p>&nbsp; &nbsp;Ville de PARIS</p>
+			</td>
+			<td>55</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>non m&eacute;dicalis&eacute;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
