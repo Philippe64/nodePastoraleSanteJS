@@ -1,2593 +1,280 @@
 {
   "logtrace": [
     {
-      "data": "2016-02-02T16:34:49:658 <log> index.js:32 (Object.<anonymous>) Début Application :  C:\\Pastorale_Sante_Paris\\nodePastoraleSanteJS\\lib"
+      "data": "2016-02-02T18:52:34:031 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:34:49:674 <log> index.js:46 (Object.<anonymous>) config :  { dirAppli: 'C:/pastoraleSante', port: '7777' }"
+      "data": "2016-02-02T18:52:34:042 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /"
     },
     {
-      "data": "2016-02-02T16:34:49:679 <log> index.js:85 (startAppli) Application :  { dirApplication: 'C:/pastoraleSante' }"
+      "data": "2016-02-02T18:52:34:110 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:552 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /default.html  from request.url : /default.html?scriptServer=njs"
+      "data": "2016-02-02T18:52:34:113 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /scripts/pastoraleSante.js"
     },
     {
-      "data": "2016-02-02T16:35:00:556 <log> router.js:5 (route) Début du traitement de l'URL /default.html"
+      "data": "2016-02-02T18:54:57:230 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:560 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  -1    pathAppli :   pathName :  /default.html"
+      "data": "2016-02-02T18:54:57:237 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /default.html"
     },
     {
-      "data": "2016-02-02T16:35:00:562 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  -1    pathAppli :   pathName :  /default.html"
+      "data": "2016-02-02T18:54:57:285 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:565 <log> router.js:37 (route) uri : /default.html handle: undefined pathAppli :undefined"
+      "data": "2016-02-02T18:54:57:289 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /tooltip/src/tooltip.css"
     },
     {
-      "data": "2016-02-02T16:35:00:569 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
+      "data": "2016-02-02T18:54:57:294 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:572 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /default.html"
+      "data": "2016-02-02T18:54:57:298 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /styles/pastoraleSante.css"
     },
     {
-      "data": "2016-02-02T16:35:00:575 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\default.html"
+      "data": "2016-02-02T18:54:57:302 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:579 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /"
+      "data": "2016-02-02T18:54:57:306 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /tooltip/src/tooltip.js"
     },
     {
-      "data": "2016-02-02T16:35:00:582 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  "
+      "data": "2016-02-02T18:54:57:311 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:585 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .html"
+      "data": "2016-02-02T18:54:57:315 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /scripts/rwdImageMaps.js"
     },
     {
-      "data": "2016-02-02T16:35:00:618 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /tooltip/src/tooltip.css  from request.url : /tooltip/src/tooltip.css"
+      "data": "2016-02-02T18:54:57:319 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:622 <log> router.js:5 (route) Début du traitement de l'URL /tooltip/src/tooltip.css"
+      "data": "2016-02-02T18:54:57:323 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /scripts/pastoraleSante.js"
     },
     {
-      "data": "2016-02-02T16:35:00:632 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /tooltip/ pathName :  src/tooltip.css"
+      "data": "2016-02-02T18:54:57:326 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:635 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /tooltip/ pathName :  /tooltip/src/tooltip.css"
+      "data": "2016-02-02T18:54:57:331 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /images/CarteDoyennes2014.png"
     },
     {
-      "data": "2016-02-02T16:35:00:639 <log> router.js:37 (route) uri : /tooltip/src/tooltip.css handle: undefined pathAppli :undefined"
+      "data": "2016-02-02T18:56:39:324 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:643 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
+      "data": "2016-02-02T18:56:39:337 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /default.html"
     },
     {
-      "data": "2016-02-02T16:35:00:647 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /tooltip/src/tooltip.css"
+      "data": "2016-02-02T18:56:39:391 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:650 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\tooltip\\src\\tooltip.css"
+      "data": "2016-02-02T18:56:39:394 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /tooltip/src/tooltip.css"
     },
     {
-      "data": "2016-02-02T16:35:00:652 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /tooltip/src"
+      "data": "2016-02-02T18:56:39:399 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:659 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  src"
+      "data": "2016-02-02T18:56:39:403 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /styles/pastoraleSante.css"
     },
     {
-      "data": "2016-02-02T16:35:00:662 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .css"
+      "data": "2016-02-02T18:56:39:407 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:665 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /styles/pastoraleSante.css  from request.url : /styles/pastoraleSante.css"
+      "data": "2016-02-02T18:56:39:411 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /tooltip/src/tooltip.js"
     },
     {
-      "data": "2016-02-02T16:35:00:669 <log> router.js:5 (route) Début du traitement de l'URL /styles/pastoraleSante.css"
+      "data": "2016-02-02T18:56:39:415 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:673 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  7    pathAppli :  /styles/ pathName :  pastoraleSante.css"
+      "data": "2016-02-02T18:56:39:419 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /scripts/rwdImageMaps.js"
     },
     {
-      "data": "2016-02-02T16:35:00:676 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  7    pathAppli :  /styles/ pathName :  /styles/pastoraleSante.css"
+      "data": "2016-02-02T18:56:39:422 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:678 <log> router.js:37 (route) uri : /styles/pastoralesante.css handle: undefined pathAppli :undefined"
+      "data": "2016-02-02T18:56:39:427 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /scripts/pastoraleSante.js"
     },
     {
-      "data": "2016-02-02T16:35:00:686 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
+      "data": "2016-02-02T18:56:39:431 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:690 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /styles/pastoraleSante.css"
+      "data": "2016-02-02T18:56:39:434 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /images/CarteDoyennes2014.png"
     },
     {
-      "data": "2016-02-02T16:35:00:693 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\styles\\pastoraleSante.css"
+      "data": "2016-02-02T18:56:40:512 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:699 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /styles"
+      "data": "2016-02-02T18:56:40:516 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /php/geteditparoisse.php"
     },
     {
-      "data": "2016-02-02T16:35:00:702 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  styles"
+      "data": "2016-02-02T18:56:40:559 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:705 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .css"
+      "data": "2016-02-02T18:56:40:561 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /php/geteditparoisse.php"
     },
     {
-      "data": "2016-02-02T16:35:00:709 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /tooltip/src/tooltip.js  from request.url : /tooltip/src/tooltip.js"
+      "data": "2016-02-02T18:56:40:863 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:712 <log> router.js:5 (route) Début du traitement de l'URL /tooltip/src/tooltip.js"
+      "data": "2016-02-02T18:56:40:865 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /php/geteditparoisse.php"
     },
     {
-      "data": "2016-02-02T16:35:00:716 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /tooltip/ pathName :  src/tooltip.js"
+      "data": "2016-02-02T18:56:44:925 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:718 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /tooltip/ pathName :  /tooltip/src/tooltip.js"
+      "data": "2016-02-02T18:56:44:938 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /php/geteditparoisse.php"
     },
     {
-      "data": "2016-02-02T16:35:00:721 <log> router.js:37 (route) uri : /tooltip/src/tooltip.js handle: undefined pathAppli :undefined"
+      "data": "2016-02-02T18:56:57:794 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:723 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
+      "data": "2016-02-02T18:56:57:798 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /scripts/pastoraleSante.js"
     },
     {
-      "data": "2016-02-02T16:35:00:726 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /tooltip/src/tooltip.js"
+      "data": "2016-02-02T18:57:00:448 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:729 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\tooltip\\src\\tooltip.js"
+      "data": "2016-02-02T18:57:00:452 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:734 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /tooltip/src"
+      "data": "2016-02-02T18:57:00:482 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:737 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  src"
+      "data": "2016-02-02T18:57:00:486 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:740 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
+      "data": "2016-02-02T18:57:00:492 <info> geteditparoisse.js:396 () data :  <p><br></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:742 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /scripts/rwdImageMaps.js  from request.url : /scripts/rwdImageMaps.js"
+      "data": "2016-02-02T18:57:00:496 <info> geteditparoisse.js:396 () data :  <p><br></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:745 <log> router.js:5 (route) Début du traitement de l'URL /scripts/rwdImageMaps.js"
+      "data": "2016-02-02T18:57:00:501 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:748 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /scripts/ pathName :  rwdImageMaps.js"
+      "data": "2016-02-02T18:57:00:504 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /imageParoisse/img040.jpg"
     },
     {
-      "data": "2016-02-02T16:35:00:750 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /scripts/ pathName :  /scripts/rwdImageMaps.js"
+      "data": "2016-02-02T18:57:00:508 <info> geteditparoisse.js:396 () data :  Hopital Saint Joseph"
     },
     {
-      "data": "2016-02-02T16:35:00:753 <log> router.js:37 (route) uri : /scripts/rwdimagemaps.js handle: undefined pathAppli :undefined"
+      "data": "2016-02-02T18:57:00:527 <info> geteditparoisse.js:396 () data :  Hopital Saint Joseph"
     },
     {
-      "data": "2016-02-02T16:35:00:756 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
+      "data": "2016-02-02T18:57:00:533 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:759 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /scripts/rwdImageMaps.js"
+      "data": "2016-02-02T18:57:00:537 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /imageParoisse/img001.jpg"
     },
     {
-      "data": "2016-02-02T16:35:00:761 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\scripts\\rwdImageMaps.js"
+      "data": "2016-02-02T18:57:01:104 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:764 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /scripts"
+      "data": "2016-02-02T18:57:01:108 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:766 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  scripts"
+      "data": "2016-02-02T18:57:01:115 <info> geteditparoisse.js:396 () data :  <p><strong><span style=\"background-color:#FFFF00\">La Désirade</span></strong></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:769 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
+      "data": "2016-02-02T18:57:01:119 <info> geteditparoisse.js:396 () data :  <p><strong><span style=\"background-color:#FFFF00\">La Désirade</span></strong></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:774 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /scripts/pastoraleSante.js  from request.url : /scripts/pastoraleSante.js"
+      "data": "2016-02-02T18:57:04:480 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:780 <log> router.js:5 (route) Début du traitement de l'URL /scripts/pastoraleSante.js"
+      "data": "2016-02-02T18:57:04:484 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:783 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /scripts/ pathName :  pastoraleSante.js"
+      "data": "2016-02-02T18:57:04:513 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:785 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  8    pathAppli :  /scripts/ pathName :  /scripts/pastoraleSante.js"
+      "data": "2016-02-02T18:57:04:516 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /editParoisse.html"
     },
     {
-      "data": "2016-02-02T16:35:00:789 <log> router.js:37 (route) uri : /scripts/pastoralesante.js handle: undefined pathAppli :undefined"
+      "data": "2016-02-02T18:57:04:530 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:792 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
+      "data": "2016-02-02T18:57:04:533 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /scripts/editParoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:795 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /scripts/pastoraleSante.js"
+      "data": "2016-02-02T18:57:04:695 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:797 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\scripts\\pastoraleSante.js"
+      "data": "2016-02-02T18:57:04:699 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:801 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /scripts"
+      "data": "2016-02-02T18:57:04:715 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:804 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  scripts"
+      "data": "2016-02-02T18:57:04:718 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:808 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
+      "data": "2016-02-02T18:57:04:722 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:811 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /images/CarteDoyennes2014.png  from request.url : /images/CarteDoyennes2014.png"
+      "data": "2016-02-02T18:57:04:727 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:814 <log> router.js:5 (route) Début du traitement de l'URL /images/CarteDoyennes2014.png"
+      "data": "2016-02-02T18:57:07:513 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:817 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  7    pathAppli :  /images/ pathName :  CarteDoyennes2014.png"
+      "data": "2016-02-02T18:57:07:517 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:819 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  7    pathAppli :  /images/ pathName :  /images/CarteDoyennes2014.png"
+      "data": "2016-02-02T18:57:07:527 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:825 <log> router.js:37 (route) uri : /images/cartedoyennes2014.png handle: undefined pathAppli :undefined"
+      "data": "2016-02-02T18:57:07:530 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:828 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
+      "data": "2016-02-02T18:57:07:539 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:831 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /images/CarteDoyennes2014.png"
+      "data": "2016-02-02T18:57:07:543 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:834 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\images\\CarteDoyennes2014.png"
+      "data": "2016-02-02T18:57:07:820 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:836 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /images"
+      "data": "2016-02-02T18:57:07:829 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:839 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  images"
+      "data": "2016-02-02T18:57:07:841 <info> geteditparoisse.js:396 () data :  <p><br></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:845 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
+      "data": "2016-02-02T18:57:07:847 <info> geteditparoisse.js:396 () data :  <p><br></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:976 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /favicon.ico  from request.url : /favicon.ico"
+      "data": "2016-02-02T18:57:07:854 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:979 <log> router.js:5 (route) Début du traitement de l'URL /favicon.ico"
+      "data": "2016-02-02T18:57:07:860 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /imageParoisse/img061.jpg"
     },
     {
-      "data": "2016-02-02T16:35:00:981 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  -1    pathAppli :   pathName :  /favicon.ico"
+      "data": "2016-02-02T18:57:07:865 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:984 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  -1    pathAppli :   pathName :  /favicon.ico"
+      "data": "2016-02-02T18:57:07:871 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:00:987 <log> router.js:37 (route) uri : /favicon.ico handle: function ico(response, request, pathAppli, pathName) {\r\n\r\n    pathName = '.' + pathName;\r\n\tlogger.log (\"pathName :  \" + pathName); \r\n\tvar extension = path.extname(pathName);\r\n\tvar blnExists = false;\r\n\tif (ext.test(pathName)) {\r\n\t\t// verif si fichier existe\r\n        fs.stat(pathName, \r\n\t\t\tfunction (err,stats) {\r\n\t\t\t\tlogger.log (\"err: \" , err);\r\n\t\t\t\tif (!err){\r\n\t\t\t\t\tblnExists = true;\r\n\t\t\t\t}\t\t\t\t\r\n\t\t\t\tif (blnExists) {\r\n\t\t\t\t\tvar lastModified = new Date(stats.mtime);\r\n\t\t\t\t\tlogger.log('blnExists :', blnExists)\r\n\t\t\t\t\tif (ContentType[extension]){\r\n\t\t\t\t\t\tresponse.writeHead(200, {\r\n\t\t\t\t\t\t\t'Content-Type'\t: ContentType[extension]\r\n\t\t\t\t\t\t\t,'Last-Modified': lastModified\r\n\t\t\t\t\t\t});\r\n\t\t\t\t\t\tfs.createReadStream(path.join(pathName)).pipe(response);\r\n\t\t\t\t\t}\r\n\t\t\t\t\telse{\r\n\t\t\t\t\t\tresponse.writeHead(404, {'Content-Type': 'text/html'});\r\n\t\t\t\t\t\tresponse.end(\"<html><head></head><body>The requested file type: \" + extension + \" is not supported</body></html>\");\r\n\t\t\t\t\t} \r\n\t\t\t\t}\r\n\t\t\t\telse {\r\n\t\t\t\t\tlogger.log(\"reqH fichier inconnu : \", pathName);\r\n\t\t\t\t\tresponse.writeHead(404, {'Content-Type': 'text/html'});\r\n\t\t\t\t\tfs.createReadStream(err.message).pipe(response);\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t}\r\n\telse{\r\n\t\tlogger.error(\"reqH fichier inconnu : \",  pathName);\r\n        response.writeHead(404, {\"Content-Type\": \"text/plain\"});\r\n\t\tresponse.write(\"404 Not found\");\r\n\t\tresponse.end();\r\n\t\t\r\n\t}\r\n} pathAppli :undefined"
+      "data": "2016-02-02T18:57:07:880 <info> geteditparoisse.js:396 () data :  <p><br></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:989 <log> requestHandlers.js:193 (Object.ico [as /favicon.ico]) pathName :  ./favicon.ico"
+      "data": "2016-02-02T18:57:07:884 <info> geteditparoisse.js:396 () data :  <p><br></p>"
     },
     {
-      "data": "2016-02-02T16:35:00:993 <log> requestHandlers.js:200 () err:  null"
+      "data": "2016-02-02T18:57:07:892 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:00:996 <log> requestHandlers.js:206 () blnExists : true"
+      "data": "2016-02-02T18:57:07:897 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /imageParoisse/img064.jpg"
     },
     {
-      "data": "2016-02-02T16:35:01:884 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
+      "data": "2016-02-02T18:58:05:674 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:01:887 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
+      "data": "2016-02-02T18:58:05:684 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /njs/geteditparoisse.js"
     },
     {
-      "data": "2016-02-02T16:35:01:890 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
+      "data": "2016-02-02T18:58:05:701 <info> requestHandlers.js:45 (Object.handleRequest [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/Pastorale_Sante_Paris/nodePastoraleSanteJS/pastoraleSante"
     },
     {
-      "data": "2016-02-02T16:35:01:892 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:01:895 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:01:897 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:01:900 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:01:903 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:01:906 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:01:908 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:01:911 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:01:914 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:01:934 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:01:940 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:01:943 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  $oZJ0M952xQ"
-    },
-    {
-      "data": "2016-02-02T16:35:01:948 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  $oZJ0M952xQ"
-    },
-    {
-      "data": "2016-02-02T16:35:01:953 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:01:956 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  $oZJ0M952xQ"
-    },
-    {
-      "data": "2016-02-02T16:35:01:959 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  $oZJ0M952xQ"
-    },
-    {
-      "data": "2016-02-02T16:35:01:961 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:01:966 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:01:969 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:01:971 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  002"
-    },
-    {
-      "data": "2016-02-02T16:35:01:974 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:01:977 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  AdEM0AFoXIw"
-    },
-    {
-      "data": "2016-02-02T16:35:02:021 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  AdEM0AFoXIw"
-    },
-    {
-      "data": "2016-02-02T16:35:02:039 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:02:058 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  AdEM0AFoXIw"
-    },
-    {
-      "data": "2016-02-02T16:35:02:073 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  AdEM0AFoXIw"
-    },
-    {
-      "data": "2016-02-02T16:35:02:076 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:078 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:02:081 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:02:083 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  002"
-    },
-    {
-      "data": "2016-02-02T16:35:02:088 <info> geteditparoisse.js:396 () data :  <p><br></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:02:092 <info> geteditparoisse.js:396 () data :  <p><br></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:02:100 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /imageParoisse/img002.jpg  from request.url : /imageParoisse/img002.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:102 <log> router.js:5 (route) Début du traitement de l'URL /imageParoisse/img002.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:107 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  img002.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:111 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  /imageParoisse/img002.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:114 <log> router.js:37 (route) uri : /imageparoisse/img002.jpg handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:02:117 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:02:119 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /imageParoisse/img002.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:123 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\imageParoisse\\img002.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:126 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:02:132 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:02:134 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:267 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:269 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:272 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:274 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:276 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:02:279 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:02:282 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:287 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:289 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:02:292 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:02:294 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:296 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:02:299 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:02:302 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:02:305 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  5QD42m7EsJi"
-    },
-    {
-      "data": "2016-02-02T16:35:02:309 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  5QD42m7EsJi"
-    },
-    {
-      "data": "2016-02-02T16:35:02:311 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:02:313 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  5QD42m7EsJi"
-    },
-    {
-      "data": "2016-02-02T16:35:02:316 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  5QD42m7EsJi"
-    },
-    {
-      "data": "2016-02-02T16:35:02:318 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:320 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:02:324 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:02:326 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:02:328 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:02:332 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  vtkH3fX8Aa2"
-    },
-    {
-      "data": "2016-02-02T16:35:02:336 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  vtkH3fX8Aa2"
-    },
-    {
-      "data": "2016-02-02T16:35:02:341 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:02:344 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  vtkH3fX8Aa2"
-    },
-    {
-      "data": "2016-02-02T16:35:02:347 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  vtkH3fX8Aa2"
-    },
-    {
-      "data": "2016-02-02T16:35:02:350 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:02:353 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:02:357 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:02:360 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:02:364 <info> geteditparoisse.js:396 () data :  <p><strong><span style=\"background-color:#FFFF00\">La Désirade</span></strong></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:02:367 <info> geteditparoisse.js:396 () data :  <p><strong><span style=\"background-color:#FFFF00\">La Désirade</span></strong></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:02:375 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /imageParoisse/img014.jpg  from request.url : /imageParoisse/img014.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:384 <log> router.js:5 (route) Début du traitement de l'URL /imageParoisse/img014.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:388 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  img014.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:390 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  /imageParoisse/img014.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:393 <log> router.js:37 (route) uri : /imageparoisse/img014.jpg handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:02:395 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:02:396 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /imageParoisse/img014.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:399 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\imageParoisse\\img014.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:02:401 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:02:402 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:02:405 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:06:852 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:854 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:856 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:858 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:860 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:06:861 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:06:863 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:866 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:868 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:06:870 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:06:872 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:874 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:06:877 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:06:879 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:06:881 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  drDCsWùUQhO"
-    },
-    {
-      "data": "2016-02-02T16:35:06:883 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  drDCsWùUQhO"
-    },
-    {
-      "data": "2016-02-02T16:35:06:885 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:06:887 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  drDCsWùUQhO"
-    },
-    {
-      "data": "2016-02-02T16:35:06:889 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  drDCsWùUQhO"
-    },
-    {
-      "data": "2016-02-02T16:35:06:890 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:892 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:06:894 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:06:895 <log> geteditparoisse.js:19 (getEditParoisse) action :  ifLockedParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:06:897 <log> geteditparoisse.js:241 (checkIfLockedParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.lck"
-    },
-    {
-      "data": "2016-02-02T16:35:06:900 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:06:902 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  Bt4fwt6MK6e"
-    },
-    {
-      "data": "2016-02-02T16:35:06:905 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  Bt4fwt6MK6e"
-    },
-    {
-      "data": "2016-02-02T16:35:06:907 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:06:909 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  Bt4fwt6MK6e"
-    },
-    {
-      "data": "2016-02-02T16:35:06:910 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  Bt4fwt6MK6e"
-    },
-    {
-      "data": "2016-02-02T16:35:06:912 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:06:917 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:06:919 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:06:921 <log> geteditparoisse.js:19 (getEditParoisse) action :  ifLockedParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:06:923 <log> geteditparoisse.js:241 (checkIfLockedParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.lck"
-    },
-    {
-      "data": "2016-02-02T16:35:06:930 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /editParoisse.html  from request.url : /editParoisse.html?action=readupdate&paroisseId=014&paroisse=Saint%20Joseph%20Les%20Epinettes&scriptServer=njs"
-    },
-    {
-      "data": "2016-02-02T16:35:06:936 <log> router.js:5 (route) Début du traitement de l'URL /editParoisse.html"
-    },
-    {
-      "data": "2016-02-02T16:35:06:940 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  -1    pathAppli :   pathName :  /editParoisse.html"
-    },
-    {
-      "data": "2016-02-02T16:35:06:942 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  -1    pathAppli :   pathName :  /editParoisse.html"
-    },
-    {
-      "data": "2016-02-02T16:35:06:947 <log> router.js:37 (route) uri : /editparoisse.html handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:06:950 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:06:952 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /editParoisse.html"
-    },
-    {
-      "data": "2016-02-02T16:35:06:954 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\editParoisse.html"
-    },
-    {
-      "data": "2016-02-02T16:35:06:956 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /"
-    },
-    {
-      "data": "2016-02-02T16:35:06:958 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  "
-    },
-    {
-      "data": "2016-02-02T16:35:06:960 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .html"
-    },
-    {
-      "data": "2016-02-02T16:35:07:117 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:119 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:126 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:128 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:130 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:07:132 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:07:134 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:137 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:139 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:142 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:144 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:146 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:147 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:07:149 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:07:150 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  QFuMAqzJ08T"
-    },
-    {
-      "data": "2016-02-02T16:35:07:152 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  QFuMAqzJ08T"
-    },
-    {
-      "data": "2016-02-02T16:35:07:153 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:07:155 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  QFuMAqzJ08T"
-    },
-    {
-      "data": "2016-02-02T16:35:07:156 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  QFuMAqzJ08T"
-    },
-    {
-      "data": "2016-02-02T16:35:07:159 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:161 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:163 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:164 <log> geteditparoisse.js:19 (getEditParoisse) action :  lockParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:07:166 <log> geteditparoisse.js:257 (lockParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.lck"
-    },
-    {
-      "data": "2016-02-02T16:35:07:168 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:07:171 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  ebnq2ùLoak3"
-    },
-    {
-      "data": "2016-02-02T16:35:07:173 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  ebnq2ùLoak3"
-    },
-    {
-      "data": "2016-02-02T16:35:07:175 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:07:176 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  ebnq2ùLoak3"
-    },
-    {
-      "data": "2016-02-02T16:35:07:178 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  ebnq2ùLoak3"
-    },
-    {
-      "data": "2016-02-02T16:35:07:179 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:181 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:182 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:184 <log> geteditparoisse.js:19 (getEditParoisse) action :  lockParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:07:186 <log> geteditparoisse.js:257 (lockParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.lck"
-    },
-    {
-      "data": "2016-02-02T16:35:07:194 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:196 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:198 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:199 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:201 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:07:202 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:07:204 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:206 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:207 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:209 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:211 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:214 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:216 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:07:218 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:07:219 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  1x0fImV8y$H"
-    },
-    {
-      "data": "2016-02-02T16:35:07:222 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  1x0fImV8y$H"
-    },
-    {
-      "data": "2016-02-02T16:35:07:224 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:07:226 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  1x0fImV8y$H"
-    },
-    {
-      "data": "2016-02-02T16:35:07:227 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  1x0fImV8y$H"
-    },
-    {
-      "data": "2016-02-02T16:35:07:230 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:233 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:236 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:240 <log> geteditparoisse.js:19 (getEditParoisse) action :  readParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:07:243 <log> geteditparoisse.js:298 (getDataParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.htext"
-    },
-    {
-      "data": "2016-02-02T16:35:07:246 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:07:248 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  MjJowRTDk$6"
-    },
-    {
-      "data": "2016-02-02T16:35:07:253 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  MjJowRTDk$6"
-    },
-    {
-      "data": "2016-02-02T16:35:07:259 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:07:262 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  MjJowRTDk$6"
-    },
-    {
-      "data": "2016-02-02T16:35:07:264 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  MjJowRTDk$6"
-    },
-    {
-      "data": "2016-02-02T16:35:07:266 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:267 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:269 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:274 <log> geteditparoisse.js:19 (getEditParoisse) action :  readParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:07:276 <log> geteditparoisse.js:298 (getDataParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.htext"
-    },
-    {
-      "data": "2016-02-02T16:35:07:278 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:280 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:282 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:283 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:285 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:07:288 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:07:289 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:291 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:293 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:295 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:297 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:298 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:301 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:07:305 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:07:306 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  TLqR0E96hxU"
-    },
-    {
-      "data": "2016-02-02T16:35:07:308 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  TLqR0E96hxU"
-    },
-    {
-      "data": "2016-02-02T16:35:07:310 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:07:311 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  TLqR0E96hxU"
-    },
-    {
-      "data": "2016-02-02T16:35:07:313 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  TLqR0E96hxU"
-    },
-    {
-      "data": "2016-02-02T16:35:07:314 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:316 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:318 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:320 <log> geteditparoisse.js:19 (getEditParoisse) action :  readHosto   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:07:322 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:07:324 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  eHdoEY9RGA$"
-    },
-    {
-      "data": "2016-02-02T16:35:07:325 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  eHdoEY9RGA$"
-    },
-    {
-      "data": "2016-02-02T16:35:07:327 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:07:328 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  eHdoEY9RGA$"
-    },
-    {
-      "data": "2016-02-02T16:35:07:330 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  eHdoEY9RGA$"
-    },
-    {
-      "data": "2016-02-02T16:35:07:332 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:07:333 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:07:335 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:07:337 <log> geteditparoisse.js:19 (getEditParoisse) action :  readHosto   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:07:341 <log> geteditparoisse.js:328 () dataHosto : <p><strong><span style=\"background-color:#FFFF00\">La Désirade</span></strong></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:07:344 <log> geteditparoisse.js:328 () dataHosto : <p><strong><span style=\"background-color:#FFFF00\">La Désirade</span></strong></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:13:177 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/cut.png  from request.url : /ckeditor/skins/icy_orange/icons/cut.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:179 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/cut.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:181 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/cut.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:183 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/cut.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:185 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/cut.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:187 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:189 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/cut.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:191 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\cut.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:193 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:195 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:197 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:199 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/copy.png  from request.url : /ckeditor/skins/icy_orange/icons/copy.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:201 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/copy.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:203 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/copy.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:205 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/copy.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:208 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/copy.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:210 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:212 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/copy.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:215 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\copy.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:217 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:219 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:223 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:225 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/paste.png  from request.url : /ckeditor/skins/icy_orange/icons/paste.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:228 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/paste.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:230 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/paste.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:234 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/paste.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:236 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/paste.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:239 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:240 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/paste.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:243 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\paste.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:245 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:247 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:248 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:251 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/pastetext.png  from request.url : /ckeditor/skins/icy_orange/icons/pastetext.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:253 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/pastetext.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:255 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/pastetext.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:257 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/pastetext.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:259 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/pastetext.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:261 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:263 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/pastetext.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:265 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\pastetext.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:268 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:269 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:271 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:274 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/pastefromword.png  from request.url : /ckeditor/skins/icy_orange/icons/pastefromword.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:275 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/pastefromword.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:277 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/pastefromword.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:279 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/pastefromword.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:281 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/pastefromword.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:283 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:285 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/pastefromword.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:287 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\pastefromword.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:289 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:291 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:296 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:305 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/undo.png  from request.url : /ckeditor/skins/icy_orange/icons/undo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:308 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/undo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:310 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/undo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:313 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/undo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:315 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/undo.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:321 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:324 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/undo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:326 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\undo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:329 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:333 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:334 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:351 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/italic.png  from request.url : /ckeditor/skins/icy_orange/icons/italic.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:355 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/italic.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:357 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/italic.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:359 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/italic.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:361 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/italic.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:363 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:365 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/italic.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:368 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\italic.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:370 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:373 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:375 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:377 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/outdent.png  from request.url : /ckeditor/skins/icy_orange/icons/outdent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:379 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/outdent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:381 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/outdent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:383 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/outdent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:385 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/outdent.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:387 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:389 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/outdent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:391 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\outdent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:393 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:395 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:400 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:403 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/specialchar.png  from request.url : /ckeditor/skins/icy_orange/icons/specialchar.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:406 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/specialchar.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:408 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/specialchar.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:410 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/specialchar.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:414 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/specialchar.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:417 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:420 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/specialchar.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:422 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\specialchar.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:424 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:426 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:429 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:431 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/plugins/inlinecancel/images/inlinecancel.png  from request.url : /ckeditor/plugins/inlinecancel/images/inlinecancel.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:433 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/plugins/inlinecancel/images/inlinecancel.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:436 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  plugins/inlinecancel/images/inlinecancel.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:438 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/plugins/inlinecancel/images/inlinecancel.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:440 <log> router.js:37 (route) uri : /ckeditor/plugins/inlinecancel/images/inlinecancel.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:442 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:444 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/plugins/inlinecancel/images/inlinecancel.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:448 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\plugins\\inlinecancel\\images\\inlinecancel.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:451 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/plugins/inlinecancel/images"
-    },
-    {
-      "data": "2016-02-02T16:35:13:453 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  images"
-    },
-    {
-      "data": "2016-02-02T16:35:13:455 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:457 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/image.png  from request.url : /ckeditor/skins/icy_orange/icons/image.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:459 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/image.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:461 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/image.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:463 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/image.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:465 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/image.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:467 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:469 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/image.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:471 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\image.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:473 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:475 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:477 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:480 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/table.png  from request.url : /ckeditor/skins/icy_orange/icons/table.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:482 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/table.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:484 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/table.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:486 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/table.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:488 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/table.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:490 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:492 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/table.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:494 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\table.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:497 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:499 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:501 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:510 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/bgcolor.png  from request.url : /ckeditor/skins/icy_orange/icons/bgcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:513 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/bgcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:515 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/bgcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:517 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/bgcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:520 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/bgcolor.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:523 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:525 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/bgcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:528 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\bgcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:530 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:532 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:534 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:542 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/about.png  from request.url : /ckeditor/skins/icy_orange/icons/about.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:544 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/about.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:546 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/about.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:548 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/about.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:551 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/about.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:554 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:557 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/about.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:559 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\about.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:561 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:563 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:565 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:568 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/bold.png  from request.url : /ckeditor/skins/icy_orange/icons/bold.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:571 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/bold.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:573 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/bold.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:575 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/bold.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:578 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/bold.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:580 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:586 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/bold.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:588 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\bold.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:590 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:592 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:594 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:597 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/bulletedlist.png  from request.url : /ckeditor/skins/icy_orange/icons/bulletedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:600 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/bulletedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:603 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/bulletedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:605 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/bulletedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:608 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/bulletedlist.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:611 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:613 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/bulletedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:619 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\bulletedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:621 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:623 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:626 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:628 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/horizontalrule.png  from request.url : /ckeditor/skins/icy_orange/icons/horizontalrule.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:630 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/horizontalrule.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:633 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/horizontalrule.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:636 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/horizontalrule.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:638 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/horizontalrule.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:640 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:642 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/horizontalrule.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:645 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\horizontalrule.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:647 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:650 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:653 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:655 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/blockquote.png  from request.url : /ckeditor/skins/icy_orange/icons/blockquote.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:657 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/blockquote.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:660 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/blockquote.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:662 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/blockquote.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:664 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/blockquote.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:666 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:669 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/blockquote.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:671 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\blockquote.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:673 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:676 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:678 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:689 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/removeformat.png  from request.url : /ckeditor/skins/icy_orange/icons/removeformat.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:692 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/removeformat.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:694 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/removeformat.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:697 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/removeformat.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:699 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/removeformat.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:706 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:710 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/removeformat.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:712 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\removeformat.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:715 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:718 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:720 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:727 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/anchor.png  from request.url : /ckeditor/skins/icy_orange/icons/anchor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:730 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/anchor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:733 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/anchor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:737 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/anchor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:740 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/anchor.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:742 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:745 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/anchor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:747 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\anchor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:751 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:753 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:757 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:767 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/scayt.png  from request.url : /ckeditor/skins/icy_orange/icons/scayt.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:771 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/scayt.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:773 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/scayt.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:776 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/scayt.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:778 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/scayt.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:781 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:784 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/scayt.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:786 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\scayt.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:789 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:792 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:795 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:797 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/strike.png  from request.url : /ckeditor/skins/icy_orange/icons/strike.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:802 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/strike.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:805 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/strike.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:808 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/strike.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:810 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/strike.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:813 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:818 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/strike.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:821 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\strike.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:824 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:826 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:829 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:832 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/redo.png  from request.url : /ckeditor/skins/icy_orange/icons/redo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:835 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/redo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:838 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/redo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:841 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/redo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:843 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/redo.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:845 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:848 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/redo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:851 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\redo.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:853 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:856 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:859 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:862 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/indent.png  from request.url : /ckeditor/skins/icy_orange/icons/indent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:868 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/indent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:871 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/indent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:874 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/indent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:876 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/indent.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:884 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:887 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/indent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:890 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\indent.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:893 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:895 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:898 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:912 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/link.png  from request.url : /ckeditor/skins/icy_orange/icons/link.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:915 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/link.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:918 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/link.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:922 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/link.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:924 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/link.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:927 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:930 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/link.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:933 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\link.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:936 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:939 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:942 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:948 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/numberedlist.png  from request.url : /ckeditor/skins/icy_orange/icons/numberedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:957 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/numberedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:959 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/numberedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:962 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/numberedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:965 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/numberedlist.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:967 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:13:970 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/numberedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:973 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\numberedlist.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:975 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:979 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:13:981 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:984 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/textcolor.png  from request.url : /ckeditor/skins/icy_orange/icons/textcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:987 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/textcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:990 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/textcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:993 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/textcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:13:995 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/textcolor.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:13:998 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:14:001 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/textcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:003 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\textcolor.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:006 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:14:009 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:14:011 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:017 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/plugins/cia_inlinesave/images/inlinesave.png  from request.url : /ckeditor/plugins/cia_inlinesave/images/inlinesave.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:020 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/plugins/cia_inlinesave/images/inlinesave.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:023 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  plugins/cia_inlinesave/images/inlinesave.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:026 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/plugins/cia_inlinesave/images/inlinesave.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:029 <log> router.js:37 (route) uri : /ckeditor/plugins/cia_inlinesave/images/inlinesave.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:14:031 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:14:034 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/plugins/cia_inlinesave/images/inlinesave.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:038 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\plugins\\cia_inlinesave\\images\\inlinesave.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:040 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/plugins/cia_inlinesave/images"
-    },
-    {
-      "data": "2016-02-02T16:35:14:043 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  images"
-    },
-    {
-      "data": "2016-02-02T16:35:14:046 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:050 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /ckeditor/skins/icy_orange/icons/unlink.png  from request.url : /ckeditor/skins/icy_orange/icons/unlink.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:053 <log> router.js:5 (route) Début du traitement de l'URL /ckeditor/skins/icy_orange/icons/unlink.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:058 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  skins/icy_orange/icons/unlink.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:061 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  9    pathAppli :  /ckeditor/ pathName :  /ckeditor/skins/icy_orange/icons/unlink.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:065 <log> router.js:37 (route) uri : /ckeditor/skins/icy_orange/icons/unlink.png handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:14:068 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:14:071 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /ckeditor/skins/icy_orange/icons/unlink.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:075 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\ckeditor\\skins\\icy_orange\\icons\\unlink.png"
-    },
-    {
-      "data": "2016-02-02T16:35:14:079 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /ckeditor/skins/icy_orange/icons"
-    },
-    {
-      "data": "2016-02-02T16:35:14:082 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  icons"
-    },
-    {
-      "data": "2016-02-02T16:35:14:085 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .png"
-    },
-    {
-      "data": "2016-02-02T16:35:17:780 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:783 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:787 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:790 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:793 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:17:795 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:17:798 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:801 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:803 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:806 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:809 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:812 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:17:815 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:17:819 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:17:822 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  wT5sYQpXdBj"
-    },
-    {
-      "data": "2016-02-02T16:35:17:824 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  wT5sYQpXdBj"
-    },
-    {
-      "data": "2016-02-02T16:35:17:828 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:17:830 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  wT5sYQpXdBj"
-    },
-    {
-      "data": "2016-02-02T16:35:17:833 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  wT5sYQpXdBj"
-    },
-    {
-      "data": "2016-02-02T16:35:17:836 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:838 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:17:841 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:844 <log> geteditparoisse.js:19 (getEditParoisse) action :  saveParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:17:847 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:17:850 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  uPH6ghPI2qf"
-    },
-    {
-      "data": "2016-02-02T16:35:17:853 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  uPH6ghPI2qf"
-    },
-    {
-      "data": "2016-02-02T16:35:17:855 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:17:858 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  uPH6ghPI2qf"
-    },
-    {
-      "data": "2016-02-02T16:35:17:861 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  uPH6ghPI2qf"
-    },
-    {
-      "data": "2016-02-02T16:35:17:864 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:867 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:17:870 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:872 <log> geteditparoisse.js:19 (getEditParoisse) action :  saveParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:17:881 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:885 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:888 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:891 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:893 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:17:896 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:17:900 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:902 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:905 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:908 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:911 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:914 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:17:917 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:17:920 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:17:924 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  FYldZ2cXR1d"
-    },
-    {
-      "data": "2016-02-02T16:35:17:926 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  FYldZ2cXR1d"
-    },
-    {
-      "data": "2016-02-02T16:35:17:930 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:17:934 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  FYldZ2cXR1d"
-    },
-    {
-      "data": "2016-02-02T16:35:17:937 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  FYldZ2cXR1d"
-    },
-    {
-      "data": "2016-02-02T16:35:17:940 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:943 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:17:946 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:950 <log> geteditparoisse.js:19 (getEditParoisse) action :  saveHosto   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:17:955 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:17:958 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  GqX8zsYVrur"
-    },
-    {
-      "data": "2016-02-02T16:35:17:962 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  GqX8zsYVrur"
-    },
-    {
-      "data": "2016-02-02T16:35:17:965 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:17:968 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  GqX8zsYVrur"
-    },
-    {
-      "data": "2016-02-02T16:35:17:971 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  GqX8zsYVrur"
-    },
-    {
-      "data": "2016-02-02T16:35:17:974 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:977 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:17:981 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:17:984 <log> geteditparoisse.js:19 (getEditParoisse) action :  saveHosto   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:17:993 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:996 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:17:999 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:002 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:006 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:18:009 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:18:012 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:015 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:018 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:021 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:025 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:028 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:18:031 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:18:034 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:18:037 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  qUKJù9c85LZ"
-    },
-    {
-      "data": "2016-02-02T16:35:18:040 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  qUKJù9c85LZ"
-    },
-    {
-      "data": "2016-02-02T16:35:18:043 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:18:046 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  qUKJù9c85LZ"
-    },
-    {
-      "data": "2016-02-02T16:35:18:050 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  qUKJù9c85LZ"
-    },
-    {
-      "data": "2016-02-02T16:35:18:053 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:056 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:18:059 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:063 <log> geteditparoisse.js:19 (getEditParoisse) action :  unLockParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:18:067 <log> geteditparoisse.js:277 (unLockParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.lck"
-    },
-    {
-      "data": "2016-02-02T16:35:18:072 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:18:077 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  SXz8Il8Kx0V"
-    },
-    {
-      "data": "2016-02-02T16:35:18:082 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  SXz8Il8Kx0V"
-    },
-    {
-      "data": "2016-02-02T16:35:18:090 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:18:095 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  SXz8Il8Kx0V"
-    },
-    {
-      "data": "2016-02-02T16:35:18:098 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  SXz8Il8Kx0V"
-    },
-    {
-      "data": "2016-02-02T16:35:18:101 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:104 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:18:107 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:111 <log> geteditparoisse.js:19 (getEditParoisse) action :  unLockParoisse   paroisseId :  014"
-    },
-    {
-      "data": "2016-02-02T16:35:18:114 <log> geteditparoisse.js:277 (unLockParoisse) pathToFile :  C:\\pastoraleSante\\infoParoisse\\info014.lck"
-    },
-    {
-      "data": "2016-02-02T16:35:18:244 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:247 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:251 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:254 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:258 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:18:262 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:18:265 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:268 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:271 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:274 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:277 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:280 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:18:284 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:18:288 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:18:291 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  IOoeoOBcJNb"
-    },
-    {
-      "data": "2016-02-02T16:35:18:294 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  IOoeoOBcJNb"
-    },
-    {
-      "data": "2016-02-02T16:35:18:297 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:18:300 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  IOoeoOBcJNb"
-    },
-    {
-      "data": "2016-02-02T16:35:18:303 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  IOoeoOBcJNb"
-    },
-    {
-      "data": "2016-02-02T16:35:18:306 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:309 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:18:313 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:317 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  043"
-    },
-    {
-      "data": "2016-02-02T16:35:18:322 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:18:325 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  fo4KUUvxaps"
-    },
-    {
-      "data": "2016-02-02T16:35:18:328 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  fo4KUUvxaps"
-    },
-    {
-      "data": "2016-02-02T16:35:18:331 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:18:334 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  fo4KUUvxaps"
-    },
-    {
-      "data": "2016-02-02T16:35:18:338 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  fo4KUUvxaps"
-    },
-    {
-      "data": "2016-02-02T16:35:18:341 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:18:344 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:18:347 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:18:350 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  043"
-    },
-    {
-      "data": "2016-02-02T16:35:18:355 <info> geteditparoisse.js:396 () data :  <p><br></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:18:359 <info> geteditparoisse.js:396 () data :  <p><br></p>"
-    },
-    {
-      "data": "2016-02-02T16:35:18:364 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /imageParoisse/img043.jpg  from request.url : /imageParoisse/img043.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:18:368 <log> router.js:5 (route) Début du traitement de l'URL /imageParoisse/img043.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:18:371 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  img043.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:18:374 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  /imageParoisse/img043.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:18:377 <log> router.js:37 (route) uri : /imageparoisse/img043.jpg handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:18:381 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:18:386 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /imageParoisse/img043.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:18:389 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\imageParoisse\\img043.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:18:392 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:18:395 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:18:400 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:20:566 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /njs/geteditparoisse.js  from request.url : /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:570 <log> router.js:5 (route) Début du traitement de l'URL /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:574 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:577 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  4    pathAppli :  /njs/ pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:580 <log> router.js:37 (route) uri : /njs/geteditparoisse.js handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:20:584 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:20:588 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /njs/geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:591 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:594 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /njs"
-    },
-    {
-      "data": "2016-02-02T16:35:20:598 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  njs"
-    },
-    {
-      "data": "2016-02-02T16:35:20:601 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:605 <log> requestHandlers.js:92 (Object.pastorale_sante [as /]) Récupération des paramètres reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:20:609 <log> getDataFromReq.js:14 (getDataFromReq) Récupération des éléments reçus, method :  post"
-    },
-    {
-      "data": "2016-02-02T16:35:20:612 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:20:616 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  4ZKB0CgFAS0"
-    },
-    {
-      "data": "2016-02-02T16:35:20:619 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  4ZKB0CgFAS0"
-    },
-    {
-      "data": "2016-02-02T16:35:20:623 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:20:626 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  4ZKB0CgFAS0"
-    },
-    {
-      "data": "2016-02-02T16:35:20:630 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  4ZKB0CgFAS0"
-    },
-    {
-      "data": "2016-02-02T16:35:20:633 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:636 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:20:639 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:20:642 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  041"
-    },
-    {
-      "data": "2016-02-02T16:35:20:645 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  h43a93WXCm5"
-    },
-    {
-      "data": "2016-02-02T16:35:20:649 <log> session.js:72 (Object.lookupOrCreate) idFromRequest(req,sessions,opts) :  xnYp1xA8OOj"
-    },
-    {
-      "data": "2016-02-02T16:35:20:652 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  xnYp1xA8OOj"
-    },
-    {
-      "data": "2016-02-02T16:35:20:655 <log> session.js:181 (new Session) session persistent :  false"
-    },
-    {
-      "data": "2016-02-02T16:35:20:658 <log> session.js:104 (Object.lookupOrCreate) new Session for id :  xnYp1xA8OOj"
-    },
-    {
-      "data": "2016-02-02T16:35:20:661 <log> requestHandlers.js:110 (prepareHtmlToSendBack) session_id:  xnYp1xA8OOj"
-    },
-    {
-      "data": "2016-02-02T16:35:20:664 <log> requestHandlers.js:120 (prepareHtmlToSendBack) njs file path :  C:\\pastoraleSante\\njs\\geteditparoisse.js   fullpath : C:\\pastoraleSante\\njs\\geteditparoisse.js"
-    },
-    {
-      "data": "2016-02-02T16:35:20:667 <log> geteditparoisse.js:10 (getEditParoisse) Récupération des éléments reçus"
-    },
-    {
-      "data": "2016-02-02T16:35:20:670 <log> geteditparoisse.js:13 (getEditParoisse) dirname :  C:\\pastoraleSante\\njs"
-    },
-    {
-      "data": "2016-02-02T16:35:20:673 <log> geteditparoisse.js:19 (getEditParoisse) action :  tooltip   paroisseId :  041"
-    },
-    {
-      "data": "2016-02-02T16:35:20:681 <log> server.js:11 (Server.onRequest) Requête reçue pour le chemin /imageParoisse/img041.jpg  from request.url : /imageParoisse/img041.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:20:684 <log> router.js:5 (route) Début du traitement de l'URL /imageParoisse/img041.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:20:687 <log> router.js:17 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  img041.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:20:690 <log> router.js:33 (route) HostName :  127.0.0.1:7777    posAppli :  14    pathAppli :  /imageParoisse/ pathName :  /imageParoisse/img041.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:20:693 <log> router.js:37 (route) uri : /imageparoisse/img041.jpg handle: undefined pathAppli :undefined"
-    },
-    {
-      "data": "2016-02-02T16:35:20:696 <info> requestHandlers.js:45 (Object.pastorale_sante [as /]) Le gestionnaire 'pastoraleSante' est appelé., dirAppli :  C:/pastoraleSante"
-    },
-    {
-      "data": "2016-02-02T16:35:20:700 <info> requestHandlers.js:48 (Object.pastorale_sante [as /]) reqH pathName :  /imageParoisse/img041.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:20:704 <log> requestHandlers.js:50 (Object.pastorale_sante [as /]) fichier demandé :  C:\\pastoraleSante\\imageParoisse\\img041.jpg"
-    },
-    {
-      "data": "2016-02-02T16:35:20:707 <log> requestHandlers.js:53 (Object.pastorale_sante [as /]) pathDirName :  /imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:20:711 <log> requestHandlers.js:56 (Object.pastorale_sante [as /]) parentDir :  imageParoisse"
-    },
-    {
-      "data": "2016-02-02T16:35:20:714 <log> requestHandlers.js:61 (Object.pastorale_sante [as /]) extension :  .jpg"
-    },
-    {
-      "data": "2016-02-02T16:36:01:960 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  $oZJ0M952xQ"
-    },
-    {
-      "data": "2016-02-02T16:36:01:973 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  AdEM0AFoXIw"
-    },
-    {
-      "data": "2016-02-02T16:36:01:985 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  5QD42m7EsJi"
-    },
-    {
-      "data": "2016-02-02T16:36:02:005 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  vtkH3fX8Aa2"
-    },
-    {
-      "data": "2016-02-02T16:36:02:011 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  drDCsWùUQhO"
-    },
-    {
-      "data": "2016-02-02T16:36:02:019 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  Bt4fwt6MK6e"
-    },
-    {
-      "data": "2016-02-02T16:36:02:026 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  QFuMAqzJ08T"
-    },
-    {
-      "data": "2016-02-02T16:36:02:032 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  ebnq2ùLoak3"
-    },
-    {
-      "data": "2016-02-02T16:36:02:035 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  1x0fImV8y$H"
-    },
-    {
-      "data": "2016-02-02T16:36:02:039 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  MjJowRTDk$6"
-    },
-    {
-      "data": "2016-02-02T16:36:02:042 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  TLqR0E96hxU"
-    },
-    {
-      "data": "2016-02-02T16:36:02:046 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  eHdoEY9RGA$"
-    },
-    {
-      "data": "2016-02-02T16:36:02:049 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  wT5sYQpXdBj"
-    },
-    {
-      "data": "2016-02-02T16:36:02:053 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  uPH6ghPI2qf"
-    },
-    {
-      "data": "2016-02-02T16:36:02:056 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  FYldZ2cXR1d"
-    },
-    {
-      "data": "2016-02-02T16:36:02:059 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  GqX8zsYVrur"
-    },
-    {
-      "data": "2016-02-02T16:36:02:064 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  qUKJù9c85LZ"
-    },
-    {
-      "data": "2016-02-02T16:36:02:071 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  SXz8Il8Kx0V"
-    },
-    {
-      "data": "2016-02-02T16:36:02:077 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  IOoeoOBcJNb"
-    },
-    {
-      "data": "2016-02-02T16:36:02:085 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  fo4KUUvxaps"
-    },
-    {
-      "data": "2016-02-02T16:36:02:090 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  4ZKB0CgFAS0"
-    },
-    {
-      "data": "2016-02-02T16:36:02:093 <log> session.js:57 (ownProp) ownProp(o, p) o:  0   p:  xnYp1xA8OOj"
+      "data": "2016-02-02T18:58:05:709 <info> requestHandlers.js:48 (Object.handleRequest [as /]) reqH pathName :  /imageParoisse/img019.jpg"
     }
   ]
 }

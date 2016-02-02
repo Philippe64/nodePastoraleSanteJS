@@ -2,14 +2,12 @@
 
 // define global variables on window.load
 function initWin(){
-<<<<<<< HEAD
-=======
+
     window.blnUserAllowed= true;
-    //window.blnUserAllowed = falsee;
+    //window.blnUserAllowed = false;
     window.scriptServer = "php";
     //window.scriptServer = "njs";  
-    
->>>>>>> refs/heads/index_js
+
     var options =getCookie("pastorale-sante");
     //window.blnUserAllowed = options['blnUserAllowed'];
     if (qs['blnUserAllowed']){
