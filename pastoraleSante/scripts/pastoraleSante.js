@@ -5,8 +5,8 @@ function initWin(){
 
     window.blnUserAllowed= true;
     //window.blnUserAllowed = false;
-    window.scriptServer = "php";
-    //window.scriptServer = "njs";  
+    //window.scriptServer = "php";
+    window.scriptServer = "njs";  
 
     var options =getCookie("pastorale-sante");
     //window.blnUserAllowed = options['blnUserAllowed'];
@@ -19,9 +19,7 @@ function initWin(){
    if (qs['scriptServer']){
 		window.scriptServer = qs['scriptServer'];
 	}
-	else{
-    	window.scriptServer = "php";
-	}
+
     //window.scriptServer = "jsx";
     //window.scriptServer = "php";
     //window.scriptServer = "jsx";  
@@ -321,6 +319,25 @@ function closeModal() {
     }    
 }
 
+// alert if window.close with iframe alive
+function unloadPage(e){
+    if(blnUserAllowed && document.getElementById("overlay") ){
+        var e = e || window.event;
+        var confirmationMessage = "Vous devez passer par le bouton croix rouge pour quitter l'application ";
+        confirmationMessage += "\n" + " Sinon vous ne pourrez plus faire de mises à jour sur cette paroisse";
+        confirmationMessage += "\n" + " Merci de cliquer sur le bouton **Rester sur cette Page**";
+        //event.returnValue = confirmationMessage;     // Gecko, Trident, Chrome 34+
+        //return confirmationMessage;              // Gecko, WebKit, Chrome <34
+        // For IE and Firefox
+        if (e.returnValue == "") {
+            e.returnValue = confirmationMessage;
+        }
+        else{  // For Safari
+            return confirmationMessage;
+        }
+    }
+}
+
 // attach event for window on load
 window.addEventListener("load", 
     function load(event){
@@ -329,3 +346,5 @@ window.addEventListener("load",
     }
     ,false
 );
+// attach event for window on load
+window.addEventListener("beforeunload", unloadPage);

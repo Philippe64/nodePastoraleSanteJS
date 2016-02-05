@@ -39,17 +39,34 @@ function htmlUnescape(value){
 
 // get Paroisse info et hosto info en //
 function GetDatas() {
+    function showHourglass(){
+        var hourGlass = document.getElementById("hourGlass");
+        hourGlass.style.display = "block";
+    }
+    function hideHourglass(){
+        var hourGlass = document.getElementById("hourGlass");
+        hourGlass.style.display = "none";
+    }
     // lock Paroisse async Function
+    showHourglass();
     lockParoisse(
         function(err,data){ 
             // get info paroisse async function
-            GetData();
-            // get info hosto async function
-            if (qs['action'].toLowerCase() === "readupdate"){
-                GetHosto();
-            }
+            GetData(
+                function(err,data){
+                    // get info hosto async function
+                    if (qs['action'].toLowerCase() === "readupdate"){
+                        GetHosto(
+                            function(err,data){
+                                hideHourglass();
+                            }
+                        );
+                    }
+                }
+            );
         }           
-    ) 
+    )
+     
 }
 
 
@@ -152,6 +169,10 @@ function unLockParoisse(cbk){
 }
 
 function GetData() {
+    // get cbk function if any
+    if(arguments.length === 1){
+        var cbk = arguments[0];
+    }    
     // 1. Instantiate XHR - Start 
     var xhr; 
     if (window.XMLHttpRequest) 
@@ -183,7 +204,7 @@ function GetData() {
                 
                 if (qs['action'].toLowerCase() === "readupdate"){
                     infoParoisse.setAttribute( 'contenteditable', true );
-                    btn.innerText = "visualiser";
+                    btn.innerText = "Vous êtes en mode Mise à jour ...Cliquer ici pour Visualiser";
                     btn.style.visibility = "visible";
                     CKEDITOR.inline( 
                         'infoParoisse', {
@@ -198,6 +219,9 @@ function GetData() {
                                     };
                                     elemsH1[0].style.textAlign = "center";
                                     //periodicData();
+                                    if(cbk){
+                                        cbk (null,true) ;    
+                                    }   
                                 }
                             } 
                         }
@@ -223,6 +247,10 @@ function GetData() {
 }
 
 function GetHosto() {
+    // get cbk function if any
+    if(arguments.length === 1){
+        var cbk = arguments[0];
+    }    
     // 1. Instantiate XHR - Start 
     var xhr; 
     if (window.XMLHttpRequest) 
@@ -249,14 +277,15 @@ function GetHosto() {
                 CKEDITOR.disableAutoInline = true;                
                 if (qs['action'].toLowerCase() === "readupdate"){
                     infoHosto.setAttribute( 'contenteditable', true );
-                    //btn.innerText = "visualiser";
-                    //btn.style.visibility = "visible";
                     CKEDITOR.inline( 
                         'infoHosto', {
                             // when ready check if data changed
                             on: {
                                 instanceReady: function(ev) {
-                                    editorHosto = ev.editor;                                                        
+                                    editorHosto = ev.editor;   
+                                    if(cbk){
+                                        cbk (null,true) ;    
+                                    }                                             
                                 }
                             } 
                         }
@@ -505,7 +534,7 @@ function updview(btn){
         
         infoHosto.style.display = "none";
         infoHostoLabel.style.display = "none"
-        btn.innerText = "Mettre à jour";        
+        btn.innerText = "Vous êtes en mode Visualisation ...Cliquer ici pour Mettre à jour";        
     }
     else {
         infoParoisse.setAttribute( 'contenteditable', "true" );
@@ -530,9 +559,35 @@ function updview(btn){
             'infoHosto'
         );
         */
-        btn.innerText = "Visualiser";        
+        btn.innerText ="Vous êtes en mode Mise à jour ...Cliquer ici pour Visualiser";        
     }
 }
 
-window.onload = GetDatas;
+
+window.addEventListener("load", GetDatas);
+
+// ajout blocage fermeture navigateur
+// event not trigerred in iframe
+// event is managed in prent page (see pastoraleSante.js)
+
+//window.addEventListener("beforeunload",unloadPage);
+/*
+ 
+function unloadPage(e){
+    var e = e || window.event;
+    var confirmationMessage = "Vous devez passer par le bouton croix rouge pour quitter l'application ";
+    confirmationMessage += "\n" + " Sinon vous ne pourrez plus faire de mises à jour sur cette paroisse";
+    confirmationMessage += "\n" + " Merci de cliquer sur le bouton **Rester sur cette Page**";
+    //event.returnValue = confirmationMessage;     // Gecko, Trident, Chrome 34+
+    //return confirmationMessage;              // Gecko, WebKit, Chrome <34
+    // For IE and Firefox
+    if (e.returnValue == "") {
+        e.returnValue = confirmationMessage;
+    }
+    else{  // For Safari
+        return confirmationMessage;
+    }
+}
+ */
+ 
 
