@@ -5,7 +5,7 @@ var fs = require("fs");
 var path = require("path");
 var dirAppli = Application.dirApplication;
 
-function getEditParoisse (request, response, user_session, fnSendBackData) {
+function getEditParoisse (request, user_session, fnSendBackData) {
     
 	logger.log("Récupération des éléments reçus");
 	// get data from req get / post
