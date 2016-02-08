@@ -192,7 +192,7 @@ function GetData() {
             if (xhr.status == 200 && xhr.status < 300) {
                 var JSONresponse = JSON.parse(xhr.responseText);
                 var info =JSONresponse["answer"]
-                infoParoisse.innerHTML =  htmlUnescape(JSONresponse["answer"]);
+                infoParoisse.innerHTML =  htmlUnescape(info);
                 document.getElementById("h1Elem").innerText = "Paroisse : " + qs["paroisse"]  + "   (" + qs['paroisseId']+ ")" ;
                 var btn = document.getElementById("updView");
                 btn.style.visibility = "hidden";
@@ -213,11 +213,15 @@ function GetData() {
                                 instanceReady: function(ev) {
                                     editorParoisse = ev.editor;
                                     var elemsH1 = infoParoisse.getElementsByTagName("h1");
-                                    var elemsSpan = elemsH1[0].getElementsByTagName("span");
-                                    if ( elemsSpan[0].innerText=="modele" ){
-                                        elemsSpan[0].innerText =  qs["paroisse"] ;                                
-                                    };
-                                    elemsH1[0].style.textAlign = "center";
+                                     if (elemsH1.length >0){
+                                        var elemsSpan = elemsH1[0].getElementsByTagName("span");
+                                        if (elemsSpan.length >0){
+                                            if ( elemsSpan[0].innerText=="modele" ){
+                                                elemsSpan[0].innerText =  qs["paroisse"] ;                                
+                                            };
+                                            elemsH1[0].style.textAlign = "center";
+                                        }
+                                    }
                                     //periodicData();
                                     if(cbk){
                                         cbk (null,true) ;    
