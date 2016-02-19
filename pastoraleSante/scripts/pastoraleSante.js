@@ -5,8 +5,8 @@ function initWin(){
 
     window.blnUserAllowed= true;
     //window.blnUserAllowed = false;
-    //window.scriptServer = "php";
-    window.scriptServer = "njs";  
+    window.scriptServer = "php";
+    //window.scriptServer = "njs";  
 
     var options =getCookie("pastorale-sante");
     //window.blnUserAllowed = options['blnUserAllowed'];

@@ -72,7 +72,8 @@ error_log ('action ' . $action);
     //export to PDF
     else if ($action === 'pdf') { 
 		error_log ('export pdf');         
-		$resExport2pdf = export2pdf($paroisseId,$info);   
+		$resExport2pdf = export2pdf($paroisseId,$info);
+         error_log ($resExport2pdf);          
         $response = $resExport2pdf;
 	} 
     //Build Tooltip content
@@ -124,15 +125,50 @@ error_log ('action ' . $action);
     // check if locked paroisse
 	function checkIfLockedParoisse($paroisseId) {        
         $pathToFile = "../infoParoisse/"."info". $paroisseId . ".lck";
-        error_log("checkIfLockedParoissee" . $pathToFile);
+        error_log("checkIfLockedParoisse" . realpath($pathToFile));
         $blnExist = file_exists ($pathToFile);
+        // fichier existe
         if ($blnExist) {
-            $res = array(
-                'status' => "failed",               
-                'reason' => "file :".$pathToFile."already exist",
-                'answer' => true                  
-            );    
+            clearstatcache();
+            $intDate = filemtime ($pathToFile );
+            error_log("checkIfLockedParoisseintDate via filemtime : " . $pathToFile . "  ".$intDate);
+            $mDate = date("Y-m-d",$intDate);
+            error_log("checkIfLockedParoisse mDate : " . $pathToFile . "  ".$mDate);
+            $toDay = date("Y-m-d");
+            error_log("checkIfLockedParoisse toDay : ".$toDay);
+            // chek if date fichier anterieure à la journée en cours
+            if ($mDate < $toDay){
+                 error_log("checkIfLockedParoisse mDate : " . $pathToFile . "  ".$mDate. " fichier perimé, on supprime");
+                // si périmé on supprime le fichier
+                $blnUnlink = unlink ($pathToFile); 
+                // si problème dans unlink (ne devrait pas être)
+                if (!$blnUnlink) {
+                    $err = error_get_last();
+                    $res = array(
+                        'status' => "failed",               
+                        'reason' => $err['message'],
+                        'answer' => ""                  
+                    );    
+                } 
+                // le fichier a été supprimé
+                else{
+                    $res = array(
+                        'status' => "success",               
+                        'reason' => "file :".$pathToFile." hes been destroyed",
+                        'answer' => false
+                    );                
+                } 
+            }
+            // fichier existe et non perimé
+            else{
+                $res = array(
+                    'status' => "failed",               
+                    'reason' => "file :".$pathToFile." already existing",
+                    'answer' => true                  
+                ); 
+            }   
         } 
+        // fichier n'existe pas
         else{
             $res = array(
                 'status' => "success",               
@@ -397,15 +433,53 @@ error_log ('action ' . $action);
     // export2pdf
     function export2pdf($paroisseId,$info){
 		$pathToFile = "../infoParoisse/" . "info" . $paroisseId . ".pdf";
-        
+        // margin in mm    
+        $margin_top     = 10;
+        $margin_right   = 5; 
+        $margin_left    = 5; 
+        $margin_bottom  = 10;
+        $margin_header  = 0;
+        $margin_footer  = 0;  
+        error_log ("export2pdf start");
+       // J'ai essaye plusieurs modules pour convertir en PDf 
+       // seul mpdf60 donne satisfaction avec les tableaux
         require_once('../mpdf60/mpdf.php');
-        // see http://mpdf1.com/manual/index.php?tid=184 for explanation of parameters       
-        $mpdf=new mPDF('utf-8','A4','','' , 0 , 0 , 0 , 0 , 0 , 0);         
+        // see http://mpdf1.com/manual/index.php?tid=184 for explanation of parameters 
+      
+        $mpdf=new mPDF('utf-8','A4','','', $margin_left , $margin_right , $margin_top , $margin_bottom , $margin_header ,$margin_footer);  
+               
         $mpdf->SetDisplayMode('fullpage');        
         $mpdf->list_indent_first_level = 0;  // 1 or 0 - whether to indent the first level of a list        
         $mpdf->WriteHTML($info);                
         $mpdf->Output($pathToFile, 'F');
 
+/*
+        require_once("../dompdf/dompdf_config.inc.php");
+        $dompdf = new DOMPDF();
+        $dompdf->set_paper("A4", "portrait");
+        $dompdf->load_html($info);
+        $dompdf->render();
+        //$dompdf->output($pathToFile, 'F');
+        $output = $dompdf->output();
+        file_put_contents($pathToFile, $output);
+ */
+       
+   /*     $marges = array($margin_left,$margin_top, $margin_right, $margin_bottom);
+        require_once('../html2pdf/vendor/autoload.php');
+        try{
+            $html2pdf = new HTML2PDF('P','A4','fr',true,'UTF-8',$marges);            
+            $html2pdf->WriteHTML($info);
+            //$html2pdf->Output($pathToFile,'F');
+            $html2pdf->Output($pathToFile);
+            error_log("output done"); 
+        } 
+        catch(HTML2PDF_exception $e){
+            //die($e);
+           error_log ($e);
+            
+        } 
+        */
+        
 	}
     	
         // build Tooltip

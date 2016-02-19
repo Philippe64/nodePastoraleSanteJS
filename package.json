@@ -1,9 +1,9 @@
 {
   "name": "pastoraleSante",
   "version": "1.0.0",
-   "repository": {
-     "type": "git",
-      "url": "https://github.com/Philippe64/nodePastoraleSanteJS.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Philippe64/nodePastoraleSanteJS.git"
   },
   "description": "Node serveur for pastoraleSante Application",
   "main": "lib/index.js",
@@ -19,8 +19,10 @@
   "author": "CIA-IT",
   "license": "MIT",
   "devDependencies": {
+    "findit": "^2.0.0",
     "html-pdf": "^1.4.0",
     "lowdb": "^0.11.5",
+    "sesh": "^0.1.0",
     "tracer": "^0.8.2"
   },
   "dependencies": {

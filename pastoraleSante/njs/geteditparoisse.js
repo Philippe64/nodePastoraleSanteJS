@@ -1,6 +1,5 @@
 ﻿"use strict";
 /** gestionnaire de fichiers */
-
 var fs = require("fs");
 var path = require("path");
 var dirAppli = Application.dirApplication;
@@ -17,14 +16,15 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 	var paroisseId = fields["paroisseId"];
                 
     logger.log("action : ", action, "  paroisseId : " , paroisseId );
-	// check if Locked
+
+    // check if Locked
 	if(action === "ifLockedParoisse"){
 		checkIfLockedParoisse(paroisseId,
-			function(err,data){
-				if(err){
+			function(err,locked){
+				if(!locked){
 					var resultat = {};
 					resultat["status"] = "succes";
-					resultat["reason"] = err.message;
+					resultat["reason"] = "file not exist or has been deleted";
 					resultat["answer"] = false;
 					var myJSON = JSON.stringify(resultat);
 					fnSendBackData(null,myJSON);
@@ -235,22 +235,45 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 	}
 
 	/** ***********************************************************************************/
+    
     // check if locked paroisse
-	function checkIfLockedParoisse(paroisseId, cbk){
-		var pathToFile = path.join(dirAppli, "infoParoisse", "info"+ paroisseId + ".lck");
+	function checkIfLockedParoisse(paroisseId, cbk){      
+        var pathToFile = path.join(dirAppli, "infoParoisse", "info"+ paroisseId + ".lck");
         logger.log ("pathToFile : ",path.resolve(pathToFile));
-		fs.stat(pathToFile,
-			function(err,stats){
-				if(!err){
-					cbk(null,true);
-				}
-				else{
-                	cbk(err,false);	
-				}
-			}
-		);
-	}
-	
+        fs.stat(pathToFile,
+            function(err,stats){
+                if(!err){
+                    // file exist
+                    // check if the locked file is from days before, and if true remove it
+                    var mDate = new Date(stats.mtime).toISOString().substring(0, 10);
+                    var toDay = new Date().toISOString().substring(0, 10);
+                    if (mDate < toDay){
+                        fs.unlink(pathToFile,
+                            function (err,data){
+                                if(err){
+                                    console.log(" cleanLockedParoise unlink file :", pathToFile, "  err :", err.message);
+                                    cbk(err,false);
+                                }
+                                else{
+                                    console.log("CleanLockedParoisse  file : ", pathToFile, "  Date: ", mDate, "  has been deleted");
+                                    cbk(null,false);
+                                }
+                            }
+                        );
+                    }
+                    // file is already locked
+                    else{                
+                        cbk(null,true);
+                    }
+                }
+                // file is not locked
+                else{
+                    cbk(err,false);	
+                }
+            }
+        );
+    }	       
+     
     // lock paroisse
 	function lockParoisse(paroisseId, cbk){
 		var pathToFile = path.join(dirAppli, "infoParoisse", "info"+ paroisseId + ".lck");
