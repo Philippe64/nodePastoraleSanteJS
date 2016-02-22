@@ -20,9 +20,6 @@ function initWin(){
 		window.scriptServer = qs['scriptServer'];
 	}
 
-    //window.scriptServer = "jsx";
-    //window.scriptServer = "php";
-    //window.scriptServer = "jsx";  
 }
 
 // get querystring param
@@ -346,5 +343,5 @@ window.addEventListener("load",
     }
     ,false
 );
-// attach event for window on load
+// attach event for window unload page
 window.addEventListener("beforeunload", unloadPage);

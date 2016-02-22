@@ -442,7 +442,7 @@ error_log ('action ' . $action);
         $margin_footer  = 0;  
         error_log ("export2pdf start");
        // J'ai essaye plusieurs modules pour convertir en PDf 
-       // seul mpdf60 donne satisfaction avec les tableaux
+       // seul mpdf60 donne à peu pres satisfaction avec les tableaux.
         require_once('../mpdf60/mpdf.php');
         // see http://mpdf1.com/manual/index.php?tid=184 for explanation of parameters 
       
