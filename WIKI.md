@@ -213,7 +213,7 @@ Paris.
 souris, verra des infobulles (tooltip), lui donnant une information succinte sur
 chaque paroisse.
 
-![](<./lib/imagesReadmeWiki/pastoraleSante-01.png>)
+![](<./imagesReadmeWiki/pastoraleSante-01.png>)
 
 Il pourra alors cliqué sur le nom de la paroisse ou sur le bouton "clicker ici"
 dans l'infobulle, et une fenêtre s'affichera avec les informations existantes
@@ -223,7 +223,7 @@ pourra alors le faire directement dans la fenêtre. Il pourra également mettre 
 jour les nom des hopitaux de la paroisse dans l'espace prévu à cet effet, ces
 noms apparaitront dans les info bulles.
 
-![](<./lib/imagesReadmeWiki//pastoraleSante_02.png>)
+![](<./imagesReadmeWiki//pastoraleSante_02.png>)
 ### **description technique l'application :**
 
 le répertoire de l'application est **pastoraleSante**
@@ -321,7 +321,7 @@ Cette fontion appele la fonction asynchrone *buildTip*.
   ~~~~
        CKEDITOR.config.extraPlugins = 'colorbutton,cia_inlinesave,pastefromword,dialogadvtab,tableresize,colordialog,font';
   ~~~~       
- ![](<./lib/imagesReadmeWiki/pastoraleSante-03.png>)   
+ ![](<./imagesReadmeWiki/pastoraleSante-03.png>)   
    
  - Le bouton *pdf*  genere un fichier pdf des info paroisse.
  - La *coche verte* sert à sauvegarder les mises à jour 
