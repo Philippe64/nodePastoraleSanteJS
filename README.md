@@ -60,13 +60,20 @@ carte* *des doyennées de Paris s’affichera.
 
 ### Application Web pastoraleSante :
 
-L’application sait dialoguer avec le serveur NodeJS  et les scripts côté serveur
-sont dans le répertoire *: njs*,  
-soit avec un serveur HTTP Apache ou IIS ou autre.. , dans ce cas , les scripts
-serveurs sont en PHP et situés dans le répertoire : *php*. Dans ce cas PHP doiot
-être actif sur le derveur HTTP.
+L’application sait dialoguer 
+- soit avec le serveur NodeJS  et les scripts côté serveur sont dans le répertoire *: njs*,  
+- soit avec un serveur HTTP Apache ou IIS ou autre.. , dans ce cas , les scriptsserveurs sont en PHP et situés dans le répertoire : *php*.     
+Dans ce cas PHP doit être actif sur le serveur HTTP.
 
-Dans le cas du serveur NodeJS le répertoire de l’application peut être placé où
+Dans le cas du serveur NodeJS le répertoire de l’application *pastoraleSante* peut être placé où
 l’on veut, son chemin doit être indiqué dans le fichier* config.json.*
+Dans le cas du serveur PHP le chemin à *pastoraleSante* doit être configuré dans Apache ou IIS
 
- 
+ Les Données sont stockées sous formes de fichiers *.htext* (html)
+La saisie est libre, un fichier exemple *pastoraleSante/infoParoisse/modele.htext* est affiché en cas de non encore existence pour une paroisse.     
+Ce sont les réperoires :
+- pastoraleSante/infoParoisse
+- pastoraleSante/imageParoisse
+- pastoraleSante/hostoParoisse
+
+Une procédure de sauvegarde doit être mise en oeuvre.
