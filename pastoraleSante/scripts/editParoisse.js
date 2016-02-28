@@ -13,7 +13,7 @@ var qs = (function(a) {
             b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
     }
     return b;
-})(window.location.search.substr(1).split('&')); 
+})(window.location.search.substr(1).split('&'));
 
 
 // encode decode HTML
@@ -36,6 +36,46 @@ function htmlUnescape(value){
         .replace(/&gt;/g, '>')
         .replace(/&amp;/g, '&');
 }
+// Gestion appel Ajax
+function callAjax(paramsToSend,cbk){
+  // 1. Instantiate XHR - Start
+  var xhr;
+  if (window.XMLHttpRequest)
+      xhr = new XMLHttpRequest();
+  else if (window.ActiveXObject)
+      xhr = new ActiveXObject("Msxml2.XMLHTTP");
+  else
+      throw new Error("Ajax is not supported by your browser");
+  // 1. Instantiate XHR - End
+
+  // 2. Handle Response from Server - Start
+  xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4) {
+          if (xhr.status == 200 && xhr.status < 300) {
+              var JSONResponse = JSON.parse(xhr.responseText);
+              if(cbk){
+                  cbk(null,JSONResponse)
+              }
+          }
+      }
+  }
+  // 2. Handle Response from Server - End
+
+  // 3. Specify your action, location and Send to the server - Start
+
+ var scriptServer = qs['scriptServer'];
+ if(scriptServer === "php"){
+      xhr.open('POST', './'+ scriptServer + '/geteditparoisse.'+ scriptServer ,true);
+  }
+  else{
+      xhr.open('POST', './'+ scriptServer + '/geteditparoisse.js' ,true);
+  }
+
+  //Send the proper header information along with the request
+  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhr.send(paramsToSend);
+  // 3. Specify your action, location and Send to the server - End
+}
 
 // get Paroisse info et hosto info en //
 function GetDatas() {
@@ -50,7 +90,7 @@ function GetDatas() {
     // lock Paroisse async Function
     showHourglass();
     lockParoisse(
-        function(err,data){ 
+        function(err,data){
             // get info paroisse async function
             GetData(
                 function(err,data){
@@ -62,282 +102,141 @@ function GetDatas() {
                             }
                         );
                     }
+                    else{
+                      document.getElementById('infoHostoLabel').style.display = "none";
+                      hideHourglass();
+                    }
                 }
             );
-        }           
+        }
     )
-     
 }
-
-
-
 
 // Get Paroisse Info
 var editorParoisse, editorHosto;
-// Allow some non-standard markup  
-CKEDITOR.config.htmlEncodeOutput=true; 
+// Allow some non-standard markup
+CKEDITOR.config.htmlEncodeOutput=true;
 CKEDITOR.config.pasteFromWordRemoveStyles = false;
-CKEDITOR.config.pasteFromWordRemoveFontStyles = false;   
+CKEDITOR.config.pasteFromWordRemoveFontStyles = false;
 CKEDITOR.config.removePlugins  = 'closebtn';
 //CKEDITOR.config.extraPlugins =  'colorbutton,cia_inlinesave,cia_export2pdf,pastefromword,dialogadvtab,colordialog';
 CKEDITOR.config.extraPlugins = 'colorbutton,cia_inlinesave,pastefromword,dialogadvtab,tableresize,colordialog,font';
 
 
-// lock Paroisse 
-function lockParoisse(cbk){ 
-    
-    // 1. Instantiate XHR - Start 
+// lock Paroisse
+function lockParoisse(cbk){
+  if (qs['action'].toLowerCase() !== "readupdate"){
+    cbk(null,null);
+    return;
+  }
 
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-    
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {
-         if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                if(cbk){
-                    cbk(null,JSONresponse);
-                }
-            }
-        }   
+  var paramsToSend = 'action=lockParoisse&paroisseId=' + qs['paroisseId'];
+  callAjax(paramsToSend,
+    function (err,JSONResponse){
+      cbk(err,JSONResponse);
     }
-    // 2. Handle Response from Server - End
-
-    // 3. Specify your action, location and Send to the server - Start   
-    var params = 'action=lockParoisse&paroisseId=' + qs['paroisseId'] ;
-
-    if(qs['scriptServer'] === "php"){
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.'+ qs['scriptServer'] ,true);
-    }
-    else{
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.js' ,true);
-    }
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send(params);
-    // 3. Specify your action, location and Send to the server - End
-    
+  );
 }
 
-// lock Paroisse 
-function unLockParoisse(cbk){ 
-        
-    // 1. Instantiate XHR - Start 
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-    
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {
-         if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                if(cbk){
-                    cbk(null,JSONresponse);
-                }
-            }
-        }   
+// lock Paroisse
+function unLockParoisse(cbk){
+  var paramsToSend = 'action=unLockParoisse&paroisseId=' + qs['paroisseId'];
+  callAjax(paramsToSend,
+    function (err,JSONResponse){
+      cbk(err,JSONResponse);
     }
-    // 2. Handle Response from Server - End
-
-    // 3. Specify your action, location and Send to the server - Start   
-    var params = 'action=unLockParoisse&paroisseId=' + qs['paroisseId'] ;
-
-    if(qs['scriptServer'] === "php"){
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.'+ qs['scriptServer'] ,true);
-    }
-    else{
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.js' ,true);
-    }
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send(params);
-    // 3. Specify your action, location and Send to the server - End
-    
+  );
 }
 
 function GetData() {
     // get cbk function if any
     if(arguments.length === 1){
         var cbk = arguments[0];
-    }    
-    // 1. Instantiate XHR - Start 
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-    
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {
-       var infoParoisse = document.getElementById( 'infoParoisse' );  
-        if (xhr.readyState < 4)
-            infoParoisse.innerHTML = "Loading...";
-        else if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                var info =JSONresponse["answer"]
-                infoParoisse.innerHTML =  htmlUnescape(info);
-                document.getElementById("h1Elem").innerText = "Paroisse : " + qs["paroisse"]  + "   (" + qs['paroisseId']+ ")" ;
-                var btn = document.getElementById("updView");
-                btn.style.visibility = "hidden";
-               
-               
-               // The inline editor should be enabled on an element with "contenteditable" attribute set to "true".
-                // Otherwise CKEditor will start in read-only mode.
-                CKEDITOR.disableAutoInline = true;
-                
-                if (qs['action'].toLowerCase() === "readupdate"){
-                    infoParoisse.setAttribute( 'contenteditable', true );
-                    btn.innerText = "Vous êtes en mode Mise à jour ...Cliquer ici pour Visualiser";
-                    btn.style.visibility = "visible";
-                    CKEDITOR.inline( 
-                        'infoParoisse', {
-                            // when ready check if data changed
-                            on: {
-                                instanceReady: function(ev) {
-                                    editorParoisse = ev.editor;
-                                    var elemsH1 = infoParoisse.getElementsByTagName("h1");
-                                     if (elemsH1.length >0){
-                                        var elemsSpan = elemsH1[0].getElementsByTagName("span");
-                                        if (elemsSpan.length >0){
-                                            if ( elemsSpan[0].innerText=="modele" ){
-                                                elemsSpan[0].innerText =  qs["paroisse"] ;                                
-                                            };
-                                            elemsH1[0].style.textAlign = "center";
-                                        }
-                                    }
-                                    //periodicData();
-                                    if(cbk){
-                                        cbk (null,true) ;    
-                                    }   
-                                }
-                            } 
-                        }
-                    );
-                }
-            }
-        }
     }
-    // 2. Handle Response from Server - End
+    var paramsToSend = 'action=readParoisse&paroisseId=' + qs['paroisseId'];
+    callAjax(paramsToSend,
+      function (err,JSONResponse){
+        var info =JSONResponse["answer"]
+        infoParoisse.innerHTML =  htmlUnescape(info);
+        document.getElementById("h1Elem").innerText = "Paroisse : " + qs["paroisse"]  + "   (" + qs['paroisseId']+ ")" ;
+        var btn = document.getElementById("updView");
+        btn.style.visibility = "hidden";
 
-    // 3. Specify your action, location and Send to the server - Start   
-    var params = 'action=readParoisse&paroisseId=' + qs['paroisseId'];
-    if(qs['scriptServer'] === "php"){
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.'+ qs['scriptServer'] ,true);
-    }
-    else{
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.js' ,true);
-    }
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send(params);
-    // 3. Specify your action, location and Send to the server - End
+       // The inline editor should be enabled on an element with "contenteditable" attribute set to "true".
+        // Otherwise CKEditor will start in read-only mode.
+        CKEDITOR.disableAutoInline = true;
+
+        if (qs['action'].toLowerCase() === "readupdate"){
+            infoParoisse.setAttribute( 'contenteditable', true );
+            btn.innerText = "Vous êtes en mode Mise à jour ...Cliquer ici pour Visualiser";
+            btn.style.visibility = "visible";
+            CKEDITOR.inline(
+                'infoParoisse', {
+                    // when ready check if data changed
+                    on: {
+                        instanceReady: function(ev) {
+                            editorParoisse = ev.editor;
+                            var elemsH1 = infoParoisse.getElementsByTagName("h1");
+                             if (elemsH1.length >0){
+                                var elemsSpan = elemsH1[0].getElementsByTagName("span");
+                                if (elemsSpan.length >0){
+                                    if ( elemsSpan[0].innerText=="modele" ){
+                                        elemsSpan[0].innerText =  qs["paroisse"] ;
+                                    };
+                                    elemsH1[0].style.textAlign = "center";
+                                }
+                            }
+                            if(cbk){
+                                cbk (null,true) ;
+                            }
+                        }
+                    }
+                }
+            );
+        }
+        else{
+          cbk (null,true) ;
+        }
+      }
+    );
 }
 
 function GetHosto() {
     // get cbk function if any
     if(arguments.length === 1){
         var cbk = arguments[0];
-    }    
-    // 1. Instantiate XHR - Start 
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-    
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {
-       var infoHosto = document.getElementById( 'infoHosto' );  
-        if (xhr.readyState < 4)
-            infoHosto.innerHTML = "Loading...";
-        else if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                var info =JSONresponse["answer"]
-                infoHosto.innerHTML =  htmlUnescape(JSONresponse["answer"]);               
-               
-               // The inline editor should be enabled on an element with "contenteditable" attribute set to "true".
-                // Otherwise CKEditor will start in read-only mode.
-                CKEDITOR.disableAutoInline = true;                
-                if (qs['action'].toLowerCase() === "readupdate"){
-                    infoHosto.setAttribute( 'contenteditable', true );
-                    CKEDITOR.inline( 
-                        'infoHosto', {
-                            // when ready check if data changed
-                            on: {
-                                instanceReady: function(ev) {
-                                    editorHosto = ev.editor;   
-                                    if(cbk){
-                                        cbk (null,true) ;    
-                                    }                                             
-                                }
-                            } 
+    }
+    var infoHosto = document.getElementById( 'infoHosto' );
+    infoHosto.innerHTML = "Loading...";
+    var paramsToSend = 'action=readHosto&paroisseId=' + qs['paroisseId'];
+    callAjax(paramsToSend,
+      function (err,JSONResponse){
+        var info =JSONResponse["answer"];
+        infoHosto.innerHTML =  htmlUnescape(JSONResponse["answer"]);
+
+       // The inline editor should be enabled on an element with "contenteditable" attribute set to "true".
+        // Otherwise CKEditor will start in read-only mode.
+        CKEDITOR.disableAutoInline = true;
+        if (qs['action'].toLowerCase() === "readupdate"){
+            infoHosto.setAttribute( 'contenteditable', true );
+            CKEDITOR.inline(
+                'infoHosto', {
+                    // when ready check if data changed
+                    on: {
+                        instanceReady: function(ev) {
+                            editorHosto = ev.editor;
+                            if(cbk){
+                                cbk (null,true) ;
+                            }
                         }
-                    );
+                    }
                 }
-            }
+            );
         }
-    }
-    // 2. Handle Response from Server - End
-
-    // 3. Specify your action, location and Send to the server - Start   
-    var params = 'action=readHosto&paroisseId=' + qs['paroisseId'];
-    if(qs['scriptServer'] === "php"){
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.'+ qs['scriptServer'] ,true);
-    }
-    else{
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.js' ,true);
-    }
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send(params);
-    // 3. Specify your action, location and Send to the server - End
+      }
+    );
 }
 
-
-
-// check if content has been updated evey n milliseconds 
-var periodicData = ( function(){    var data, oldData;
-
-    return function() {
-        if ( ( data = editor.getData() ) !== oldData ) {
-            oldData = data;
-            //console.log( data );
-            // Do sth with your data...
-            updateMessage();
-            SaveData();
-        }
-
-        setTimeout( periodicData, 30000 );
-    };
-})();
-
-var nbModif = 0;
-function updateMessage () {
-    var message = document.getElementById("message");
-    nbModif +=1;
-    message.innerHTML =  nbModif +" modifications";
-}
 
 // Save Paroisse & hosto Info
 function SaveData() {
@@ -345,7 +244,7 @@ function SaveData() {
     // get cbk function if any
     if(arguments.length === 1){
         cbkMain = arguments[0];
-    } 
+    }
 	SaveDataParoisse(
         function(err,done){
             if (!err){
@@ -357,7 +256,7 @@ function SaveData() {
                            }
                        }
                    }
-               ); 
+               );
             }
         }
     );
@@ -368,45 +267,17 @@ function SaveDataParoisse() {
     // get cbk function if any
     if(arguments.length === 1){
         var cbk = arguments[0];
-    }    
-    
-    // 1. Instantiate XHR - Start 
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-    
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {
-         if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                if(cbk){
-                    cbk(null,JSONresponse);
-                }
-            }
-        }   
     }
-    // 2. Handle Response from Server - End
-
-    // 3. Specify your action, location and Send to the server - Start   
     var infoCorrected = document.getElementById('infoParoisse').innerHTML;
     var infoCorrectedEncoded = encodeURIComponent(infoCorrected);
-    var params = 'action=saveParoisse&paroisseId=' + qs['paroisseId'] +'&info=' + infoCorrectedEncoded ;
-    if(qs['scriptServer'] === "php"){
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.'+ qs['scriptServer'] ,true);
-    }
-    else{
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.js' ,true);
-    }
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send(params);
-    // 3. Specify your action, location and Send to the server - End
+    var paramsToSend = 'action=saveParoisse&paroisseId=' + qs['paroisseId'] +'&info=' + infoCorrectedEncoded ;
+    callAjax(paramsToSend,
+      function (err,JSONResponse){
+        if(cbk){
+            cbk(null,JSONResponse);
+        }
+      }
+    );
 }
 
 
@@ -415,47 +286,17 @@ function SaveDataHosto() {
     // get cbk function if any
     if(arguments.length === 1){
         var cbk = arguments[0];
-    }    
-    
-    // 1. Instantiate XHR - Start 
-
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-    
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {
-         if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                if(cbk){
-                    cbk(null,JSONresponse)
-                }
-            }
-        }   
     }
-    // 2. Handle Response from Server - End
-
-    // 3. Specify your action, location and Send to the server - Start   
-
     var infoCorrected = document.getElementById('infoHosto').innerHTML;
     var infoCorrectedEncoded = encodeURIComponent(infoCorrected);
-    var params = 'action=saveHosto&paroisseId=' + qs['paroisseId'] +'&info=' + infoCorrectedEncoded ;
-    if(qs['scriptServer'] === "php"){
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.'+ qs['scriptServer'] ,true);
-    }
-    else{
-        xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.js' ,true);
-    }
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send(params);
-    // 3. Specify your action, location and Send to the server - End
+    var paramsToSend = 'action=saveHosto&paroisseId=' + qs['paroisseId'] +'&info=' + infoCorrectedEncoded ;
+    callAjax(paramsToSend,
+      function (err,JSONResponse){
+        if(cbk){
+            cbk(null,JSONResponse);
+        }
+      }
+    );
 }
 
 
@@ -464,61 +305,32 @@ function export2pdf() {
     // get cbk function if any
     if(arguments.length === 1){
         var cbk = arguments[0];
-    }    
-    
-    // 1. Instantiate XHR - Start 
-   
-        var xhr; 
-        if (window.XMLHttpRequest) 
-            xhr = new XMLHttpRequest(); 
-        else if (window.ActiveXObject) 
-            xhr = new ActiveXObject("Msxml2.XMLHTTP");
-        else 
-            throw new Error("Ajax is not supported by your browser");
-        // 1. Instantiate XHR - End
-        
-        // 2. Handle Response from Server - Start
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4) {
-                if (xhr.status == 200 && xhr.status < 300) {
-                    var JSONresponse = JSON.parse(xhr.responseText);
-                    // create an hidden link if not exist
-                    if (!document.getElementById("linkpdf")) {
-                        var linkpdf = document.createElement("a");                
-                        linkpdf.setAttribute("id", "linkpdf")
-                        linkpdf.style.visibility = "hidden";
-                        document.body.appendChild(linkpdf);
-                    }
-                    else{
-                        var linkpdf = document.getElementById("linkpdf");
-                    }
-                    // set attibute download & href
-                    linkpdf.setAttribute("download", qs['paroisse']+".pdf")
-                    linkpdf.href="./infoParoisse/info"+ qs['paroisseId']+".pdf";
-                    // do click on this link
-                    linkpdf.click();
-                
-                }           
-            }   
-        }
-        // 2. Handle Response from Server - End
-
-        // 3. Specify your action, location and Send to the server - Start 
-        // get data to save  
-        var infoCorrected = document.getElementById('infoParoisse').innerHTML;
-        var infoCorrectedEncoded = encodeURIComponent(infoCorrected);
-        var params = 'action=pdf&paroisseId=' + qs['paroisseId']  + '&info=' + infoCorrectedEncoded ;
-        if(qs['scriptServer'] === "php"){
-            xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.'+ qs['scriptServer'] ,true);
+    }
+    var infoCorrected = document.getElementById('infoParoisse').innerHTML;
+    var infoCorrectedEncoded = encodeURIComponent(infoCorrected);
+    var paramsToSend= 'action=pdf&paroisseId=' + qs['paroisseId']  + '&info=' + infoCorrectedEncoded
+    callAjax(paramsToSend,
+      function (err,JSONResponse){
+        // create an hidden link if not exist
+        if (!document.getElementById("linkpdf")) {
+            var linkpdf = document.createElement("a");
+            linkpdf.setAttribute("id", "linkpdf")
+            linkpdf.style.visibility = "hidden";
+            document.body.appendChild(linkpdf);
         }
         else{
-            xhr.open('POST', './'+ qs['scriptServer'] + '/geteditparoisse.js' ,true);
+            var linkpdf = document.getElementById("linkpdf");
         }
-        //Send the proper header information along with the request
-        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhr.send(params);
-        // 3. Specify your action, location and Send to the server - End
-   
+        // set attibute download & href
+        linkpdf.setAttribute("download", qs['paroisse']+".pdf")
+        linkpdf.href="./datasParoisse/infoParoisse/info"+ qs['paroisseId']+".pdf";
+        // do click on this link
+        linkpdf.click();
+        if(cbk){
+          cbk(null,JSONResponse);
+        }
+      }
+    );
 }
 
 
@@ -529,69 +341,42 @@ function updview(btn){
     if(infoParoisse.getAttribute('contenteditable') == "true"){
         infoParoisse.setAttribute( 'contenteditable', "false" );
         infoHosto.setAttribute( 'contenteditable', "false" );
-       
+
 
         CKEDITOR.instances.infoParoisse.destroy();
         //CKEDITOR.instances.infoHosto.destroy();
-        
+
         infoParoisse.innerHTML = infoParoisse.innerText;
-        
+
         infoHosto.style.display = "none";
         infoHostoLabel.style.display = "none"
-        btn.innerText = "Vous êtes en mode Visualisation ...Cliquer ici pour Mettre à jour";        
+        btn.innerText = "Vous êtes en mode Visualisation ...Cliquer ici pour Mettre à jour";
     }
     else {
         infoParoisse.setAttribute( 'contenteditable', "true" );
         infoHosto.setAttribute( 'contenteditable', "true" );
         //CKEDITOR.instances.infoParoisse.activeEnterMode = true;
         CKEDITOR.disableAutoInline = true;
-        CKEDITOR.inline( 
+        CKEDITOR.inline(
             'infoParoisse', {
                 // when ready check if data changed
                 on: {
-                    instanceReady: function() { 
-                        var elemsH1 = infoParoisse.getElementsByTagName("h1");                       
+                    instanceReady: function() {
+                        var elemsH1 = infoParoisse.getElementsByTagName("h1");
                         elemsH1[0].style.textAlign = "center";
                     }
-                } 
+                }
             }
         );
         infoHostoLabel.style.display = "block";
         infoHosto.style.display = "block";
         /*
-        CKEDITOR.inline( 
+        CKEDITOR.inline(
             'infoHosto'
         );
         */
-        btn.innerText ="Vous êtes en mode Mise à jour ...Cliquer ici pour Visualiser";        
+        btn.innerText ="Vous êtes en mode Mise à jour ...Cliquer ici pour Visualiser";
     }
 }
-
 
 window.addEventListener("load", GetDatas);
-
-// ajout blocage fermeture navigateur
-// event not trigerred in iframe
-// event is managed in prent page (see pastoraleSante.js)
-
-//window.addEventListener("beforeunload",unloadPage);
-/*
- 
-function unloadPage(e){
-    var e = e || window.event;
-    var confirmationMessage = "Vous devez passer par le bouton croix rouge pour quitter l'application ";
-    confirmationMessage += "\n" + " Sinon vous ne pourrez plus faire de mises à jour sur cette paroisse";
-    confirmationMessage += "\n" + " Merci de cliquer sur le bouton **Rester sur cette Page**";
-    //event.returnValue = confirmationMessage;     // Gecko, Trident, Chrome 34+
-    //return confirmationMessage;              // Gecko, WebKit, Chrome <34
-    // For IE and Firefox
-    if (e.returnValue == "") {
-        e.returnValue = confirmationMessage;
-    }
-    else{  // For Safari
-        return confirmationMessage;
-    }
-}
- */
- 
-

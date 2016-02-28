@@ -2,24 +2,15 @@
 
 // define global variables on window.load
 function initWin(){
-
-    window.blnUserAllowed= true;
-    //window.blnUserAllowed = false;
     window.scriptServer = "php";
-    //window.scriptServer = "njs";  
+    //window.scriptServer = "njs";
 
-    var options =getCookie("pastorale-sante");
-    //window.blnUserAllowed = options['blnUserAllowed'];
-    if (qs['blnUserAllowed']){
-		blnUserAllowed = qs['blnUserAllowed'];
-	}
-	else{
-    	window.blnUserAllowed= true;
-	}
-   if (qs['scriptServer']){
-		window.scriptServer = qs['scriptServer'];
-	}
-
+    window.blnUserAllowed= false;
+    checkIfUserAllowed(
+      function(err,JSONResponse){
+          blnUserAllowed = JSONResponse.answer;
+      }
+    );
 }
 
 // get querystring param
@@ -35,7 +26,7 @@ var qs = (function(a) {
             b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
     }
     return b;
-})(window.location.search.substr(1).split('&')); 
+})(window.location.search.substr(1).split('&'));
 
 
 function getCookie(cname) {
@@ -46,7 +37,46 @@ function getCookie(cname) {
         while (c.charAt(0)==' ') c = c.substring(1);
         if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
     }
-    return "";
+    //redirect to geteditparoisse for build cookie
+    window.location.href='./'+ scriptServer + '/geteditparoisse.'+ scriptServer+'?action=ifUserAllowed';
+}
+
+function callAjax(paramsToSend,cbk){
+  // 1. Instantiate XHR - Start
+  var xhr;
+  if (window.XMLHttpRequest)
+      xhr = new XMLHttpRequest();
+  else if (window.ActiveXObject)
+      xhr = new ActiveXObject("Msxml2.XMLHTTP");
+  else
+      throw new Error("Ajax is not supported by your browser");
+  // 1. Instantiate XHR - End
+
+  // 2. Handle Response from Server - Start
+  xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4) {
+          if (xhr.status == 200 && xhr.status < 300) {
+              var JSONResponse = JSON.parse(xhr.responseText);
+              if(cbk){
+                  cbk(null,JSONResponse)
+              }
+          }
+      }
+  }
+  // 2. Handle Response from Server - End
+
+  // 3. Specify your action, location and Send to the server - Start
+ if(scriptServer === "php"){
+      xhr.open('POST', './'+ scriptServer + '/geteditparoisse.'+ scriptServer ,true);
+  }
+  else{
+      xhr.open('POST', './'+ scriptServer + '/geteditparoisse.js' ,true);
+  }
+
+  //Send the proper header information along with the request
+  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhr.send(paramsToSend);
+  // 3. Specify your action, location and Send to the server - End
 }
 
 // tooltip on area element
@@ -72,69 +102,45 @@ function areaClick(areaElem){
 		tipId = areaElem.id;
 		elem = document.getElementById(tipId.substring(2));
 	}
-	
+
 	var paroisse = elem.getAttribute("alt");
 	var paroisseId = elem.id;
 	console.log(" click on Id : " +paroisseId + "  paroisse = " +paroisse);
-    
+
     checkIfLocked(paroisseId,
         function(err,locked){
            if(locked.answer){
                alert ("Mise à jour déjà en cours pour le paroisse " + paroisse)
-           } 
+           }
            else{
                // prepare panel for display infoParoisse
     	       buildInfo (paroisseId, paroisse);
-    
+
     	       // Affichage infoParoisse
     	       showModal();
            }
         }
     );
 }
+// check if user is allowed for update
+function checkIfUserAllowed(cbk){
+  var paramsToSend = 'action=ifUserAllowed';
+  callAjax(paramsToSend,
+  function(err,JSONResponse){
+    cbk(err,JSONResponse);
+  }
+  );
+}
 
 // check if update in course for paroisseId
 function checkIfLocked(paroisseId,cbk){
-
-    // 1. Instantiate XHR - Start 
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-    
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {
-         if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                if(cbk){
-                    cbk(null,JSONresponse)
-                }
-            }
-        }   
-    }
-    // 2. Handle Response from Server - End
-
-    // 3. Specify your action, location and Send to the server - Start   
-    var params = 'action=ifLockedParoisse&paroisseId=' + paroisseId ;
-   if(scriptServer === "php"){
-        xhr.open('POST', './'+ scriptServer + '/geteditparoisse.'+ scriptServer ,true);
-    }
-    else{
-        xhr.open('POST', './'+ scriptServer + '/geteditparoisse.js' ,true);
-    }
-    
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send(params);
-    // 3. Specify your action, location and Send to the server - End 
+    var paramsToSend = 'action=ifLockedParoisse&paroisseId=' + paroisseId;
+    callAjax(paramsToSend,
+      function(err,JSONResponse){
+        cbk(err,JSONResponse);
+      }
+    );
 }
-
-
 
 // Build the tip
 function buildTip	(areaElem , cbk)	{
@@ -143,7 +149,7 @@ function buildTip	(areaElem , cbk)	{
     var tipContent = document.getElementById("tipContent");
     var tipToDisplay = "";
     var strHTML = "";
-    
+
     if(document.getElementById("tipArea")){
       tipToDisplay =  document.getElementById("tipArea");
       tipToDisplay.innerHTML = "";
@@ -151,72 +157,44 @@ function buildTip	(areaElem , cbk)	{
     else{
 	   tipToDisplay = document.createElement("div");
 	   tipToDisplay.id = "tipArea";
-       tipContent.appendChild(tipToDisplay);  
+       tipContent.appendChild(tipToDisplay);
     }
-    strHTML += '<img src="./imageParoisse/img' + paroisseId + '.jpg" style="float:right;margin-left:12px;width:75px;height:75px;" alt="" />';
+    strHTML += '<img src="./datasParoisse/imageParoisse/img' + paroisseId + '.jpg" style="float:right;margin-left:12px;width:75px;height:75px;" alt="" />';
     strHTML += '<h3>'+ paroisse + '</h3>';
     //console.log ("getToolTipContent :" + paroisse + "  id: " + paroisseId);
     getTooltipContent(paroisseId,
-        function(err,data){
+        function(err,JSONResponse){
             if(!err){
-                strHTML += data;
-                if (!blnUserAllowed){ 
-                    strHTML += '<p>Clicker <span id="sp'+ paroisseId+'" class="clickIci" onclick="areaClick(this)"> ICI </span> pour voir le contenu de la fiche de cette paroisse</p>'  
+                var dataHosto =JSONResponse["answer"];
+                strHTML += dataHosto;
+                if (!blnUserAllowed){
+                    strHTML += '<p>Clicker <span id="sp'+ paroisseId+'" class="clickIci" onclick="areaClick(this)"> ICI </span> pour voir le contenu de la fiche de cette paroisse</p>'
                 }
                 else{
-                    strHTML += '<p>Clicker <span id="sp'+ paroisseId+'" class="clickIci" onclick="areaClick(this)"> ICI </span> pour voir et mettre à jour  le contenu de la fiche de cette paroisse</p>'  
+                    strHTML += '<p>Clicker <span id="sp'+ paroisseId+'" class="clickIci" onclick="areaClick(this)"> ICI </span> pour voir et mettre à jour  le contenu de la fiche de cette paroisse</p>'
                 }
-                tipToDisplay.innerHTML = strHTML; 
-                // execute callBack  
+                tipToDisplay.innerHTML = strHTML;
+                // execute callBack
                 cbk( null,true);
             }
             else{
                  cbk( err,false);
             }
-        }            
-    );	
+        }
+    );
 }
 function getTooltipContent(paroisseId,cbk){
-    // 1. Instantiate XHR - Start 
-    var xhr; 
-    if (window.XMLHttpRequest) 
-        xhr = new XMLHttpRequest(); 
-    else if (window.ActiveXObject) 
-        xhr = new ActiveXObject("Msxml2.XMLHTTP");
-    else 
-        throw new Error("Ajax is not supported by your browser");
-    // 1. Instantiate XHR - End
-     
-    // 2. Handle Response from Server - Start
-    xhr.onreadystatechange = function () {       
-         if (xhr.readyState === 4) {
-            if (xhr.status == 200 && xhr.status < 300) {
-                var JSONresponse = JSON.parse(xhr.responseText);
-                var strHTML =JSONresponse["answer"];
-                cbk(null,strHTML);
-            }
-        }
+  var paramsToSend = 'action=tooltip&paroisseId=' + paroisseId;
+  callAjax(paramsToSend,
+    function(err,JSONResponse){
+      cbk(null,JSONResponse);
     }
-    // 2. Handle Response from Server - End
-
-    // 3. Specify your action, location and Send to the server - Start   
-    var params = 'action=tooltip&paroisseId=' + paroisseId;
-    if(scriptServer === "php"){
-        xhr.open('POST', './'+ scriptServer + '/geteditparoisse.'+ scriptServer ,true);
-    }
-    else{
-        xhr.open('POST', './'+ scriptServer + '/geteditparoisse.js' ,true);
-    }
-    
-    //Send the proper header information along with the request
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");     
- 	xhr.send(params);
-	// 3. Specify your action, location and Send to the server - End
+  );
 }
 
 // display detailled info in overlay
 function buildInfo(paroisseId, paroisse){
-    
+
 	//  Calculate size of overlay
 	function viewport()	{
 		var e = window	, a = 'inner';
@@ -226,13 +204,13 @@ function buildInfo(paroisseId, paroisse){
 		}
 		return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
 	}
-    
+
 	var xy = viewport();
-		
-	// creation overlay pour affichage contenu iframe		
+
+	// creation overlay pour affichage contenu iframe
 	var ovl = document.createElement("div");
 	ovl.id = "overlay";
-	
+
 	// creation iframe container
 	var mapPanel = document.createElement("div");
 	mapPanel.id = "mapPanel";
@@ -241,10 +219,10 @@ function buildInfo(paroisseId, paroisse){
 	mapPanel.className = "mapPanel";
 	//mapPanel.setAttribute("onclick","closeModal()");
 	ovl.appendChild(mapPanel);
-	
+
 	var labelFor = document.createElement("label");
 	labelFor.setAttribute("for","mapPanel");
-	
+
 	var imgClose =  document.createElement("img");
 	imgClose.setAttribute("class", "my_btn_close");
 	imgClose.setAttribute("alt","Fermer");
@@ -253,28 +231,28 @@ function buildInfo(paroisseId, paroisse){
 	imgClose.setAttribute("onclick","closeModal()");
 	labelFor.appendChild(imgClose);
 	mapPanel.appendChild(labelFor);
-	
+
 	// Creation Iframe contenant la google maps
 	var iframe = document.createElement("iframe");
 	iframe.name = "displayInfo";
 	iframe.width  = "100%";
 	iframe.height = "100%";
 	var action = "readupdate";
-    if (!blnUserAllowed){ 
+    if (!blnUserAllowed){
         action = "readonly";
     }
 	iframe.src="./editParoisse.html?action=" + action + "&paroisseId=" + paroisseId + "&paroisse=" + paroisse + "&scriptServer=" + scriptServer;
 	iframe.sandbox = "allow-forms allow-scripts allow-same-origin allow-popups ";
-		
+
 	mapPanel.appendChild(iframe);
-	
+
 	ovl.appendChild(mapPanel);
-	
+
 	document.body.appendChild(ovl);
-	
-	
+
+
 }
-		
+
 function showModal() {
 	document.getElementById("overlay").style.display="block";
 	document.getElementById("mapPanel").style.display="block";
@@ -286,7 +264,7 @@ function closeModal() {
         overlay.parentNode.removeChild(overlay);
     }
     if (blnUserAllowed){
-        // user is allowed to update Data , save Data      
+        // user is allowed to update Data , save Data
         var iframe = document.getElementsByName("displayInfo")[0];
         var SaveData = iframe.contentWindow.SaveData;
         var unLockParoisse = iframe.contentWindow.unLockParoisse;
@@ -304,16 +282,16 @@ function closeModal() {
                           else {
                               overlayRemove();
                           }
-                      } 
-                   ); 
+                      }
+                   );
                 }
             }
         );
     }
-    // nothing to savve 
+    // nothing to savve
     else{
         overlayRemove();
-    }    
+    }
 }
 
 // alert if window.close with iframe alive
@@ -336,10 +314,10 @@ function unloadPage(e){
 }
 
 // attach event for window on load
-window.addEventListener("load", 
+window.addEventListener("load",
     function load(event){
         window.removeEventListener("load", load, false); //remove listener, no longer needed
-        initWin();  
+        initWin();
     }
     ,false
 );
