@@ -19,8 +19,8 @@
   "author": "CIA-IT",
   "license": "MIT",
   "devDependencies": {
-    "findit": "^2.0.0",
     "html-pdf": "^1.4.0",
+    "http-auth": "^2.2.8",
     "lowdb": "^0.11.5",
     "sesh": "^0.1.0",
     "tracer": "^0.8.2"

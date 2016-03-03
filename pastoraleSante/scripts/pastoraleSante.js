@@ -2,8 +2,8 @@
 
 // define global variables on window.load
 function initWin(){
-    window.scriptServer = "php";
-    //window.scriptServer = "njs";
+   window.scriptServer = "php";
+   window.scriptServer = "njs";
 
     window.blnUserAllowed= false;
     checkIfUserAllowed(

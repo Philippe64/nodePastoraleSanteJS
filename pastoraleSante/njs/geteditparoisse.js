@@ -5,7 +5,7 @@ var path = require("path");
 var dirAppli = Application.dirApplication;
 
 function getEditParoisse (request, user_session, fnSendBackData) {
-    
+
 	logger.log("Récupération des éléments reçus");
 	// get data from req get / post
 	var rcvdData = {};
@@ -14,10 +14,22 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 	var fields = user_session["rcvdData"];
 	var action = fields['action'];
 	var paroisseId = fields["paroisseId"];
-                
-    logger.log("action : ", action, "  paroisseId : " , paroisseId );
-
-    // check if Locked
+  var user = user_session["userName"];
+  logger.log("action : ", action, "  paroisseId : " , paroisseId );
+  // check if user Allowed
+  if (action === "ifUserAllowed"){
+    checkIfUserAllowed(user,
+			function(err,blnUserAllowed){
+        var resultat = {};
+        resultat["status"] = "succes";
+        resultat["reason"] = "";
+        resultat["answer"] = blnUserAllowed;
+        var myJSON = JSON.stringify(resultat);
+        fnSendBackData(null,myJSON);
+      }
+    );
+  }
+  // check if Locked
 	if(action === "ifLockedParoisse"){
 		checkIfLockedParoisse(paroisseId,
 			function(err,locked){
@@ -40,7 +52,7 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
+
 	else if(action === "lockParoisse"){
 		lockParoisse(paroisseId,
 			function(err,data){
@@ -63,8 +75,8 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
-	
+
+
 	else if(action === "unLockParoisse"){
 		unLockParoisse(paroisseId,
 			function(err,data){
@@ -87,7 +99,7 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
+
 	// get data Paroisse
 	else if (action === "readParoisse") {
 		getDataParoisse(paroisseId,
@@ -110,9 +122,9 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 				}
 			}
 		);
-						
+
 	}
-				
+
 	// get data Hosto
 	else if (action === "readHosto") {
 		getDataHosto(paroisseId,
@@ -134,8 +146,8 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 					fnSendBackData(null,myJSON);
 				}
 			}
-		);			
-	}				
+		);
+	}
 	// update Data
 	else if  (action === "saveParoisse") {
 		var dataToSave = fields["info"];
@@ -160,7 +172,7 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
+
 	else if  (action === "saveHosto") {
 		var dataToSave = fields["info"];
 		saveDataHosto(paroisseId,dataToSave,
@@ -184,7 +196,7 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
+
     //export to PDF
 	else if  (action === "pdf") {
 		var dataToSave = fields["info"];
@@ -209,7 +221,7 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
+
     //Build Tooltip
 	else if  (action === "tooltip") {
 		buildTooltip(paroisseId,
@@ -235,10 +247,24 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 	}
 
 	/** ***********************************************************************************/
-    
-    // check if locked paroisse
-	function checkIfLockedParoisse(paroisseId, cbk){      
-        var pathToFile = path.join(dirAppli, "infoParoisse", "info"+ paroisseId + ".lck");
+   // check if user is allowed to update data
+   function checkIfUserAllowed(user, cbk){
+    var blnUserAllowed = false;
+    if (user.toLowerCase() === 'claudy' ||
+        user.toLowerCase() === 'philippe' ||
+        user.toLowerCase() === 'florence' ||
+        user.toLowerCase() === 'alain'
+      ){
+        blnUserAllowed = true;
+    }
+    else{
+      blnUserAllowed = false;
+    }
+    cbk(null,blnUserAllowed);
+  }
+  // check if locked paroisse
+	function checkIfLockedParoisse(paroisseId, cbk){
+        var pathToFile = path.join(dirAppli, "datasParoisse/infoParoisse", "info"+ paroisseId + ".lck");
         logger.log ("pathToFile : ",path.resolve(pathToFile));
         fs.stat(pathToFile,
             function(err,stats){
@@ -262,21 +288,21 @@ function getEditParoisse (request, user_session, fnSendBackData) {
                         );
                     }
                     // file is already locked
-                    else{                
+                    else{
                         cbk(null,true);
                     }
                 }
                 // file is not locked
                 else{
-                    cbk(err,false);	
+                    cbk(err,false);
                 }
             }
         );
-    }	       
-     
+    }
+
     // lock paroisse
 	function lockParoisse(paroisseId, cbk){
-		var pathToFile = path.join(dirAppli, "infoParoisse", "info"+ paroisseId + ".lck");
+		var pathToFile = path.join(dirAppli, "datasParoisse/infoParoisse", "info"+ paroisseId + ".lck");
         logger.log ("pathToFile : ",path.resolve(pathToFile));
 		fs.stat(pathToFile,
 			function(err,stats){
@@ -293,10 +319,10 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
+
     // unLock paroisse
 	function unLockParoisse(paroisseId, cbk){
-		var pathToFile = path.join(dirAppli, "infoParoisse", "info"+ paroisseId + ".lck");
+		var pathToFile = path.join(dirAppli, "datasParoisse/infoParoisse", "info"+ paroisseId + ".lck");
         logger.log ("pathToFile : ",path.resolve(pathToFile));
 		fs.stat(pathToFile,
 			function(err,stats){
@@ -313,11 +339,11 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 			}
 		);
 	}
-	
-	
+
+
 	// get data Paroisse
-	function getDataParoisse(paroisseId, cbk){		
-        var pathToFile = path.join(dirAppli, "infoParoisse", "info"+ paroisseId + ".htext");
+	function getDataParoisse(paroisseId, cbk){
+        var pathToFile = path.join(dirAppli, "datasParoisse/infoParoisse", "info"+ paroisseId + ".htext");
         logger.log ("pathToFile : ",path.resolve(pathToFile));
 		fs.stat(pathToFile,
 			function(err,stats){
@@ -329,20 +355,20 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 					);
 				}
 				else{
-					var pathToModele =  path.join(dirAppli, "infoParoisse", "modele.htext");
+					var pathToModele =  path.join(dirAppli, "datasParoisse/infoParoisse", "modele.htext");
 					fs.readFile(pathToModele,"utf-8",
 						function (err,data){
 							cbk(err,data);
 						}
-					);	
-				}				
+					);
+				}
 			}
 		);
 	}
-	
+
 	// get data Hosto
 	function getDataHosto(paroisseId, cbk){
-		var pathToFile = path.join(dirAppli, "hostoParoisse", "hosto"+ paroisseId + ".htext");
+		var pathToFile = path.join(dirAppli, "datasParoisse/hostoParoisse", "hosto"+ paroisseId + ".htext");
 		fs.stat(pathToFile,
 			function(err,stats){
 				if(!err){
@@ -354,40 +380,40 @@ function getEditParoisse (request, user_session, fnSendBackData) {
 					);
 				}
 				else{
-                    cbk(err,"");	
+                    cbk(err,"");
 				}
-				
+
 			}
 		);
 	}
-	
-	
+
+
     // save data Paroisse
 	function saveDataParoisse(paroisseId, dataToSave, cbk){
-		var pathToFile = path.join(dirAppli ,"infoParoisse", "info"+ paroisseId + ".htext");
+		var pathToFile = path.join(dirAppli ,"datasParoisse/infoParoisse", "info"+ paroisseId + ".htext");
 		fs.writeFile(pathToFile,dataToSave,
 			function (err,data){
 				cbk(err,data);
 			}
 		);
 	}
-    
+
 	   // save data Hosto
 	function saveDataHosto(paroisseId, dataToSave, cbk){
-		var pathToFile = path.join(dirAppli ,"hostoParoisse", "hosto"+ paroisseId + ".htext");
+		var pathToFile = path.join(dirAppli ,"datasParoisse/hostoParoisse", "hosto"+ paroisseId + ".htext");
 		fs.writeFile(pathToFile,dataToSave,
 			function (err,data){
 				cbk(err,data);
 			}
 		);
 	}
-    
+
     // export2pdf
     function export2pdf(paroisseId, dataToSave, cbk){
-		var pathToFile = path.join(dirAppli ,"infoParoisse", "info"+ paroisseId + ".pdf");
+		var pathToFile = path.join(dirAppli ,"datasParoisse/infoParoisse", "info"+ paroisseId + ".pdf");
         var pdf = require('html-pdf');
         // check https://github.com/marcbachmann/node-html-pdf for options description
-        var options = { 
+        var options = {
             format: 'Letter',
             "border": {
                 "top": "1cm",            // default is 0, units: mm, cm, in, px
@@ -395,20 +421,20 @@ function getEditParoisse (request, user_session, fnSendBackData) {
                 "bottom": "1cm",
                 "left": "0.5cm"
             }
-  
+
         };
 		pdf.create(dataToSave, options).toFile(pathToFile,
 			function (err,data){
 				cbk(err,data);
 			}
-		);	
+		);
 	}
-    
-        
+
+
     // build Tooltip
     function buildTooltip(paroisseId, cbk){
         var strHTML = "";
-		var pathToFile = path.join(dirAppli ,"hostoParoisse", "hosto"+ paroisseId + ".htext");
+		var pathToFile = path.join(dirAppli ,"datasParoisse/hostoParoisse", "hosto"+ paroisseId + ".htext");
         fs.stat(pathToFile,
 			function(err,stats){
                 // file found
@@ -426,13 +452,12 @@ function getEditParoisse (request, user_session, fnSendBackData) {
                 // file not found
 				else{
                     strHTML += '<p>' + ' ' + '</p>';
-					cbk(null,strHTML);	
+					cbk(null,strHTML);
 				}
 			}
 		);
 	}
-    	
+
 }
 
 module.exports = getEditParoisse;
-	 
