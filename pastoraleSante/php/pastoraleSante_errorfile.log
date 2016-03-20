@@ -1,502 +1,548 @@
-[22-Feb-2016 11:03:18 Europe/Paris] main Program
-[22-Feb-2016 11:03:18 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:18 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:18 Europe/Paris] 127.0.0.1    debut proc : 1456135398.9063  fin proc   : 1456135398.9147  duree proc : 0.0084009170532227 seconds
-[22-Feb-2016 11:03:22 Europe/Paris] main Program
-[22-Feb-2016 11:03:22 Europe/Paris] action ifLockedParoisse
-[22-Feb-2016 11:03:22 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:03:22 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:03:22 Europe/Paris] 127.0.0.1    debut proc : 1456135402.546  fin proc   : 1456135402.5474  duree proc : 0.0013680458068848 seconds
-[22-Feb-2016 11:03:22 Europe/Paris] main Program
-[22-Feb-2016 11:03:22 Europe/Paris] action lockParoisse
-[22-Feb-2016 11:03:22 Europe/Paris] lockParoisse
-[22-Feb-2016 11:03:22 Europe/Paris] Lock paroisse../infoParoisse/info060.lck
-[22-Feb-2016 11:03:22 Europe/Paris] 127.0.0.1    debut proc : 1456135402.9617  fin proc   : 1456135402.9643  duree proc : 0.0026109218597412 seconds
-[22-Feb-2016 11:03:22 Europe/Paris] main Program
-[22-Feb-2016 11:03:22 Europe/Paris] action readParoisse
-[22-Feb-2016 11:03:22 Europe/Paris] get dataParoisse
-[22-Feb-2016 11:03:22 Europe/Paris] 127.0.0.1    debut proc : 1456135402.9773  fin proc   : 1456135402.9798  duree proc : 0.0024580955505371 seconds
-[22-Feb-2016 11:03:23 Europe/Paris] main Program
-[22-Feb-2016 11:03:23 Europe/Paris] action readHosto
-[22-Feb-2016 11:03:23 Europe/Paris] get dataHosto
-[22-Feb-2016 11:03:23 Europe/Paris] 127.0.0.1    debut proc : 1456135403.6564  fin proc   : 1456135403.6585  duree proc : 0.0020401477813721 seconds
-[22-Feb-2016 11:03:27 Europe/Paris] main Program
-[22-Feb-2016 11:03:27 Europe/Paris] action saveParoisse
-[22-Feb-2016 11:03:27 Europe/Paris] save dataParoisse
-[22-Feb-2016 11:03:27 Europe/Paris] save data ../infoParoisse/info060.htext
-[22-Feb-2016 11:03:27 Europe/Paris] 127.0.0.1    debut proc : 1456135407.7877  fin proc   : 1456135407.7892  duree proc : 0.0014889240264893 seconds
-[22-Feb-2016 11:03:27 Europe/Paris] main Program
-[22-Feb-2016 11:03:27 Europe/Paris] action saveHosto
-[22-Feb-2016 11:03:27 Europe/Paris] save dataHosto
-[22-Feb-2016 11:03:27 Europe/Paris] save data ../hostoParoisse/hosto060.htext
-[22-Feb-2016 11:03:27 Europe/Paris] 127.0.0.1    debut proc : 1456135407.7947  fin proc   : 1456135407.7961  duree proc : 0.0014150142669678 seconds
-[22-Feb-2016 11:03:27 Europe/Paris] main Program
-[22-Feb-2016 11:03:27 Europe/Paris] action unLockParoisse
-[22-Feb-2016 11:03:27 Europe/Paris] unLockParoisse
-[22-Feb-2016 11:03:27 Europe/Paris] unLock paroisse../infoParoisse/info060.lck
-[22-Feb-2016 11:03:27 Europe/Paris] 127.0.0.1    debut proc : 1456135407.8008  fin proc   : 1456135407.8021  duree proc : 0.0013358592987061 seconds
-[22-Feb-2016 11:03:28 Europe/Paris] main Program
-[22-Feb-2016 11:03:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:28 Europe/Paris] 127.0.0.1    debut proc : 1456135408.0874  fin proc   : 1456135408.0939  duree proc : 0.0064818859100342 seconds
-[22-Feb-2016 11:03:28 Europe/Paris] main Program
-[22-Feb-2016 11:03:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:28 Europe/Paris] 127.0.0.1    debut proc : 1456135408.1027  fin proc   : 1456135408.1068  duree proc : 0.0040919780731201 seconds
-[22-Feb-2016 11:03:28 Europe/Paris] main Program
-[22-Feb-2016 11:03:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:28 Europe/Paris] 127.0.0.1    debut proc : 1456135408.2904  fin proc   : 1456135408.2919  duree proc : 0.0015389919281006 seconds
-[22-Feb-2016 11:03:28 Europe/Paris] main Program
-[22-Feb-2016 11:03:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:28 Europe/Paris] 127.0.0.1    debut proc : 1456135408.3145  fin proc   : 1456135408.3156  duree proc : 0.001054048538208 seconds
-[22-Feb-2016 11:03:28 Europe/Paris] main Program
-[22-Feb-2016 11:03:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:28 Europe/Paris] 127.0.0.1    debut proc : 1456135408.466  fin proc   : 1456135408.4676  duree proc : 0.0015859603881836 seconds
-[22-Feb-2016 11:03:28 Europe/Paris] main Program
-[22-Feb-2016 11:03:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:28 Europe/Paris] 127.0.0.1    debut proc : 1456135408.594  fin proc   : 1456135408.5954  duree proc : 0.0013899803161621 seconds
-[22-Feb-2016 11:03:28 Europe/Paris] main Program
-[22-Feb-2016 11:03:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:03:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:03:28 Europe/Paris] 127.0.0.1    debut proc : 1456135408.746  fin proc   : 1456135408.7475  duree proc : 0.0014970302581787 seconds
-[22-Feb-2016 11:03:30 Europe/Paris] main Program
-[22-Feb-2016 11:03:30 Europe/Paris] action ifLockedParoisse
-[22-Feb-2016 11:03:30 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:03:30 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:03:30 Europe/Paris] 127.0.0.1    debut proc : 1456135410.402  fin proc   : 1456135410.4035  duree proc : 0.0015292167663574 seconds
-[22-Feb-2016 11:03:30 Europe/Paris] main Program
-[22-Feb-2016 11:03:30 Europe/Paris] action lockParoisse
-[22-Feb-2016 11:03:30 Europe/Paris] lockParoisse
-[22-Feb-2016 11:03:30 Europe/Paris] Lock paroisse../infoParoisse/info098.lck
-[22-Feb-2016 11:03:30 Europe/Paris] 127.0.0.1    debut proc : 1456135410.5173  fin proc   : 1456135410.5194  duree proc : 0.0021622180938721 seconds
-[22-Feb-2016 11:03:30 Europe/Paris] main Program
-[22-Feb-2016 11:03:30 Europe/Paris] action readParoisse
-[22-Feb-2016 11:03:30 Europe/Paris] get dataParoisse
-[22-Feb-2016 11:03:30 Europe/Paris] 127.0.0.1    debut proc : 1456135410.5271  fin proc   : 1456135410.5433  duree proc : 0.016152143478394 seconds
-[22-Feb-2016 11:03:30 Europe/Paris] main Program
-[22-Feb-2016 11:03:30 Europe/Paris] action readHosto
-[22-Feb-2016 11:03:30 Europe/Paris] get dataHosto
-[22-Feb-2016 11:03:30 Europe/Paris] 127.0.0.1    debut proc : 1456135410.7239  fin proc   : 1456135410.7255  duree proc : 0.0015878677368164 seconds
-[22-Feb-2016 11:05:16 Europe/Paris] main Program
-[22-Feb-2016 11:05:16 Europe/Paris] action saveParoisse
-[22-Feb-2016 11:05:16 Europe/Paris] save dataParoisse
-[22-Feb-2016 11:05:16 Europe/Paris] save data ../infoParoisse/info098.htext
-[22-Feb-2016 11:05:16 Europe/Paris] 127.0.0.1    debut proc : 1456135516.0603  fin proc   : 1456135516.0626  duree proc : 0.0022878646850586 seconds
-[22-Feb-2016 11:05:16 Europe/Paris] main Program
-[22-Feb-2016 11:05:16 Europe/Paris] action saveHosto
-[22-Feb-2016 11:05:16 Europe/Paris] save dataHosto
-[22-Feb-2016 11:05:16 Europe/Paris] save data ../hostoParoisse/hosto098.htext
-[22-Feb-2016 11:05:16 Europe/Paris] 127.0.0.1    debut proc : 1456135516.0687  fin proc   : 1456135516.0704  duree proc : 0.0017569065093994 seconds
-[22-Feb-2016 11:05:16 Europe/Paris] main Program
-[22-Feb-2016 11:05:16 Europe/Paris] action unLockParoisse
-[22-Feb-2016 11:05:16 Europe/Paris] unLockParoisse
-[22-Feb-2016 11:05:16 Europe/Paris] unLock paroisse../infoParoisse/info098.lck
-[22-Feb-2016 11:05:16 Europe/Paris] 127.0.0.1    debut proc : 1456135516.0753  fin proc   : 1456135516.0769  duree proc : 0.0015439987182617 seconds
-[22-Feb-2016 11:13:16 Europe/Paris] main Program
-[22-Feb-2016 11:13:16 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:16 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:16 Europe/Paris] 127.0.0.1    debut proc : 1456135996.2105  fin proc   : 1456135996.2131  duree proc : 0.002622127532959 seconds
-[22-Feb-2016 11:13:16 Europe/Paris] main Program
-[22-Feb-2016 11:13:16 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:16 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:16 Europe/Paris] 127.0.0.1    debut proc : 1456135996.2729  fin proc   : 1456135996.2746  duree proc : 0.0017101764678955 seconds
-[22-Feb-2016 11:13:16 Europe/Paris] main Program
-[22-Feb-2016 11:13:16 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:16 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:16 Europe/Paris] 127.0.0.1    debut proc : 1456135996.4244  fin proc   : 1456135996.4263  duree proc : 0.0019030570983887 seconds
-[22-Feb-2016 11:13:16 Europe/Paris] main Program
-[22-Feb-2016 11:13:16 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:16 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:16 Europe/Paris] 127.0.0.1    debut proc : 1456135996.7055  fin proc   : 1456135996.7068  duree proc : 0.0012240409851074 seconds
-[22-Feb-2016 11:13:16 Europe/Paris] main Program
-[22-Feb-2016 11:13:16 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:16 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:16 Europe/Paris] 127.0.0.1    debut proc : 1456135996.7216  fin proc   : 1456135996.7244  duree proc : 0.0028150081634521 seconds
-[22-Feb-2016 11:13:16 Europe/Paris] main Program
-[22-Feb-2016 11:13:16 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:16 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:16 Europe/Paris] 127.0.0.1    debut proc : 1456135996.7363  fin proc   : 1456135996.7374  duree proc : 0.0010218620300293 seconds
-[22-Feb-2016 11:13:17 Europe/Paris] main Program
-[22-Feb-2016 11:13:17 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:17 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:17 Europe/Paris] 127.0.0.1    debut proc : 1456135997.1967  fin proc   : 1456135997.1992  duree proc : 0.0025579929351807 seconds
-[22-Feb-2016 11:13:17 Europe/Paris] main Program
-[22-Feb-2016 11:13:17 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:17 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:17 Europe/Paris] 127.0.0.1    debut proc : 1456135997.2818  fin proc   : 1456135997.2832  duree proc : 0.0013670921325684 seconds
-[22-Feb-2016 11:13:18 Europe/Paris] main Program
-[22-Feb-2016 11:13:18 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:18 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:18 Europe/Paris] 127.0.0.1    debut proc : 1456135998.0566  fin proc   : 1456135998.0582  duree proc : 0.0015890598297119 seconds
-[22-Feb-2016 11:13:19 Europe/Paris] main Program
-[22-Feb-2016 11:13:19 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:19 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:19 Europe/Paris] 127.0.0.1    debut proc : 1456135999.5158  fin proc   : 1456135999.5182  duree proc : 0.0024609565734863 seconds
-[22-Feb-2016 11:13:20 Europe/Paris] main Program
-[22-Feb-2016 11:13:20 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:20 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:20 Europe/Paris] 127.0.0.1    debut proc : 1456136000.1076  fin proc   : 1456136000.1106  duree proc : 0.0029070377349854 seconds
-[22-Feb-2016 11:13:21 Europe/Paris] main Program
-[22-Feb-2016 11:13:21 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:21 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:21 Europe/Paris] 127.0.0.1    debut proc : 1456136001.6164  fin proc   : 1456136001.618  duree proc : 0.00154709815979 seconds
-[22-Feb-2016 11:13:22 Europe/Paris] main Program
-[22-Feb-2016 11:13:22 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:22 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:22 Europe/Paris] 127.0.0.1    debut proc : 1456136002.5578  fin proc   : 1456136002.5607  duree proc : 0.0028400421142578 seconds
-[22-Feb-2016 11:13:22 Europe/Paris] main Program
-[22-Feb-2016 11:13:22 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:22 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:22 Europe/Paris] 127.0.0.1    debut proc : 1456136002.6099  fin proc   : 1456136002.6118  duree proc : 0.0018949508666992 seconds
-[22-Feb-2016 11:13:23 Europe/Paris] main Program
-[22-Feb-2016 11:13:23 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:23 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:23 Europe/Paris] 127.0.0.1    debut proc : 1456136003.8984  fin proc   : 1456136003.9015  duree proc : 0.0031158924102783 seconds
-[22-Feb-2016 11:13:24 Europe/Paris] main Program
-[22-Feb-2016 11:13:24 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:24 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:24 Europe/Paris] 127.0.0.1    debut proc : 1456136004.0246  fin proc   : 1456136004.0262  duree proc : 0.0015819072723389 seconds
-[22-Feb-2016 11:13:24 Europe/Paris] main Program
-[22-Feb-2016 11:13:24 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:24 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:24 Europe/Paris] 127.0.0.1    debut proc : 1456136004.1684  fin proc   : 1456136004.1698  duree proc : 0.0014610290527344 seconds
-[22-Feb-2016 11:13:25 Europe/Paris] main Program
-[22-Feb-2016 11:13:25 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:25 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:25 Europe/Paris] 127.0.0.1    debut proc : 1456136005.2828  fin proc   : 1456136005.2877  duree proc : 0.0049068927764893 seconds
-[22-Feb-2016 11:13:25 Europe/Paris] main Program
-[22-Feb-2016 11:13:25 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:25 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:25 Europe/Paris] 127.0.0.1    debut proc : 1456136005.3082  fin proc   : 1456136005.3111  duree proc : 0.0028340816497803 seconds
-[22-Feb-2016 11:13:25 Europe/Paris] main Program
-[22-Feb-2016 11:13:25 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:25 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:25 Europe/Paris] 127.0.0.1    debut proc : 1456136005.339  fin proc   : 1456136005.341  duree proc : 0.0020239353179932 seconds
-[22-Feb-2016 11:13:25 Europe/Paris] main Program
-[22-Feb-2016 11:13:25 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:25 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:25 Europe/Paris] 127.0.0.1    debut proc : 1456136005.8982  fin proc   : 1456136005.9033  duree proc : 0.0051279067993164 seconds
-[22-Feb-2016 11:13:27 Europe/Paris] main Program
-[22-Feb-2016 11:13:27 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:27 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:27 Europe/Paris] 127.0.0.1    debut proc : 1456136007.8806  fin proc   : 1456136007.8821  duree proc : 0.0015699863433838 seconds
-[22-Feb-2016 11:13:28 Europe/Paris] main Program
-[22-Feb-2016 11:13:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:28 Europe/Paris] 127.0.0.1    debut proc : 1456136008.0416  fin proc   : 1456136008.0431  duree proc : 0.001521110534668 seconds
-[22-Feb-2016 11:13:28 Europe/Paris] main Program
-[22-Feb-2016 11:13:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:28 Europe/Paris] 127.0.0.1    debut proc : 1456136008.0814  fin proc   : 1456136008.0829  duree proc : 0.0015509128570557 seconds
-[22-Feb-2016 11:13:28 Europe/Paris] main Program
-[22-Feb-2016 11:13:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:28 Europe/Paris] 127.0.0.1    debut proc : 1456136008.1366  fin proc   : 1456136008.1381  duree proc : 0.0014989376068115 seconds
-[22-Feb-2016 11:13:28 Europe/Paris] main Program
-[22-Feb-2016 11:13:28 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:28 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:28 Europe/Paris] 127.0.0.1    debut proc : 1456136008.3287  fin proc   : 1456136008.3301  duree proc : 0.0014100074768066 seconds
-[22-Feb-2016 11:13:30 Europe/Paris] main Program
-[22-Feb-2016 11:13:30 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:30 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:30 Europe/Paris] 127.0.0.1    debut proc : 1456136010.135  fin proc   : 1456136010.1383  duree proc : 0.0032989978790283 seconds
-[22-Feb-2016 11:13:30 Europe/Paris] main Program
-[22-Feb-2016 11:13:30 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:30 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:30 Europe/Paris] 127.0.0.1    debut proc : 1456136010.2494  fin proc   : 1456136010.2513  duree proc : 0.0019080638885498 seconds
-[22-Feb-2016 11:13:30 Europe/Paris] main Program
-[22-Feb-2016 11:13:30 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:30 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:30 Europe/Paris] 127.0.0.1    debut proc : 1456136010.3377  fin proc   : 1456136010.3396  duree proc : 0.0019350051879883 seconds
-[22-Feb-2016 11:13:31 Europe/Paris] main Program
-[22-Feb-2016 11:13:31 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:31 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:31 Europe/Paris] 127.0.0.1    debut proc : 1456136011.0514  fin proc   : 1456136011.0571  duree proc : 0.0057029724121094 seconds
-[22-Feb-2016 11:13:31 Europe/Paris] main Program
-[22-Feb-2016 11:13:31 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:31 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:31 Europe/Paris] 127.0.0.1    debut proc : 1456136011.3453  fin proc   : 1456136011.3469  duree proc : 0.001662015914917 seconds
-[22-Feb-2016 11:13:32 Europe/Paris] main Program
-[22-Feb-2016 11:13:32 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:32 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:32 Europe/Paris] 127.0.0.1    debut proc : 1456136012.2424  fin proc   : 1456136012.2482  duree proc : 0.0058040618896484 seconds
-[22-Feb-2016 11:13:34 Europe/Paris] main Program
-[22-Feb-2016 11:13:34 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:34 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:34 Europe/Paris] 127.0.0.1    debut proc : 1456136014.3248  fin proc   : 1456136014.3308  duree proc : 0.0060009956359863 seconds
-[22-Feb-2016 11:13:41 Europe/Paris] main Program
-[22-Feb-2016 11:13:41 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:41 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:41 Europe/Paris] 127.0.0.1    debut proc : 1456136021.9453  fin proc   : 1456136021.9493  duree proc : 0.0040230751037598 seconds
-[22-Feb-2016 11:13:41 Europe/Paris] main Program
-[22-Feb-2016 11:13:41 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:41 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:41 Europe/Paris] 127.0.0.1    debut proc : 1456136021.9687  fin proc   : 1456136021.9716  duree proc : 0.002936840057373 seconds
-[22-Feb-2016 11:13:42 Europe/Paris] main Program
-[22-Feb-2016 11:13:42 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:42 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:42 Europe/Paris] 127.0.0.1    debut proc : 1456136022.0082  fin proc   : 1456136022.0096  duree proc : 0.0013999938964844 seconds
-[22-Feb-2016 11:13:42 Europe/Paris] main Program
-[22-Feb-2016 11:13:42 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:42 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:42 Europe/Paris] 127.0.0.1    debut proc : 1456136022.5527  fin proc   : 1456136022.5544  duree proc : 0.0016639232635498 seconds
-[22-Feb-2016 11:13:42 Europe/Paris] main Program
-[22-Feb-2016 11:13:42 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:42 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:42 Europe/Paris] 127.0.0.1    debut proc : 1456136022.6411  fin proc   : 1456136022.6426  duree proc : 0.0015120506286621 seconds
-[22-Feb-2016 11:13:42 Europe/Paris] main Program
-[22-Feb-2016 11:13:42 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:42 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:42 Europe/Paris] 127.0.0.1    debut proc : 1456136022.721  fin proc   : 1456136022.7224  duree proc : 0.001392126083374 seconds
-[22-Feb-2016 11:13:43 Europe/Paris] main Program
-[22-Feb-2016 11:13:43 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:43 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:43 Europe/Paris] 127.0.0.1    debut proc : 1456136023.0331  fin proc   : 1456136023.0346  duree proc : 0.0014219284057617 seconds
-[22-Feb-2016 11:13:43 Europe/Paris] main Program
-[22-Feb-2016 11:13:43 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:43 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:43 Europe/Paris] 127.0.0.1    debut proc : 1456136023.3207  fin proc   : 1456136023.3221  duree proc : 0.001399040222168 seconds
-[22-Feb-2016 11:13:46 Europe/Paris] main Program
-[22-Feb-2016 11:13:46 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:46 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:46 Europe/Paris] 127.0.0.1    debut proc : 1456136026.0606  fin proc   : 1456136026.0634  duree proc : 0.0027909278869629 seconds
-[22-Feb-2016 11:13:46 Europe/Paris] main Program
-[22-Feb-2016 11:13:46 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:46 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:46 Europe/Paris] 127.0.0.1    debut proc : 1456136026.3787  fin proc   : 1456136026.3805  duree proc : 0.0018229484558105 seconds
-[22-Feb-2016 11:13:48 Europe/Paris] main Program
-[22-Feb-2016 11:13:48 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:48 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:48 Europe/Paris] 127.0.0.1    debut proc : 1456136028.089  fin proc   : 1456136028.0901  duree proc : 0.0010590553283691 seconds
-[22-Feb-2016 11:13:50 Europe/Paris] main Program
-[22-Feb-2016 11:13:50 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:50 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:50 Europe/Paris] 127.0.0.1    debut proc : 1456136030.4752  fin proc   : 1456136030.4802  duree proc : 0.0049371719360352 seconds
-[22-Feb-2016 11:13:51 Europe/Paris] main Program
-[22-Feb-2016 11:13:51 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:51 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:51 Europe/Paris] 127.0.0.1    debut proc : 1456136031.4584  fin proc   : 1456136031.4632  duree proc : 0.004871129989624 seconds
-[22-Feb-2016 11:13:51 Europe/Paris] main Program
-[22-Feb-2016 11:13:51 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:51 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:51 Europe/Paris] 127.0.0.1    debut proc : 1456136031.4845  fin proc   : 1456136031.4874  duree proc : 0.0028390884399414 seconds
-[22-Feb-2016 11:13:51 Europe/Paris] main Program
-[22-Feb-2016 11:13:51 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:51 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:51 Europe/Paris] 127.0.0.1    debut proc : 1456136031.6816  fin proc   : 1456136031.6833  duree proc : 0.0016732215881348 seconds
-[22-Feb-2016 11:13:51 Europe/Paris] main Program
-[22-Feb-2016 11:13:51 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:51 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:51 Europe/Paris] 127.0.0.1    debut proc : 1456136031.7606  fin proc   : 1456136031.762  duree proc : 0.0014421939849854 seconds
-[22-Feb-2016 11:13:52 Europe/Paris] main Program
-[22-Feb-2016 11:13:52 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:52 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:52 Europe/Paris] 127.0.0.1    debut proc : 1456136032.0966  fin proc   : 1456136032.0982  duree proc : 0.0016148090362549 seconds
-[22-Feb-2016 11:13:53 Europe/Paris] main Program
-[22-Feb-2016 11:13:53 Europe/Paris] action tooltip
-[22-Feb-2016 11:13:53 Europe/Paris] buildTooltip
-[22-Feb-2016 11:13:53 Europe/Paris] 127.0.0.1    debut proc : 1456136033.6668  fin proc   : 1456136033.672  duree proc : 0.005241870880127 seconds
-[22-Feb-2016 11:13:55 Europe/Paris] main Program
-[22-Feb-2016 11:13:55 Europe/Paris] action ifLockedParoisse
-[22-Feb-2016 11:13:55 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:13:55 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:13:55 Europe/Paris] 127.0.0.1    debut proc : 1456136035.2172  fin proc   : 1456136035.2186  duree proc : 0.001392126083374 seconds
-[22-Feb-2016 11:13:55 Europe/Paris] main Program
-[22-Feb-2016 11:13:55 Europe/Paris] action lockParoisse
-[22-Feb-2016 11:13:55 Europe/Paris] lockParoisse
-[22-Feb-2016 11:13:55 Europe/Paris] Lock paroisse../infoParoisse/info061.lck
-[22-Feb-2016 11:13:55 Europe/Paris] 127.0.0.1    debut proc : 1456136035.3328  fin proc   : 1456136035.3344  duree proc : 0.0016229152679443 seconds
-[22-Feb-2016 11:13:55 Europe/Paris] main Program
-[22-Feb-2016 11:13:55 Europe/Paris] action readParoisse
-[22-Feb-2016 11:13:55 Europe/Paris] get dataParoisse
-[22-Feb-2016 11:13:55 Europe/Paris] 127.0.0.1    debut proc : 1456136035.3493  fin proc   : 1456136035.3634  duree proc : 0.014103889465332 seconds
-[22-Feb-2016 11:13:55 Europe/Paris] main Program
-[22-Feb-2016 11:13:55 Europe/Paris] action readHosto
-[22-Feb-2016 11:13:55 Europe/Paris] get dataHosto
-[22-Feb-2016 11:13:55 Europe/Paris] 127.0.0.1    debut proc : 1456136035.6397  fin proc   : 1456136035.6412  duree proc : 0.00148606300354 seconds
-[22-Feb-2016 11:14:07 Europe/Paris] main Program
-[22-Feb-2016 11:14:07 Europe/Paris] action saveParoisse
-[22-Feb-2016 11:14:07 Europe/Paris] save dataParoisse
-[22-Feb-2016 11:14:07 Europe/Paris] save data ../infoParoisse/info061.htext
-[22-Feb-2016 11:14:07 Europe/Paris] 127.0.0.1    debut proc : 1456136047.803  fin proc   : 1456136047.8046  duree proc : 0.0015377998352051 seconds
-[22-Feb-2016 11:14:07 Europe/Paris] main Program
-[22-Feb-2016 11:14:07 Europe/Paris] action saveHosto
-[22-Feb-2016 11:14:07 Europe/Paris] save dataHosto
-[22-Feb-2016 11:14:07 Europe/Paris] save data ../hostoParoisse/hosto061.htext
-[22-Feb-2016 11:14:07 Europe/Paris] 127.0.0.1    debut proc : 1456136047.8098  fin proc   : 1456136047.8112  duree proc : 0.0013871192932129 seconds
-[22-Feb-2016 11:14:07 Europe/Paris] main Program
-[22-Feb-2016 11:14:07 Europe/Paris] action unLockParoisse
-[22-Feb-2016 11:14:07 Europe/Paris] unLockParoisse
-[22-Feb-2016 11:14:07 Europe/Paris] unLock paroisse../infoParoisse/info061.lck
-[22-Feb-2016 11:14:07 Europe/Paris] 127.0.0.1    debut proc : 1456136047.816  fin proc   : 1456136047.8173  duree proc : 0.0013201236724854 seconds
-[22-Feb-2016 11:14:10 Europe/Paris] main Program
-[22-Feb-2016 11:14:10 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:10 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:10 Europe/Paris] 127.0.0.1    debut proc : 1456136050.6603  fin proc   : 1456136050.6669  duree proc : 0.0066249370574951 seconds
-[22-Feb-2016 11:14:10 Europe/Paris] main Program
-[22-Feb-2016 11:14:10 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:10 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:10 Europe/Paris] 127.0.0.1    debut proc : 1456136050.669  fin proc   : 1456136050.6734  duree proc : 0.0044701099395752 seconds
-[22-Feb-2016 11:14:10 Europe/Paris] main Program
-[22-Feb-2016 11:14:10 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:10 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:10 Europe/Paris] 127.0.0.1    debut proc : 1456136050.8731  fin proc   : 1456136050.8743  duree proc : 0.0012259483337402 seconds
-[22-Feb-2016 11:14:10 Europe/Paris] main Program
-[22-Feb-2016 11:14:10 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:10 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:10 Europe/Paris] 127.0.0.1    debut proc : 1456136050.8892  fin proc   : 1456136050.891  duree proc : 0.0018758773803711 seconds
-[22-Feb-2016 11:14:11 Europe/Paris] main Program
-[22-Feb-2016 11:14:11 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:11 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:11 Europe/Paris] 127.0.0.1    debut proc : 1456136051.0891  fin proc   : 1456136051.091  duree proc : 0.0019018650054932 seconds
-[22-Feb-2016 11:14:14 Europe/Paris] main Program
-[22-Feb-2016 11:14:14 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:14 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:14 Europe/Paris] 127.0.0.1    debut proc : 1456136054.3312  fin proc   : 1456136054.3368  duree proc : 0.0055649280548096 seconds
-[22-Feb-2016 11:14:14 Europe/Paris] main Program
-[22-Feb-2016 11:14:14 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:14 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:14 Europe/Paris] 127.0.0.1    debut proc : 1456136054.3656  fin proc   : 1456136054.3681  duree proc : 0.0025088787078857 seconds
-[22-Feb-2016 11:14:14 Europe/Paris] main Program
-[22-Feb-2016 11:14:14 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:14 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:14 Europe/Paris] 127.0.0.1    debut proc : 1456136054.923  fin proc   : 1456136054.9254  duree proc : 0.0024359226226807 seconds
-[22-Feb-2016 11:14:25 Europe/Paris] main Program
-[22-Feb-2016 11:14:25 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:25 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:25 Europe/Paris] 127.0.0.1    debut proc : 1456136065.6255  fin proc   : 1456136065.6309  duree proc : 0.0053489208221436 seconds
-[22-Feb-2016 11:14:25 Europe/Paris] main Program
-[22-Feb-2016 11:14:25 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:25 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:25 Europe/Paris] 127.0.0.1    debut proc : 1456136065.82  fin proc   : 1456136065.823  duree proc : 0.0030159950256348 seconds
-[22-Feb-2016 11:14:26 Europe/Paris] main Program
-[22-Feb-2016 11:14:26 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:26 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:26 Europe/Paris] 127.0.0.1    debut proc : 1456136066.8989  fin proc   : 1456136066.905  duree proc : 0.0060858726501465 seconds
-[22-Feb-2016 11:14:27 Europe/Paris] main Program
-[22-Feb-2016 11:14:27 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:27 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:27 Europe/Paris] 127.0.0.1    debut proc : 1456136067.1399  fin proc   : 1456136067.1428  duree proc : 0.0028450489044189 seconds
-[22-Feb-2016 11:14:27 Europe/Paris] main Program
-[22-Feb-2016 11:14:27 Europe/Paris] action tooltip
-[22-Feb-2016 11:14:27 Europe/Paris] buildTooltip
-[22-Feb-2016 11:14:27 Europe/Paris] 127.0.0.1    debut proc : 1456136067.5085  fin proc   : 1456136067.512  duree proc : 0.003554105758667 seconds
-[22-Feb-2016 11:14:30 Europe/Paris] main Program
-[22-Feb-2016 11:14:30 Europe/Paris] action ifLockedParoisse
-[22-Feb-2016 11:14:30 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:14:30 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:14:30 Europe/Paris] 127.0.0.1    debut proc : 1456136070.704  fin proc   : 1456136070.7053  duree proc : 0.00136399269104 seconds
-[22-Feb-2016 11:14:30 Europe/Paris] main Program
-[22-Feb-2016 11:14:30 Europe/Paris] action lockParoisse
-[22-Feb-2016 11:14:30 Europe/Paris] lockParoisse
-[22-Feb-2016 11:14:30 Europe/Paris] Lock paroisse../infoParoisse/info016.lck
-[22-Feb-2016 11:14:30 Europe/Paris] 127.0.0.1    debut proc : 1456136070.7893  fin proc   : 1456136070.791  duree proc : 0.0017380714416504 seconds
-[22-Feb-2016 11:14:30 Europe/Paris] main Program
-[22-Feb-2016 11:14:30 Europe/Paris] action readParoisse
-[22-Feb-2016 11:14:30 Europe/Paris] get dataParoisse
-[22-Feb-2016 11:14:30 Europe/Paris] 127.0.0.1    debut proc : 1456136070.7967  fin proc   : 1456136070.8089  duree proc : 0.012154102325439 seconds
-[22-Feb-2016 11:14:31 Europe/Paris] main Program
-[22-Feb-2016 11:14:31 Europe/Paris] action readHosto
-[22-Feb-2016 11:14:31 Europe/Paris] get dataHosto
-[22-Feb-2016 11:14:31 Europe/Paris] 127.0.0.1    debut proc : 1456136071.0269  fin proc   : 1456136071.0285  duree proc : 0.0015621185302734 seconds
-[22-Feb-2016 11:15:07 Europe/Paris] main Program
-[22-Feb-2016 11:15:07 Europe/Paris] action saveParoisse
-[22-Feb-2016 11:15:07 Europe/Paris] save dataParoisse
-[22-Feb-2016 11:15:07 Europe/Paris] save data ../infoParoisse/info016.htext
-[22-Feb-2016 11:15:07 Europe/Paris] 127.0.0.1    debut proc : 1456136107.6502  fin proc   : 1456136107.652  duree proc : 0.0017759799957275 seconds
-[22-Feb-2016 11:15:07 Europe/Paris] main Program
-[22-Feb-2016 11:15:07 Europe/Paris] action saveHosto
-[22-Feb-2016 11:15:07 Europe/Paris] save dataHosto
-[22-Feb-2016 11:15:07 Europe/Paris] save data ../hostoParoisse/hosto016.htext
-[22-Feb-2016 11:15:07 Europe/Paris] 127.0.0.1    debut proc : 1456136107.6573  fin proc   : 1456136107.6589  duree proc : 0.0015430450439453 seconds
-[22-Feb-2016 11:15:07 Europe/Paris] main Program
-[22-Feb-2016 11:15:07 Europe/Paris] action unLockParoisse
-[22-Feb-2016 11:15:07 Europe/Paris] unLockParoisse
-[22-Feb-2016 11:15:07 Europe/Paris] unLock paroisse../infoParoisse/info016.lck
-[22-Feb-2016 11:15:07 Europe/Paris] 127.0.0.1    debut proc : 1456136107.6634  fin proc   : 1456136107.6648  duree proc : 0.0013630390167236 seconds
-[22-Feb-2016 11:15:13 Europe/Paris] main Program
-[22-Feb-2016 11:15:13 Europe/Paris] action tooltip
-[22-Feb-2016 11:15:13 Europe/Paris] buildTooltip
-[22-Feb-2016 11:15:13 Europe/Paris] 127.0.0.1    debut proc : 1456136113.1727  fin proc   : 1456136113.1803  duree proc : 0.0076301097869873 seconds
-[22-Feb-2016 11:15:13 Europe/Paris] main Program
-[22-Feb-2016 11:15:13 Europe/Paris] action tooltip
-[22-Feb-2016 11:15:13 Europe/Paris] buildTooltip
-[22-Feb-2016 11:15:13 Europe/Paris] 127.0.0.1    debut proc : 1456136113.2897  fin proc   : 1456136113.2915  duree proc : 0.0017950534820557 seconds
-[22-Feb-2016 11:15:15 Europe/Paris] main Program
-[22-Feb-2016 11:15:15 Europe/Paris] action tooltip
-[22-Feb-2016 11:15:15 Europe/Paris] buildTooltip
-[22-Feb-2016 11:15:15 Europe/Paris] 127.0.0.1    debut proc : 1456136115.2257  fin proc   : 1456136115.2305  duree proc : 0.0047860145568848 seconds
-[22-Feb-2016 11:15:17 Europe/Paris] main Program
-[22-Feb-2016 11:15:17 Europe/Paris] action ifLockedParoisse
-[22-Feb-2016 11:15:17 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:15:17 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:15:17 Europe/Paris] 127.0.0.1    debut proc : 1456136117.0081  fin proc   : 1456136117.0097  duree proc : 0.0015780925750732 seconds
-[22-Feb-2016 11:15:17 Europe/Paris] main Program
-[22-Feb-2016 11:15:17 Europe/Paris] action lockParoisse
-[22-Feb-2016 11:15:17 Europe/Paris] lockParoisse
-[22-Feb-2016 11:15:17 Europe/Paris] Lock paroisse../infoParoisse/info044.lck
-[22-Feb-2016 11:15:17 Europe/Paris] 127.0.0.1    debut proc : 1456136117.0737  fin proc   : 1456136117.0754  duree proc : 0.0017099380493164 seconds
-[22-Feb-2016 11:15:17 Europe/Paris] main Program
-[22-Feb-2016 11:15:17 Europe/Paris] action readParoisse
-[22-Feb-2016 11:15:17 Europe/Paris] get dataParoisse
-[22-Feb-2016 11:15:17 Europe/Paris] 127.0.0.1    debut proc : 1456136117.0812  fin proc   : 1456136117.0837  duree proc : 0.0025260448455811 seconds
-[22-Feb-2016 11:15:17 Europe/Paris] main Program
-[22-Feb-2016 11:15:17 Europe/Paris] action readHosto
-[22-Feb-2016 11:15:17 Europe/Paris] get dataHosto
-[22-Feb-2016 11:15:17 Europe/Paris] 127.0.0.1    debut proc : 1456136117.1778  fin proc   : 1456136117.1793  duree proc : 0.0015089511871338 seconds
-[22-Feb-2016 11:15:41 Europe/Paris] main Program
-[22-Feb-2016 11:15:41 Europe/Paris] action saveParoisse
-[22-Feb-2016 11:15:41 Europe/Paris] save dataParoisse
-[22-Feb-2016 11:15:41 Europe/Paris] save data ../infoParoisse/info044.htext
-[22-Feb-2016 11:15:41 Europe/Paris] 127.0.0.1    debut proc : 1456136141.5621  fin proc   : 1456136141.5657  duree proc : 0.0035841464996338 seconds
-[22-Feb-2016 11:15:41 Europe/Paris] main Program
-[22-Feb-2016 11:15:41 Europe/Paris] action saveHosto
-[22-Feb-2016 11:15:41 Europe/Paris] save dataHosto
-[22-Feb-2016 11:15:41 Europe/Paris] save data ../hostoParoisse/hosto044.htext
-[22-Feb-2016 11:15:41 Europe/Paris] 127.0.0.1    debut proc : 1456136141.5707  fin proc   : 1456136141.5722  duree proc : 0.0014469623565674 seconds
-[22-Feb-2016 11:15:41 Europe/Paris] main Program
-[22-Feb-2016 11:15:41 Europe/Paris] action unLockParoisse
-[22-Feb-2016 11:15:41 Europe/Paris] unLockParoisse
-[22-Feb-2016 11:15:41 Europe/Paris] unLock paroisse../infoParoisse/info044.lck
-[22-Feb-2016 11:15:41 Europe/Paris] 127.0.0.1    debut proc : 1456136141.5766  fin proc   : 1456136141.5779  duree proc : 0.0013389587402344 seconds
-[22-Feb-2016 11:15:43 Europe/Paris] main Program
-[22-Feb-2016 11:15:43 Europe/Paris] action tooltip
-[22-Feb-2016 11:15:43 Europe/Paris] buildTooltip
-[22-Feb-2016 11:15:43 Europe/Paris] 127.0.0.1    debut proc : 1456136143.2919  fin proc   : 1456136143.2973  duree proc : 0.0053532123565674 seconds
-[22-Feb-2016 11:15:44 Europe/Paris] main Program
-[22-Feb-2016 11:15:44 Europe/Paris] action ifLockedParoisse
-[22-Feb-2016 11:15:44 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:15:44 Europe/Paris] checkIfLockedParoisse
-[22-Feb-2016 11:15:44 Europe/Paris] 127.0.0.1    debut proc : 1456136144.5759  fin proc   : 1456136144.5773  duree proc : 0.0014100074768066 seconds
-[22-Feb-2016 11:15:44 Europe/Paris] main Program
-[22-Feb-2016 11:15:44 Europe/Paris] action lockParoisse
-[22-Feb-2016 11:15:44 Europe/Paris] lockParoisse
-[22-Feb-2016 11:15:44 Europe/Paris] Lock paroisse../infoParoisse/info061.lck
-[22-Feb-2016 11:15:44 Europe/Paris] 127.0.0.1    debut proc : 1456136144.6192  fin proc   : 1456136144.621  duree proc : 0.0018138885498047 seconds
-[22-Feb-2016 11:15:44 Europe/Paris] main Program
-[22-Feb-2016 11:15:44 Europe/Paris] action readParoisse
-[22-Feb-2016 11:15:44 Europe/Paris] get dataParoisse
-[22-Feb-2016 11:15:44 Europe/Paris] 127.0.0.1    debut proc : 1456136144.6276  fin proc   : 1456136144.6306  duree proc : 0.0029928684234619 seconds
-[22-Feb-2016 11:15:44 Europe/Paris] main Program
-[22-Feb-2016 11:15:44 Europe/Paris] action readHosto
-[22-Feb-2016 11:15:44 Europe/Paris] get dataHosto
-[22-Feb-2016 11:15:44 Europe/Paris] 127.0.0.1    debut proc : 1456136144.729  fin proc   : 1456136144.7303  duree proc : 0.0013411045074463 seconds
-[22-Feb-2016 11:16:21 Europe/Paris] main Program
-[22-Feb-2016 11:16:21 Europe/Paris] action saveParoisse
-[22-Feb-2016 11:16:21 Europe/Paris] save dataParoisse
-[22-Feb-2016 11:16:21 Europe/Paris] save data ../infoParoisse/info061.htext
-[22-Feb-2016 11:16:21 Europe/Paris] 127.0.0.1    debut proc : 1456136181.4495  fin proc   : 1456136181.451  duree proc : 0.0014820098876953 seconds
-[22-Feb-2016 11:16:21 Europe/Paris] main Program
-[22-Feb-2016 11:16:21 Europe/Paris] action saveHosto
-[22-Feb-2016 11:16:21 Europe/Paris] save dataHosto
-[22-Feb-2016 11:16:21 Europe/Paris] save data ../hostoParoisse/hosto061.htext
-[22-Feb-2016 11:16:21 Europe/Paris] 127.0.0.1    debut proc : 1456136181.456  fin proc   : 1456136181.4574  duree proc : 0.0013871192932129 seconds
-[22-Feb-2016 11:16:21 Europe/Paris] main Program
-[22-Feb-2016 11:16:21 Europe/Paris] action unLockParoisse
-[22-Feb-2016 11:16:21 Europe/Paris] unLockParoisse
-[22-Feb-2016 11:16:21 Europe/Paris] unLock paroisse../infoParoisse/info061.lck
-[22-Feb-2016 11:16:21 Europe/Paris] 127.0.0.1    debut proc : 1456136181.4618  fin proc   : 1456136181.4631  duree proc : 0.001352071762085 seconds
+[28-Feb-2016 12:14:22 Europe/Paris] main Program
+[28-Feb-2016 12:14:22 Europe/Paris] action undefinedpour user : philippe
+[28-Feb-2016 12:14:22 Europe/Paris] PHP Notice:  Undefined variable: response in C:\Pastorale_Sante_Paris\nodePastoraleSanteJS\pastoraleSante\php\geteditparoisse.php on line 103
+[28-Feb-2016 12:14:22 Europe/Paris] 127.0.0.1    debut proc : 1456658062.5393  fin proc   : 1456658062.5417  duree proc : 0.0024139881134033 seconds
+[28-Feb-2016 12:14:30 Europe/Paris] main Program
+[28-Feb-2016 12:14:30 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:14:30 Europe/Paris] buildTooltip
+[28-Feb-2016 12:14:30 Europe/Paris] 127.0.0.1    debut proc : 1456658070.9239  fin proc   : 1456658070.9279  duree proc : 0.0040018558502197 seconds
+[28-Feb-2016 12:14:31 Europe/Paris] main Program
+[28-Feb-2016 12:14:31 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:14:31 Europe/Paris] buildTooltip
+[28-Feb-2016 12:14:31 Europe/Paris] 127.0.0.1    debut proc : 1456658071.2506  fin proc   : 1456658071.2532  duree proc : 0.0026800632476807 seconds
+[28-Feb-2016 12:14:55 Europe/Paris] main Program
+[28-Feb-2016 12:14:55 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:14:55 Europe/Paris] buildTooltip
+[28-Feb-2016 12:14:55 Europe/Paris] 127.0.0.1    debut proc : 1456658095.0141  fin proc   : 1456658095.0204  duree proc : 0.0063369274139404 seconds
+[28-Feb-2016 12:14:59 Europe/Paris] main Program
+[28-Feb-2016 12:14:59 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:14:59 Europe/Paris] buildTooltip
+[28-Feb-2016 12:14:59 Europe/Paris] 127.0.0.1    debut proc : 1456658099.4227  fin proc   : 1456658099.4244  duree proc : 0.001694917678833 seconds
+[28-Feb-2016 12:17:10 Europe/Paris] main Program
+[28-Feb-2016 12:17:10 Europe/Paris] action undefinedpour user : philippe
+[28-Feb-2016 12:17:10 Europe/Paris] PHP Notice:  Undefined variable: response in C:\Pastorale_Sante_Paris\nodePastoraleSanteJS\pastoraleSante\php\geteditparoisse.php on line 102
+[28-Feb-2016 12:17:10 Europe/Paris] 127.0.0.1    debut proc : 1456658230.2585  fin proc   : 1456658230.26  duree proc : 0.0014951229095459 seconds
+[28-Feb-2016 12:17:28 Europe/Paris] main Program
+[28-Feb-2016 12:17:28 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:17:28 Europe/Paris] buildTooltip
+[28-Feb-2016 12:17:28 Europe/Paris] 127.0.0.1    debut proc : 1456658248.0323  fin proc   : 1456658248.0414  duree proc : 0.0090858936309814 seconds
+[28-Feb-2016 12:24:08 Europe/Paris] main Program
+[28-Feb-2016 12:24:08 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 12:24:08 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 12:24:08 Europe/Paris] 127.0.0.1    debut proc : 1456658648.6665  fin proc   : 1456658648.6681  duree proc : 0.0016160011291504 seconds
+[28-Feb-2016 12:24:47 Europe/Paris] main Program
+[28-Feb-2016 12:24:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:24:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:24:47 Europe/Paris] 127.0.0.1    debut proc : 1456658687.3361  fin proc   : 1456658687.3446  duree proc : 0.008472204208374 seconds
+[28-Feb-2016 12:24:54 Europe/Paris] main Program
+[28-Feb-2016 12:24:54 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:24:54 Europe/Paris] buildTooltip
+[28-Feb-2016 12:24:54 Europe/Paris] 127.0.0.1    debut proc : 1456658694.0521  fin proc   : 1456658694.058  duree proc : 0.0058698654174805 seconds
+[28-Feb-2016 12:24:54 Europe/Paris] main Program
+[28-Feb-2016 12:24:54 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:24:54 Europe/Paris] buildTooltip
+[28-Feb-2016 12:24:54 Europe/Paris] 127.0.0.1    debut proc : 1456658694.0755  fin proc   : 1456658694.0816  duree proc : 0.0061352252960205 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.0459  fin proc   : 1456658713.0523  duree proc : 0.006464958190918 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.0691  fin proc   : 1456658713.0718  duree proc : 0.0027370452880859 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.0748  fin proc   : 1456658713.0787  duree proc : 0.003931999206543 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.0796  fin proc   : 1456658713.0811  duree proc : 0.00154709815979 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.0866  fin proc   : 1456658713.0891  duree proc : 0.0025391578674316 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.0888  fin proc   : 1456658713.0904  duree proc : 0.0016059875488281 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.1251  fin proc   : 1456658713.1265  duree proc : 0.0014381408691406 seconds
+[28-Feb-2016 12:25:13 Europe/Paris] main Program
+[28-Feb-2016 12:25:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:13 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:13 Europe/Paris] 127.0.0.1    debut proc : 1456658713.306  fin proc   : 1456658713.3117  duree proc : 0.0056681632995605 seconds
+[28-Feb-2016 12:25:14 Europe/Paris] main Program
+[28-Feb-2016 12:25:14 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:14 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:14 Europe/Paris] 127.0.0.1    debut proc : 1456658714.1398  fin proc   : 1456658714.1408  duree proc : 0.0010349750518799 seconds
+[28-Feb-2016 12:25:14 Europe/Paris] main Program
+[28-Feb-2016 12:25:14 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:14 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:14 Europe/Paris] 127.0.0.1    debut proc : 1456658714.1878  fin proc   : 1456658714.1888  duree proc : 0.0010049343109131 seconds
+[28-Feb-2016 12:25:14 Europe/Paris] main Program
+[28-Feb-2016 12:25:14 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:14 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:14 Europe/Paris] 127.0.0.1    debut proc : 1456658714.2115  fin proc   : 1456658714.2133  duree proc : 0.0017890930175781 seconds
+[28-Feb-2016 12:25:14 Europe/Paris] main Program
+[28-Feb-2016 12:25:14 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:25:14 Europe/Paris] buildTooltip
+[28-Feb-2016 12:25:14 Europe/Paris] 127.0.0.1    debut proc : 1456658714.3319  fin proc   : 1456658714.3335  duree proc : 0.001633882522583 seconds
+[28-Feb-2016 12:26:38 Europe/Paris] main Program
+[28-Feb-2016 12:26:38 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 12:26:38 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 12:26:38 Europe/Paris] 127.0.0.1    debut proc : 1456658798.1242  fin proc   : 1456658798.1257  duree proc : 0.0015428066253662 seconds
+[28-Feb-2016 12:31:56 Europe/Paris] main Program
+[28-Feb-2016 12:31:56 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 12:31:56 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 12:31:56 Europe/Paris] 127.0.0.1    debut proc : 1456659116.5533  fin proc   : 1456659116.5551  duree proc : 0.0017390251159668 seconds
+[28-Feb-2016 12:32:40 Europe/Paris] main Program
+[28-Feb-2016 12:32:40 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:32:40 Europe/Paris] buildTooltip
+[28-Feb-2016 12:32:40 Europe/Paris] 127.0.0.1    debut proc : 1456659160.341  fin proc   : 1456659160.3499  duree proc : 0.0089421272277832 seconds
+[28-Feb-2016 12:32:48 Europe/Paris] main Program
+[28-Feb-2016 12:32:48 Europe/Paris] action ifLockedParoissepour user : philippe
+[28-Feb-2016 12:32:48 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 12:32:48 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 12:32:48 Europe/Paris] 127.0.0.1    debut proc : 1456659168.1886  fin proc   : 1456659168.19  duree proc : 0.0014221668243408 seconds
+[28-Feb-2016 12:32:48 Europe/Paris] main Program
+[28-Feb-2016 12:32:48 Europe/Paris] action lockParoissepour user : philippe
+[28-Feb-2016 12:32:48 Europe/Paris] lockParoisse
+[28-Feb-2016 12:32:48 Europe/Paris] Lock paroisse../datasParoisse/infoParoisse/info013.lck
+[28-Feb-2016 12:32:48 Europe/Paris] 127.0.0.1    debut proc : 1456659168.7235  fin proc   : 1456659168.7258  duree proc : 0.0022728443145752 seconds
+[28-Feb-2016 12:32:48 Europe/Paris] main Program
+[28-Feb-2016 12:32:48 Europe/Paris] action readParoissepour user : philippe
+[28-Feb-2016 12:32:48 Europe/Paris] get dataParoisse
+[28-Feb-2016 12:32:48 Europe/Paris] 127.0.0.1    debut proc : 1456659168.7357  fin proc   : 1456659168.762  duree proc : 0.026330947875977 seconds
+[28-Feb-2016 12:32:49 Europe/Paris] main Program
+[28-Feb-2016 12:32:49 Europe/Paris] action readHostopour user : philippe
+[28-Feb-2016 12:32:49 Europe/Paris] get dataHosto
+[28-Feb-2016 12:32:49 Europe/Paris] 127.0.0.1    debut proc : 1456659169.3254  fin proc   : 1456659169.3281  duree proc : 0.0027530193328857 seconds
+[28-Feb-2016 12:33:01 Europe/Paris] main Program
+[28-Feb-2016 12:33:01 Europe/Paris] action saveParoissepour user : philippe
+[28-Feb-2016 12:33:01 Europe/Paris] save dataParoisse
+[28-Feb-2016 12:33:01 Europe/Paris] save data ../datasParoisse/infoParoisse/info013.htext
+[28-Feb-2016 12:33:01 Europe/Paris] 127.0.0.1    debut proc : 1456659181.1329  fin proc   : 1456659181.1394  duree proc : 0.0065939426422119 seconds
+[28-Feb-2016 12:33:01 Europe/Paris] main Program
+[28-Feb-2016 12:33:01 Europe/Paris] action saveHostopour user : philippe
+[28-Feb-2016 12:33:01 Europe/Paris] save dataHosto
+[28-Feb-2016 12:33:01 Europe/Paris] save data ../datasParoisse/hostoParoisse/hosto013.htext
+[28-Feb-2016 12:33:01 Europe/Paris] 127.0.0.1    debut proc : 1456659181.162  fin proc   : 1456659181.1644  duree proc : 0.002363920211792 seconds
+[28-Feb-2016 12:33:01 Europe/Paris] main Program
+[28-Feb-2016 12:33:01 Europe/Paris] action unLockParoissepour user : philippe
+[28-Feb-2016 12:33:01 Europe/Paris] unLockParoisse
+[28-Feb-2016 12:33:01 Europe/Paris] unLock paroisse../datasParoisse/infoParoisse/info013.lck
+[28-Feb-2016 12:33:01 Europe/Paris] 127.0.0.1    debut proc : 1456659181.1749  fin proc   : 1456659181.177  duree proc : 0.0021588802337646 seconds
+[28-Feb-2016 12:33:45 Europe/Paris] main Program
+[28-Feb-2016 12:33:45 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:45 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:45 Europe/Paris] 127.0.0.1    debut proc : 1456659225.3308  fin proc   : 1456659225.3353  duree proc : 0.0045311450958252 seconds
+[28-Feb-2016 12:33:46 Europe/Paris] main Program
+[28-Feb-2016 12:33:46 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:46 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:46 Europe/Paris] 127.0.0.1    debut proc : 1456659226.8356  fin proc   : 1456659226.8411  duree proc : 0.0054359436035156 seconds
+[28-Feb-2016 12:33:47 Europe/Paris] main Program
+[28-Feb-2016 12:33:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:47 Europe/Paris] 127.0.0.1    debut proc : 1456659227.0603  fin proc   : 1456659227.0617  duree proc : 0.001331090927124 seconds
+[28-Feb-2016 12:33:48 Europe/Paris] main Program
+[28-Feb-2016 12:33:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:48 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:48 Europe/Paris] 127.0.0.1    debut proc : 1456659228.3698  fin proc   : 1456659228.3742  duree proc : 0.0044841766357422 seconds
+[28-Feb-2016 12:33:48 Europe/Paris] main Program
+[28-Feb-2016 12:33:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:48 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:48 Europe/Paris] 127.0.0.1    debut proc : 1456659228.4069  fin proc   : 1456659228.4095  duree proc : 0.0025088787078857 seconds
+[28-Feb-2016 12:33:48 Europe/Paris] main Program
+[28-Feb-2016 12:33:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:48 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:48 Europe/Paris] 127.0.0.1    debut proc : 1456659228.4452  fin proc   : 1456659228.4469  duree proc : 0.001680850982666 seconds
+[28-Feb-2016 12:33:48 Europe/Paris] main Program
+[28-Feb-2016 12:33:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:48 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:48 Europe/Paris] 127.0.0.1    debut proc : 1456659228.6996  fin proc   : 1456659228.7009  duree proc : 0.0012779235839844 seconds
+[28-Feb-2016 12:33:48 Europe/Paris] main Program
+[28-Feb-2016 12:33:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:48 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:48 Europe/Paris] 127.0.0.1    debut proc : 1456659228.9635  fin proc   : 1456659228.9647  duree proc : 0.0012400150299072 seconds
+[28-Feb-2016 12:33:51 Europe/Paris] main Program
+[28-Feb-2016 12:33:51 Europe/Paris] action ifLockedParoissepour user : philippe
+[28-Feb-2016 12:33:51 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 12:33:51 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 12:33:51 Europe/Paris] 127.0.0.1    debut proc : 1456659231.7633  fin proc   : 1456659231.7648  duree proc : 0.0015239715576172 seconds
+[28-Feb-2016 12:33:51 Europe/Paris] main Program
+[28-Feb-2016 12:33:51 Europe/Paris] action lockParoissepour user : philippe
+[28-Feb-2016 12:33:51 Europe/Paris] lockParoisse
+[28-Feb-2016 12:33:51 Europe/Paris] Lock paroisse../datasParoisse/infoParoisse/info066.lck
+[28-Feb-2016 12:33:51 Europe/Paris] 127.0.0.1    debut proc : 1456659231.9039  fin proc   : 1456659231.9057  duree proc : 0.0017800331115723 seconds
+[28-Feb-2016 12:33:51 Europe/Paris] main Program
+[28-Feb-2016 12:33:51 Europe/Paris] action readParoissepour user : philippe
+[28-Feb-2016 12:33:51 Europe/Paris] get dataParoisse
+[28-Feb-2016 12:33:51 Europe/Paris] 127.0.0.1    debut proc : 1456659231.9142  fin proc   : 1456659231.9298  duree proc : 0.015629053115845 seconds
+[28-Feb-2016 12:33:52 Europe/Paris] main Program
+[28-Feb-2016 12:33:52 Europe/Paris] action readHostopour user : philippe
+[28-Feb-2016 12:33:52 Europe/Paris] get dataHosto
+[28-Feb-2016 12:33:52 Europe/Paris] 127.0.0.1    debut proc : 1456659232.1544  fin proc   : 1456659232.1555  duree proc : 0.0011498928070068 seconds
+[28-Feb-2016 12:33:54 Europe/Paris] main Program
+[28-Feb-2016 12:33:54 Europe/Paris] action saveParoissepour user : philippe
+[28-Feb-2016 12:33:54 Europe/Paris] save dataParoisse
+[28-Feb-2016 12:33:54 Europe/Paris] save data ../datasParoisse/infoParoisse/info066.htext
+[28-Feb-2016 12:33:54 Europe/Paris] 127.0.0.1    debut proc : 1456659234.0847  fin proc   : 1456659234.0861  duree proc : 0.0014212131500244 seconds
+[28-Feb-2016 12:33:54 Europe/Paris] main Program
+[28-Feb-2016 12:33:54 Europe/Paris] action saveHostopour user : philippe
+[28-Feb-2016 12:33:54 Europe/Paris] save dataHosto
+[28-Feb-2016 12:33:54 Europe/Paris] save data ../datasParoisse/hostoParoisse/hosto066.htext
+[28-Feb-2016 12:33:54 Europe/Paris] 127.0.0.1    debut proc : 1456659234.0931  fin proc   : 1456659234.0946  duree proc : 0.0015380382537842 seconds
+[28-Feb-2016 12:33:54 Europe/Paris] main Program
+[28-Feb-2016 12:33:54 Europe/Paris] action unLockParoissepour user : philippe
+[28-Feb-2016 12:33:54 Europe/Paris] unLockParoisse
+[28-Feb-2016 12:33:54 Europe/Paris] unLock paroisse../datasParoisse/infoParoisse/info066.lck
+[28-Feb-2016 12:33:54 Europe/Paris] 127.0.0.1    debut proc : 1456659234.1007  fin proc   : 1456659234.102  duree proc : 0.0012829303741455 seconds
+[28-Feb-2016 12:33:55 Europe/Paris] main Program
+[28-Feb-2016 12:33:55 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:55 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:55 Europe/Paris] 127.0.0.1    debut proc : 1456659235.1968  fin proc   : 1456659235.199  duree proc : 0.0022380352020264 seconds
+[28-Feb-2016 12:33:55 Europe/Paris] main Program
+[28-Feb-2016 12:33:55 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:55 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:55 Europe/Paris] 127.0.0.1    debut proc : 1456659235.2208  fin proc   : 1456659235.2224  duree proc : 0.0015411376953125 seconds
+[28-Feb-2016 12:33:55 Europe/Paris] main Program
+[28-Feb-2016 12:33:55 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:55 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:55 Europe/Paris] 127.0.0.1    debut proc : 1456659235.3325  fin proc   : 1456659235.3338  duree proc : 0.0013070106506348 seconds
+[28-Feb-2016 12:33:55 Europe/Paris] main Program
+[28-Feb-2016 12:33:55 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:33:55 Europe/Paris] buildTooltip
+[28-Feb-2016 12:33:55 Europe/Paris] 127.0.0.1    debut proc : 1456659235.3551  fin proc   : 1456659235.3568  duree proc : 0.0016629695892334 seconds
+[28-Feb-2016 12:36:47 Europe/Paris] main Program
+[28-Feb-2016 12:36:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:36:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:36:47 Europe/Paris] 127.0.0.1    debut proc : 1456659407.33  fin proc   : 1456659407.3352  duree proc : 0.0051889419555664 seconds
+[28-Feb-2016 12:36:47 Europe/Paris] main Program
+[28-Feb-2016 12:36:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:36:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:36:47 Europe/Paris] 127.0.0.1    debut proc : 1456659407.4675  fin proc   : 1456659407.4694  duree proc : 0.0019710063934326 seconds
+[28-Feb-2016 12:36:47 Europe/Paris] main Program
+[28-Feb-2016 12:36:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:36:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:36:47 Europe/Paris] 127.0.0.1    debut proc : 1456659407.6436  fin proc   : 1456659407.6456  duree proc : 0.0019099712371826 seconds
+[28-Feb-2016 12:39:14 Europe/Paris] main Program
+[28-Feb-2016 12:39:14 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:39:14 Europe/Paris] buildTooltip
+[28-Feb-2016 12:39:14 Europe/Paris] 127.0.0.1    debut proc : 1456659554.6704  fin proc   : 1456659554.6768  duree proc : 0.0063908100128174 seconds
+[28-Feb-2016 12:39:14 Europe/Paris] main Program
+[28-Feb-2016 12:39:14 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:39:14 Europe/Paris] buildTooltip
+[28-Feb-2016 12:39:14 Europe/Paris] 127.0.0.1    debut proc : 1456659554.6924  fin proc   : 1456659554.6944  duree proc : 0.0019369125366211 seconds
+[28-Feb-2016 12:39:14 Europe/Paris] main Program
+[28-Feb-2016 12:39:14 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:39:14 Europe/Paris] buildTooltip
+[28-Feb-2016 12:39:14 Europe/Paris] 127.0.0.1    debut proc : 1456659554.7055  fin proc   : 1456659554.7119  duree proc : 0.006335973739624 seconds
+[28-Feb-2016 12:40:47 Europe/Paris] main Program
+[28-Feb-2016 12:40:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:40:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:40:47 Europe/Paris] main Program
+[28-Feb-2016 12:40:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:40:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:40:47 Europe/Paris] 127.0.0.1    debut proc : 1456659647.8708  fin proc   : 1456659647.8764  duree proc : 0.0056450366973877 seconds
+[28-Feb-2016 12:40:47 Europe/Paris] 127.0.0.1    debut proc : 1456659647.8731  fin proc   : 1456659647.8776  duree proc : 0.0045759677886963 seconds
+[28-Feb-2016 12:40:47 Europe/Paris] main Program
+[28-Feb-2016 12:40:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 12:40:47 Europe/Paris] buildTooltip
+[28-Feb-2016 12:40:47 Europe/Paris] 127.0.0.1    debut proc : 1456659647.8776  fin proc   : 1456659647.8827  duree proc : 0.0051071643829346 seconds
+[28-Feb-2016 17:27:11 Europe/Paris] main Program
+[28-Feb-2016 17:27:11 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:27:11 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:27:11 Europe/Paris] 127.0.0.1    debut proc : 1456676831.6363  fin proc   : 1456676831.6381  duree proc : 0.0017590522766113 seconds
+[28-Feb-2016 17:27:13 Europe/Paris] main Program
+[28-Feb-2016 17:27:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:27:13 Europe/Paris] buildTooltip
+[28-Feb-2016 17:27:13 Europe/Paris] 127.0.0.1    debut proc : 1456676833.0687  fin proc   : 1456676833.0726  duree proc : 0.0038249492645264 seconds
+[28-Feb-2016 17:27:13 Europe/Paris] main Program
+[28-Feb-2016 17:27:13 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:27:13 Europe/Paris] buildTooltip
+[28-Feb-2016 17:27:13 Europe/Paris] 127.0.0.1    debut proc : 1456676833.6767  fin proc   : 1456676833.6816  duree proc : 0.0048987865447998 seconds
+[28-Feb-2016 17:27:35 Europe/Paris] main Program
+[28-Feb-2016 17:27:35 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:27:35 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:27:35 Europe/Paris] 127.0.0.1    debut proc : 1456676855.7121  fin proc   : 1456676855.7131  duree proc : 0.0009610652923584 seconds
+[28-Feb-2016 17:27:44 Europe/Paris] main Program
+[28-Feb-2016 17:27:44 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:27:44 Europe/Paris] buildTooltip
+[28-Feb-2016 17:27:44 Europe/Paris] 127.0.0.1    debut proc : 1456676864.9746  fin proc   : 1456676864.9802  duree proc : 0.0056500434875488 seconds
+[28-Feb-2016 17:27:45 Europe/Paris] main Program
+[28-Feb-2016 17:27:45 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:27:45 Europe/Paris] buildTooltip
+[28-Feb-2016 17:27:45 Europe/Paris] 127.0.0.1    debut proc : 1456676865.239  fin proc   : 1456676865.2407  duree proc : 0.001690149307251 seconds
+[28-Feb-2016 17:27:47 Europe/Paris] main Program
+[28-Feb-2016 17:27:47 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:27:47 Europe/Paris] buildTooltip
+[28-Feb-2016 17:27:47 Europe/Paris] 127.0.0.1    debut proc : 1456676867.4047  fin proc   : 1456676867.4108  duree proc : 0.0060410499572754 seconds
+[28-Feb-2016 17:28:54 Europe/Paris] main Program
+[28-Feb-2016 17:28:54 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:28:54 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:28:54 Europe/Paris] 127.0.0.1    debut proc : 1456676934.6404  fin proc   : 1456676934.6414  duree proc : 0.00092506408691406 seconds
+[28-Feb-2016 17:29:54 Europe/Paris] main Program
+[28-Feb-2016 17:29:54 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:29:54 Europe/Paris] buildTooltip
+[28-Feb-2016 17:29:54 Europe/Paris] 127.0.0.1    debut proc : 1456676994.1943  fin proc   : 1456676994.1996  duree proc : 0.0053420066833496 seconds
+[28-Feb-2016 17:32:40 Europe/Paris] main Program
+[28-Feb-2016 17:32:40 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:32:40 Europe/Paris] buildTooltip
+[28-Feb-2016 17:32:40 Europe/Paris] 127.0.0.1    debut proc : 1456677160.919  fin proc   : 1456677160.9213  duree proc : 0.0022931098937988 seconds
+[28-Feb-2016 17:32:52 Europe/Paris] main Program
+[28-Feb-2016 17:32:52 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:32:52 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:32:52 Europe/Paris] 127.0.0.1    debut proc : 1456677172.8318  fin proc   : 1456677172.8327  duree proc : 0.00090289115905762 seconds
+[28-Feb-2016 17:32:54 Europe/Paris] main Program
+[28-Feb-2016 17:32:54 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:32:54 Europe/Paris] buildTooltip
+[28-Feb-2016 17:32:54 Europe/Paris] 127.0.0.1    debut proc : 1456677174.4295  fin proc   : 1456677174.4314  duree proc : 0.0018918514251709 seconds
+[28-Feb-2016 17:33:03 Europe/Paris] main Program
+[28-Feb-2016 17:33:03 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:33:03 Europe/Paris] buildTooltip
+[28-Feb-2016 17:33:03 Europe/Paris] 127.0.0.1    debut proc : 1456677183.3549  fin proc   : 1456677183.3584  duree proc : 0.0035190582275391 seconds
+[28-Feb-2016 17:33:03 Europe/Paris] main Program
+[28-Feb-2016 17:33:03 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:33:03 Europe/Paris] buildTooltip
+[28-Feb-2016 17:33:03 Europe/Paris] 127.0.0.1    debut proc : 1456677183.3917  fin proc   : 1456677183.3935  duree proc : 0.0018241405487061 seconds
+[28-Feb-2016 17:33:03 Europe/Paris] main Program
+[28-Feb-2016 17:33:03 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:33:03 Europe/Paris] buildTooltip
+[28-Feb-2016 17:33:03 Europe/Paris] 127.0.0.1    debut proc : 1456677183.4283  fin proc   : 1456677183.4294  duree proc : 0.0010809898376465 seconds
+[28-Feb-2016 17:33:03 Europe/Paris] main Program
+[28-Feb-2016 17:33:03 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:33:03 Europe/Paris] buildTooltip
+[28-Feb-2016 17:33:03 Europe/Paris] 127.0.0.1    debut proc : 1456677183.4369  fin proc   : 1456677183.4385  duree proc : 0.0016160011291504 seconds
+[28-Feb-2016 17:33:03 Europe/Paris] main Program
+[28-Feb-2016 17:33:03 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:33:03 Europe/Paris] buildTooltip
+[28-Feb-2016 17:33:03 Europe/Paris] 127.0.0.1    debut proc : 1456677183.4454  fin proc   : 1456677183.4465  duree proc : 0.0010809898376465 seconds
+[28-Feb-2016 17:33:03 Europe/Paris] main Program
+[28-Feb-2016 17:33:03 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:33:03 Europe/Paris] buildTooltip
+[28-Feb-2016 17:33:03 Europe/Paris] 127.0.0.1    debut proc : 1456677183.5014  fin proc   : 1456677183.5028  duree proc : 0.0013411045074463 seconds
+[28-Feb-2016 17:34:03 Europe/Paris] main Program
+[28-Feb-2016 17:34:03 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:34:03 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:34:03 Europe/Paris] 127.0.0.1    debut proc : 1456677243.1248  fin proc   : 1456677243.126  duree proc : 0.0012350082397461 seconds
+[28-Feb-2016 17:34:05 Europe/Paris] main Program
+[28-Feb-2016 17:34:05 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:34:05 Europe/Paris] buildTooltip
+[28-Feb-2016 17:34:05 Europe/Paris] 127.0.0.1    debut proc : 1456677245.3362  fin proc   : 1456677245.3394  duree proc : 0.0032250881195068 seconds
+[28-Feb-2016 17:34:07 Europe/Paris] main Program
+[28-Feb-2016 17:34:07 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:34:07 Europe/Paris] buildTooltip
+[28-Feb-2016 17:34:07 Europe/Paris] 127.0.0.1    debut proc : 1456677247.0885  fin proc   : 1456677247.0948  duree proc : 0.0063459873199463 seconds
+[28-Feb-2016 17:34:07 Europe/Paris] main Program
+[28-Feb-2016 17:34:07 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:34:07 Europe/Paris] buildTooltip
+[28-Feb-2016 17:34:07 Europe/Paris] 127.0.0.1    debut proc : 1456677247.1217  fin proc   : 1456677247.1251  duree proc : 0.0034000873565674 seconds
+[28-Feb-2016 17:35:48 Europe/Paris] main Program
+[28-Feb-2016 17:35:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:35:48 Europe/Paris] buildTooltip
+[28-Feb-2016 17:35:48 Europe/Paris] 127.0.0.1    debut proc : 1456677348.3581  fin proc   : 1456677348.3596  duree proc : 0.0015199184417725 seconds
+[28-Feb-2016 17:35:48 Europe/Paris] main Program
+[28-Feb-2016 17:35:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:35:48 Europe/Paris] buildTooltip
+[28-Feb-2016 17:35:48 Europe/Paris] 127.0.0.1    debut proc : 1456677348.3649  fin proc   : 1456677348.3667  duree proc : 0.0017809867858887 seconds
+[28-Feb-2016 17:35:48 Europe/Paris] main Program
+[28-Feb-2016 17:35:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:35:48 Europe/Paris] buildTooltip
+[28-Feb-2016 17:35:48 Europe/Paris] 127.0.0.1    debut proc : 1456677348.3717  fin proc   : 1456677348.3735  duree proc : 0.0017969608306885 seconds
+[28-Feb-2016 17:35:48 Europe/Paris] main Program
+[28-Feb-2016 17:35:48 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:35:48 Europe/Paris] buildTooltip
+[28-Feb-2016 17:35:48 Europe/Paris] 127.0.0.1    debut proc : 1456677348.5565  fin proc   : 1456677348.5577  duree proc : 0.0012409687042236 seconds
+[28-Feb-2016 17:35:49 Europe/Paris] main Program
+[28-Feb-2016 17:35:49 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:35:49 Europe/Paris] buildTooltip
+[28-Feb-2016 17:35:49 Europe/Paris] 127.0.0.1    debut proc : 1456677349.3888  fin proc   : 1456677349.3904  duree proc : 0.0015649795532227 seconds
+[28-Feb-2016 17:35:50 Europe/Paris] main Program
+[28-Feb-2016 17:35:50 Europe/Paris] action ifLockedParoissepour user : philippe
+[28-Feb-2016 17:35:50 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:35:50 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:35:50 Europe/Paris] 127.0.0.1    debut proc : 1456677350.7097  fin proc   : 1456677350.711  duree proc : 0.0013740062713623 seconds
+[28-Feb-2016 17:36:39 Europe/Paris] main Program
+[28-Feb-2016 17:36:39 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:36:39 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:36:39 Europe/Paris] 127.0.0.1    debut proc : 1456677399.9307  fin proc   : 1456677399.9324  duree proc : 0.0017271041870117 seconds
+[28-Feb-2016 17:36:40 Europe/Paris] main Program
+[28-Feb-2016 17:36:40 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:36:40 Europe/Paris] buildTooltip
+[28-Feb-2016 17:36:40 Europe/Paris] 127.0.0.1    debut proc : 1456677400.8685  fin proc   : 1456677400.8704  duree proc : 0.0018768310546875 seconds
+[28-Feb-2016 17:36:41 Europe/Paris] main Program
+[28-Feb-2016 17:36:41 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:36:41 Europe/Paris] buildTooltip
+[28-Feb-2016 17:36:41 Europe/Paris] 127.0.0.1    debut proc : 1456677401.0043  fin proc   : 1456677401.0059  duree proc : 0.0015301704406738 seconds
+[28-Feb-2016 17:36:41 Europe/Paris] main Program
+[28-Feb-2016 17:36:41 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:36:41 Europe/Paris] buildTooltip
+[28-Feb-2016 17:36:41 Europe/Paris] 127.0.0.1    debut proc : 1456677401.588  fin proc   : 1456677401.5895  duree proc : 0.0015130043029785 seconds
+[28-Feb-2016 17:36:42 Europe/Paris] main Program
+[28-Feb-2016 17:36:42 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:36:42 Europe/Paris] buildTooltip
+[28-Feb-2016 17:36:42 Europe/Paris] 127.0.0.1    debut proc : 1456677402.5452  fin proc   : 1456677402.5501  duree proc : 0.0049209594726562 seconds
+[28-Feb-2016 17:36:44 Europe/Paris] main Program
+[28-Feb-2016 17:36:44 Europe/Paris] action ifLockedParoissepour user : philippe
+[28-Feb-2016 17:36:44 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:36:44 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:36:44 Europe/Paris] 127.0.0.1    debut proc : 1456677404.0769  fin proc   : 1456677404.0783  duree proc : 0.0014400482177734 seconds
+[28-Feb-2016 17:42:34 Europe/Paris] main Program
+[28-Feb-2016 17:42:34 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:42:34 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:42:34 Europe/Paris] 127.0.0.1    debut proc : 1456677754.1829  fin proc   : 1456677754.1844  duree proc : 0.0014801025390625 seconds
+[28-Feb-2016 17:42:35 Europe/Paris] main Program
+[28-Feb-2016 17:42:35 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:42:35 Europe/Paris] buildTooltip
+[28-Feb-2016 17:42:35 Europe/Paris] 127.0.0.1    debut proc : 1456677755.083  fin proc   : 1456677755.0893  duree proc : 0.0062899589538574 seconds
+[28-Feb-2016 17:42:35 Europe/Paris] main Program
+[28-Feb-2016 17:42:35 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:42:35 Europe/Paris] buildTooltip
+[28-Feb-2016 17:42:35 Europe/Paris] 127.0.0.1    debut proc : 1456677755.6112  fin proc   : 1456677755.616  duree proc : 0.004749059677124 seconds
+[28-Feb-2016 17:42:37 Europe/Paris] main Program
+[28-Feb-2016 17:42:37 Europe/Paris] action ifLockedParoissepour user : philippe
+[28-Feb-2016 17:42:37 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:42:37 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:42:37 Europe/Paris] 127.0.0.1    debut proc : 1456677757.0045  fin proc   : 1456677757.0059  duree proc : 0.001384973526001 seconds
+[28-Feb-2016 17:42:37 Europe/Paris] main Program
+[28-Feb-2016 17:42:37 Europe/Paris] action lockParoissepour user : philippe
+[28-Feb-2016 17:42:37 Europe/Paris] lockParoisse
+[28-Feb-2016 17:42:37 Europe/Paris] Lock paroisse../datasParoisse/infoParoisse/info016.lck
+[28-Feb-2016 17:42:37 Europe/Paris] 127.0.0.1    debut proc : 1456677757.2643  fin proc   : 1456677757.2666  duree proc : 0.0023078918457031 seconds
+[28-Feb-2016 17:42:37 Europe/Paris] main Program
+[28-Feb-2016 17:42:37 Europe/Paris] action readParoissepour user : philippe
+[28-Feb-2016 17:42:37 Europe/Paris] get dataParoisse
+[28-Feb-2016 17:42:37 Europe/Paris] 127.0.0.1    debut proc : 1456677757.2742  fin proc   : 1456677757.2924  duree proc : 0.018229961395264 seconds
+[28-Feb-2016 17:42:37 Europe/Paris] main Program
+[28-Feb-2016 17:42:37 Europe/Paris] action readHostopour user : philippe
+[28-Feb-2016 17:42:37 Europe/Paris] get dataHosto
+[28-Feb-2016 17:42:37 Europe/Paris] 127.0.0.1    debut proc : 1456677757.8523  fin proc   : 1456677757.855  duree proc : 0.0027079582214355 seconds
+[28-Feb-2016 17:45:04 Europe/Paris] main Program
+[28-Feb-2016 17:45:04 Europe/Paris] action ifUserAllowedpour user : philippe
+[28-Feb-2016 17:45:04 Europe/Paris] ifUserAllowed pour :philippe
+[28-Feb-2016 17:45:04 Europe/Paris] 127.0.0.1    debut proc : 1456677904.5139  fin proc   : 1456677904.5156  duree proc : 0.0017800331115723 seconds
+[28-Feb-2016 17:45:04 Europe/Paris] main Program
+[28-Feb-2016 17:45:04 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:04 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:04 Europe/Paris] 127.0.0.1    debut proc : 1456677904.9843  fin proc   : 1456677904.988  duree proc : 0.003666877746582 seconds
+[28-Feb-2016 17:45:05 Europe/Paris] main Program
+[28-Feb-2016 17:45:05 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:05 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:05 Europe/Paris] 127.0.0.1    debut proc : 1456677905.7872  fin proc   : 1456677905.7884  duree proc : 0.0011680126190186 seconds
+[28-Feb-2016 17:45:07 Europe/Paris] main Program
+[28-Feb-2016 17:45:07 Europe/Paris] action ifLockedParoissepour user : philippe
+[28-Feb-2016 17:45:07 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:45:07 Europe/Paris] checkIfLockedParoisse
+[28-Feb-2016 17:45:07 Europe/Paris] 127.0.0.1    debut proc : 1456677907.2195  fin proc   : 1456677907.2209  duree proc : 0.0013630390167236 seconds
+[28-Feb-2016 17:45:07 Europe/Paris] main Program
+[28-Feb-2016 17:45:07 Europe/Paris] action lockParoissepour user : philippe
+[28-Feb-2016 17:45:07 Europe/Paris] lockParoisse
+[28-Feb-2016 17:45:07 Europe/Paris] Lock paroisse../datasParoisse/infoParoisse/info045.lck
+[28-Feb-2016 17:45:07 Europe/Paris] 127.0.0.1    debut proc : 1456677907.5086  fin proc   : 1456677907.5112  duree proc : 0.002647876739502 seconds
+[28-Feb-2016 17:45:07 Europe/Paris] main Program
+[28-Feb-2016 17:45:07 Europe/Paris] action readParoissepour user : philippe
+[28-Feb-2016 17:45:07 Europe/Paris] get dataParoisse
+[28-Feb-2016 17:45:07 Europe/Paris] 127.0.0.1    debut proc : 1456677907.5198  fin proc   : 1456677907.5415  duree proc : 0.021636962890625 seconds
+[28-Feb-2016 17:45:08 Europe/Paris] main Program
+[28-Feb-2016 17:45:08 Europe/Paris] action readHostopour user : philippe
+[28-Feb-2016 17:45:08 Europe/Paris] get dataHosto
+[28-Feb-2016 17:45:08 Europe/Paris] 127.0.0.1    debut proc : 1456677908.0408  fin proc   : 1456677908.0419  duree proc : 0.0011060237884521 seconds
+[28-Feb-2016 17:45:19 Europe/Paris] main Program
+[28-Feb-2016 17:45:19 Europe/Paris] action saveParoissepour user : philippe
+[28-Feb-2016 17:45:19 Europe/Paris] save dataParoisse
+[28-Feb-2016 17:45:19 Europe/Paris] save data ../datasParoisse/infoParoisse/info045.htext
+[28-Feb-2016 17:45:19 Europe/Paris] 127.0.0.1    debut proc : 1456677919.451  fin proc   : 1456677919.4535  duree proc : 0.0024580955505371 seconds
+[28-Feb-2016 17:45:19 Europe/Paris] main Program
+[28-Feb-2016 17:45:19 Europe/Paris] action saveHostopour user : philippe
+[28-Feb-2016 17:45:19 Europe/Paris] save dataHosto
+[28-Feb-2016 17:45:19 Europe/Paris] save data ../datasParoisse/hostoParoisse/hosto045.htext
+[28-Feb-2016 17:45:19 Europe/Paris] 127.0.0.1    debut proc : 1456677919.4607  fin proc   : 1456677919.4624  duree proc : 0.0017139911651611 seconds
+[28-Feb-2016 17:45:19 Europe/Paris] main Program
+[28-Feb-2016 17:45:19 Europe/Paris] action unLockParoissepour user : philippe
+[28-Feb-2016 17:45:19 Europe/Paris] unLockParoisse
+[28-Feb-2016 17:45:19 Europe/Paris] unLock paroisse../datasParoisse/infoParoisse/info045.lck
+[28-Feb-2016 17:45:19 Europe/Paris] 127.0.0.1    debut proc : 1456677919.4685  fin proc   : 1456677919.4698  duree proc : 0.001295804977417 seconds
+[28-Feb-2016 17:45:23 Europe/Paris] main Program
+[28-Feb-2016 17:45:23 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:23 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:23 Europe/Paris] 127.0.0.1    debut proc : 1456677923.2705  fin proc   : 1456677923.273  duree proc : 0.0025289058685303 seconds
+[28-Feb-2016 17:45:23 Europe/Paris] main Program
+[28-Feb-2016 17:45:23 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:23 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:23 Europe/Paris] 127.0.0.1    debut proc : 1456677923.2777  fin proc   : 1456677923.2805  duree proc : 0.0027840137481689 seconds
+[28-Feb-2016 17:45:23 Europe/Paris] main Program
+[28-Feb-2016 17:45:23 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:23 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:23 Europe/Paris] 127.0.0.1    debut proc : 1456677923.3151  fin proc   : 1456677923.3167  duree proc : 0.0016050338745117 seconds
+[28-Feb-2016 17:45:26 Europe/Paris] main Program
+[28-Feb-2016 17:45:26 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:26 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:26 Europe/Paris] 127.0.0.1    debut proc : 1456677926.0034  fin proc   : 1456677926.0068  duree proc : 0.0033760070800781 seconds
+[28-Feb-2016 17:45:26 Europe/Paris] main Program
+[28-Feb-2016 17:45:26 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:26 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:26 Europe/Paris] 127.0.0.1    debut proc : 1456677926.1795  fin proc   : 1456677926.181  duree proc : 0.0014209747314453 seconds
+[28-Feb-2016 17:45:30 Europe/Paris] main Program
+[28-Feb-2016 17:45:30 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:30 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:30 Europe/Paris] 127.0.0.1    debut proc : 1456677930.2609  fin proc   : 1456677930.2635  duree proc : 0.0026459693908691 seconds
+[28-Feb-2016 17:45:30 Europe/Paris] main Program
+[28-Feb-2016 17:45:30 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:30 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:30 Europe/Paris] 127.0.0.1    debut proc : 1456677930.2721  fin proc   : 1456677930.2751  duree proc : 0.0029909610748291 seconds
+[28-Feb-2016 17:45:30 Europe/Paris] main Program
+[28-Feb-2016 17:45:30 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:30 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:30 Europe/Paris] 127.0.0.1    debut proc : 1456677930.2841  fin proc   : 1456677930.2864  duree proc : 0.0022780895233154 seconds
+[28-Feb-2016 17:45:45 Europe/Paris] main Program
+[28-Feb-2016 17:45:45 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:45:45 Europe/Paris] buildTooltip
+[28-Feb-2016 17:45:46 Europe/Paris] 127.0.0.1    debut proc : 1456677945.9982  fin proc   : 1456677946.0014  duree proc : 0.0031571388244629 seconds
+[28-Feb-2016 17:46:29 Europe/Paris] main Program
+[28-Feb-2016 17:46:29 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:46:29 Europe/Paris] buildTooltip
+[28-Feb-2016 17:46:29 Europe/Paris] 127.0.0.1    debut proc : 1456677989.6849  fin proc   : 1456677989.6861  duree proc : 0.0011951923370361 seconds
+[28-Feb-2016 17:46:29 Europe/Paris] main Program
+[28-Feb-2016 17:46:29 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 17:46:29 Europe/Paris] buildTooltip
+[28-Feb-2016 17:46:29 Europe/Paris] 127.0.0.1    debut proc : 1456677989.6917  fin proc   : 1456677989.6931  duree proc : 0.0014150142669678 seconds
+[28-Feb-2016 18:03:25 Europe/Paris] main Program
+[28-Feb-2016 18:03:25 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:03:25 Europe/Paris] buildTooltip
+[28-Feb-2016 18:03:25 Europe/Paris] 127.0.0.1    debut proc : 1456679005.4481  fin proc   : 1456679005.4577  duree proc : 0.0095150470733643 seconds
+[28-Feb-2016 18:03:26 Europe/Paris] main Program
+[28-Feb-2016 18:03:26 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:03:26 Europe/Paris] buildTooltip
+[28-Feb-2016 18:03:26 Europe/Paris] 127.0.0.1    debut proc : 1456679006.8319  fin proc   : 1456679006.8372  duree proc : 0.0052368640899658 seconds
+[28-Feb-2016 18:16:04 Europe/Paris] main Program
+[28-Feb-2016 18:16:04 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:16:04 Europe/Paris] buildTooltip
+[28-Feb-2016 18:16:04 Europe/Paris] 127.0.0.1    debut proc : 1456679764.2105  fin proc   : 1456679764.2148  duree proc : 0.0043261051177979 seconds
+[28-Feb-2016 18:16:04 Europe/Paris] main Program
+[28-Feb-2016 18:16:04 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:16:04 Europe/Paris] buildTooltip
+[28-Feb-2016 18:16:04 Europe/Paris] 127.0.0.1    debut proc : 1456679764.2229  fin proc   : 1456679764.2242  duree proc : 0.0012319087982178 seconds
+[28-Feb-2016 18:16:04 Europe/Paris] main Program
+[28-Feb-2016 18:16:04 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:16:04 Europe/Paris] buildTooltip
+[28-Feb-2016 18:16:04 Europe/Paris] 127.0.0.1    debut proc : 1456679764.2301  fin proc   : 1456679764.2317  duree proc : 0.0015890598297119 seconds
+[28-Feb-2016 18:16:04 Europe/Paris] main Program
+[28-Feb-2016 18:16:04 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:16:04 Europe/Paris] buildTooltip
+[28-Feb-2016 18:16:04 Europe/Paris] 127.0.0.1    debut proc : 1456679764.2379  fin proc   : 1456679764.2398  duree proc : 0.0019099712371826 seconds
+[28-Feb-2016 18:16:04 Europe/Paris] main Program
+[28-Feb-2016 18:16:04 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:16:04 Europe/Paris] buildTooltip
+[28-Feb-2016 18:16:04 Europe/Paris] 127.0.0.1    debut proc : 1456679764.2461  fin proc   : 1456679764.248  duree proc : 0.0018730163574219 seconds
+[28-Feb-2016 18:16:04 Europe/Paris] main Program
+[28-Feb-2016 18:16:04 Europe/Paris] action tooltippour user : philippe
+[28-Feb-2016 18:16:04 Europe/Paris] buildTooltip
+[28-Feb-2016 18:16:04 Europe/Paris] 127.0.0.1    debut proc : 1456679764.2413  fin proc   : 1456679764.2559  duree proc : 0.014592885971069 seconds
+[29-Feb-2016 11:52:45 Europe/Paris] main Program
+[29-Feb-2016 11:52:45 Europe/Paris] PHP Notice:  Undefined index: REMOTE_USER in C:\Pastorale_Sante_Paris\nodePastoraleSanteJS\pastoraleSante\php\geteditparoisse.php on line 28
+[29-Feb-2016 11:52:45 Europe/Paris] action ifUserAllowedpour user : 
+[29-Feb-2016 11:52:45 Europe/Paris] ifUserAllowed pour :
+[29-Feb-2016 11:52:45 Europe/Paris] 127.0.0.1    debut proc : 1456743165.5889  fin proc   : 1456743165.6135  duree proc : 0.024594068527222 seconds
